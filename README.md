@@ -1,5 +1,11 @@
 # CNDevDaily
 
+欢迎关注我们的社交媒体：
+
+| X (formerly Twitter) | Mastodon | Telegram |
+|----------------------|----------|----------|
+| [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/CNDevDaily?style=social)](https://twitter.com/CNDevDaily) |[![Mastodon Follow](https://img.shields.io/mastodon/follow/269985?style=social)](https://mastodon.social/@CNDevDaily) | [![Static Badge](https://img.shields.io/badge/Follow_%40CNDevDaily-Channel-blue?style=social&logo=telegram&link=https%3A%2F%2Ft.me%2FCNDevDaily)](https://t.me/CNDevDaily) |
+
 每日中文开发者新闻推荐，由 AI 模拟多角色讨论评选。
 
 ## 工作流程
