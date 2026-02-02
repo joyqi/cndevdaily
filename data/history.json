@@ -1,0 +1,18 @@
+[
+  {
+    "date": "2026-02-02",
+    "articleId": "lobsters-lgnaoi",
+    "title": "The API Tooling Crisis: Why developers are abandoning Postman and its clones?",
+    "url": "https://efpasia.github.io/blog/2025/12/24/api-tooling-crisis/",
+    "source": "lobsters",
+    "summary": "云化绑手，性能下滑，老牌 API 工具陷信任危机？这篇文章直击痛点，揭示本地优先+Git 工作流如何重塑可控、高效的开发体验。"
+  },
+  {
+    "date": "2026-02-02",
+    "articleId": "hn-46820142",
+    "title": "4x faster network file sync with rclone (vs rsync) (2025)",
+    "url": "https://www.jeffgeerling.com/blog/2025/4x-faster-network-file-sync-rclone-vs-rsync/",
+    "source": "hackernews",
+    "summary": "在高带宽局域网下，大文件同步常被 rsync 的单线程拖慢，rclone 的多线程直击瓶颈，实测四倍提速，部署成本低、见效快。如果你的项目动辄几十 GB，这篇值得马上读完并上手试。"
+  }
+]

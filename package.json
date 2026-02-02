@@ -1,0 +1,28 @@
+{
+  "name": "devnews",
+  "version": "1.0.0",
+  "description": "Daily developer news bot powered by AI discussion",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "DRY_RUN=true tsx --env-file=.env src/index.ts"
+  },
+  "keywords": ["devnews", "ai", "langgraph", "hackernews", "lobsters"],
+  "license": "MIT",
+  "dependencies": {
+    "@langchain/core": "^0.3.30",
+    "@langchain/langgraph": "^0.2.42",
+    "@langchain/openai": "^0.3.17",
+    "@mozilla/readability": "^0.5.0",
+    "jsdom": "^26.0.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^22.10.7",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
