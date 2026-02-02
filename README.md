@@ -1,14 +1,14 @@
-# DevNews Bot
+# CNDevDaily
 
-每日开发者新闻推荐机器人，由 AI 模拟多角色讨论评选。
+每日中文开发者新闻推荐，由 AI 模拟多角色讨论评选。
 
 ## 工作流程
 
 1. **抓取文章** - 从 Lobste.rs 和 HackerNews 各获取 25 篇热门文章
-2. **标题评选** - 8 位 AI 角色讨论投票，选出 Top 3
+2. **标题评选** - 8 位 AI 角色并行讨论投票，选出 Top 3
 3. **内容抓取** - 获取 Top 3 文章正文并生成摘要
 4. **内容评选** - 基于文章内容再次讨论，选出当日最佳
-5. **发布** - 生成 120 字推荐语，发布到 Mastodon
+5. **发布** - 主持人生成 120 字推荐语，发布到 Mastodon
 
 ## AI 角色
 
@@ -23,6 +23,8 @@
 | 设计师 | 用户体验、美学 |
 | 科技极客 | 新技术、前沿研究 |
 
+主持人 **Joyqi** 负责引导讨论并生成最终推荐语。
+
 ## 使用方法
 
 ### 环境变量
@@ -34,14 +36,16 @@ cp .env.example .env
 编辑 `.env` 填入：
 
 - `OPENAI_API_KEY` - OpenAI API 密钥
-- `MASTODON_INSTANCE` - Mastodon 实例地址（如 `https://mastodon.social`）
+- `OPENAI_API_BASE_URL` - API 地址（可选，用于自定义 endpoint）
+- `OPENAI_API_MODEL` - 模型名称（可选）
+- `MASTODON_INSTANCE` - Mastodon 实例地址
 - `MASTODON_ACCESS_TOKEN` - Mastodon 访问令牌
 
 ### 本地运行
 
 ```bash
 pnpm install
-pnpm dev
+pnpm dev  # DRY_RUN 模式，不发布到 Mastodon
 ```
 
 ### 构建
@@ -56,6 +60,8 @@ pnpm start
 配置以下 Secrets：
 
 - `OPENAI_API_KEY`
+- `OPENAI_API_BASE_URL`（可选）
+- `OPENAI_API_MODEL`（可选）
 - `MASTODON_INSTANCE`
 - `MASTODON_ACCESS_TOKEN`
 
@@ -64,7 +70,7 @@ pnpm start
 ## 目录结构
 
 ```
-devnews/
+cndevdaily/
 ├── src/                    # 源代码
 │   ├── agents/             # AI 角色
 │   ├── graph/              # LangGraph 工作流
@@ -81,4 +87,4 @@ devnews/
 
 - Node.js + TypeScript
 - LangGraph + LangChain
-- OpenAI GPT-4o-mini
+- OpenAI Compatible API

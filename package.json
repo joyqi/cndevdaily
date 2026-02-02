@@ -1,7 +1,7 @@
 {
-  "name": "devnews",
+  "name": "cndevdaily",
   "version": "1.0.0",
-  "description": "Daily developer news bot powered by AI discussion",
+  "description": "Daily Chinese developer news powered by AI multi-role discussion",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
