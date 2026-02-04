@@ -14,5 +14,13 @@
     "url": "https://www.jeffgeerling.com/blog/2025/4x-faster-network-file-sync-rclone-vs-rsync/",
     "source": "hackernews",
     "summary": "在高带宽局域网下，大文件同步常被 rsync 的单线程拖慢，rclone 的多线程直击瓶颈，实测四倍提速，部署成本低、见效快。如果你的项目动辄几十 GB，这篇值得马上读完并上手试。"
+  },
+  {
+    "date": "2026-02-04",
+    "articleId": "lobsters-7c0zpv",
+    "title": "Implementing the Temporal proposal in JavaScriptCore",
+    "url": "https://blogs.igalia.com/compilers/2026/02/02/implementing-the-temporal-proposal-in-javascriptcore/",
+    "source": "lobsters",
+    "summary": "这篇 Temporal 在 JSC 的落地细节扎实，补齐日期与时区计算的精度短板，终于让 JS 时间处理摆脱旧有坑。对跨时区、全球化应用是实实在在的工程红利，值得细读背后的规范与实现逻辑。"
   }
 ]
