@@ -22,5 +22,13 @@
     "url": "https://blogs.igalia.com/compilers/2026/02/02/implementing-the-temporal-proposal-in-javascriptcore/",
     "source": "lobsters",
     "summary": "这篇 Temporal 在 JSC 的落地细节扎实，补齐日期与时区计算的精度短板，终于让 JS 时间处理摆脱旧有坑。对跨时区、全球化应用是实实在在的工程红利，值得细读背后的规范与实现逻辑。"
+  },
+  {
+    "date": "2026-02-05",
+    "articleId": "hn-46845239",
+    "title": "Sqldef: Idempotent schema management tool for MySQL, PostgreSQL, SQLite",
+    "url": "https://sqldef.github.io/",
+    "source": "hackernews",
+    "summary": "Sqldef 用最直接的方法解决了跨数据库 schema 变更的不确定性，幂等化脚本天然适配 CI/CD，既减风险又省人工。没有复杂骚操作，却能在长期维护里见真章，值得架构与运维团队认真看一看。"
   }
 ]
