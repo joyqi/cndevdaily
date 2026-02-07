@@ -38,5 +38,13 @@
     "url": "https://iankduncan.com/engineering/2026-02-05-github-actions-killing-your-team/",
     "source": "lobsters",
     "summary": "直击 CI 日常的真实痛点，特别是 GitHub Actions 在日志与调试上的低效与粗糙。读完能让你重新审视流水线设计，思考是否该换一套更简洁高效、少阻碍开发的工具。"
+  },
+  {
+    "date": "2026-02-07",
+    "articleId": "lobsters-gmdaeu",
+    "title": "OpenRun: Declarative web app deployments on single-host or Kubernetes",
+    "url": "https://github.com/openrundev/openrun",
+    "source": "lobsters",
+    "summary": "OpenRun 用极简的声明式配置打通单机到 Kubernetes 的部署链路，把 GitOps、蓝绿切换、自动化认证融在一个可落地的方案里。它解决的是团队日常真会遇到的部署与维护痛点，值得亲手跑一次，体会那种稳与省心。"
   }
 ]
