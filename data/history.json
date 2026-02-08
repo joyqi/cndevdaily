@@ -46,5 +46,13 @@
     "url": "https://github.com/openrundev/openrun",
     "source": "lobsters",
     "summary": "OpenRun 用极简的声明式配置打通单机到 Kubernetes 的部署链路，把 GitOps、蓝绿切换、自动化认证融在一个可落地的方案里。它解决的是团队日常真会遇到的部署与维护痛点，值得亲手跑一次，体会那种稳与省心。"
+  },
+  {
+    "date": "2026-02-08",
+    "articleId": "lobsters-ab9jza",
+    "title": "The purpose of Continuous Integration is to fail",
+    "url": "https://blog.nix-ci.com/post/2026-02-05_the-purpose-of-ci-is-to-fail",
+    "source": "lobsters",
+    "summary": "它提醒我们，CI的真正价值在于让问题尽早暴露，用最短反馈周期守住上线质量。观点朴实直接，可立即作用于团队流程，减少返工与技术债，是值得反复咀嚼并付诸实践的文章。"
   }
 ]
