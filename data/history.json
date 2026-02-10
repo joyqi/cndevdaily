@@ -62,5 +62,13 @@
     "url": "https://philipotoole.com/the-source-code-was-the-moat-no-longer/",
     "source": "lobsters",
     "summary": "这篇文章提醒我们，源码不再是牢固壁垒，AI 编程工具正在缩小从零到成品的距离。对开发者而言，这是威胁也是机遇，既要警惕竞争加速，也要学会借力创新。"
+  },
+  {
+    "date": "2026-02-10",
+    "articleId": "lobsters-bic9qr",
+    "title": "Rebuilding my home network with VLANs and 10Gbps",
+    "url": "https://clintonboys.com/projects/homelab/03-network/",
+    "source": "lobsters",
+    "summary": "在家里用 VLAN 与 10Gbps 做企业级网络升级，作者不仅解决了带宽与隔离的痛点，还把架构设计的取舍讲得透彻，细节可直接借鉴到家庭或小型办公室，是一篇有长期参考价值的实战案例。"
   }
 ]
