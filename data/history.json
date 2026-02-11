@@ -70,5 +70,13 @@
     "url": "https://clintonboys.com/projects/homelab/03-network/",
     "source": "lobsters",
     "summary": "在家里用 VLAN 与 10Gbps 做企业级网络升级，作者不仅解决了带宽与隔离的痛点，还把架构设计的取舍讲得透彻，细节可直接借鉴到家庭或小型办公室，是一篇有长期参考价值的实战案例。"
+  },
+  {
+    "date": "2026-02-11",
+    "articleId": "lobsters-9dfnqa",
+    "title": "FreeBSD Home NAS, part 10: monitoring with VictoriaMetrics and Grafana",
+    "url": "https://rtfm.co.ua/en/freebsd-home-nas-part-10-monitoring-with-victoriametrics-and-grafana/",
+    "source": "lobsters",
+    "summary": "在 FreeBSD 上原生部署 VictoriaMetrics + Grafana，不靠容器也能构建完整监控链路，步骤细致、坑点清楚，适合个人和小团队直接上手，既稳又可长期维护，是少见的高性价比实战案例。"
   }
 ]
