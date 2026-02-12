@@ -78,5 +78,13 @@
     "url": "https://rtfm.co.ua/en/freebsd-home-nas-part-10-monitoring-with-victoriametrics-and-grafana/",
     "source": "lobsters",
     "summary": "在 FreeBSD 上原生部署 VictoriaMetrics + Grafana，不靠容器也能构建完整监控链路，步骤细致、坑点清楚，适合个人和小团队直接上手，既稳又可长期维护，是少见的高性价比实战案例。"
+  },
+  {
+    "date": "2026-02-12",
+    "articleId": "lobsters-6yn5pe",
+    "title": "Modular Monolith and Microservices: Modularity is what truly matters (2023)",
+    "url": "https://binaryigor.com/modular-monolith-and-microservices-modularity-is-what-truly-matters.html",
+    "source": "lobsters",
+    "summary": "这篇文章提醒我们，架构的关键不在单体还是微服务，而在于是否真正做到高内聚、低耦合。模块化是长期可维护与团队协作的基石，理念虽经典，却常被忽视，值得在项目设计初期反复思考与落实。"
   }
 ]
