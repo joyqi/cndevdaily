@@ -86,5 +86,13 @@
     "url": "https://binaryigor.com/modular-monolith-and-microservices-modularity-is-what-truly-matters.html",
     "source": "lobsters",
     "summary": "这篇文章提醒我们，架构的关键不在单体还是微服务，而在于是否真正做到高内聚、低耦合。模块化是长期可维护与团队协作的基石，理念虽经典，却常被忽视，值得在项目设计初期反复思考与落实。"
+  },
+  {
+    "date": "2026-02-13",
+    "articleId": "lobsters-i0xmbk",
+    "title": "Inspecting the Source of Go Modules",
+    "url": "https://words.filippo.io/go-source/",
+    "source": "lobsters",
+    "summary": "这篇文章切中 Go 模块源码一致性痛点，用工具和验证机制把安全落到了实处。成熟度高，可直接融入生产流程，既解决真实问题，又控制风险，值得关注并动手试一试。"
   }
 ]
