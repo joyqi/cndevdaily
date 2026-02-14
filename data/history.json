@@ -94,5 +94,13 @@
     "url": "https://words.filippo.io/go-source/",
     "source": "lobsters",
     "summary": "这篇文章切中 Go 模块源码一致性痛点，用工具和验证机制把安全落到了实处。成熟度高，可直接融入生产流程，既解决真实问题，又控制风险，值得关注并动手试一试。"
+  },
+  {
+    "date": "2026-02-14",
+    "articleId": "hn-46944430",
+    "title": "gRPC: From service definition to wire format",
+    "url": "https://kreya.app/blog/grpc-deep-dive/",
+    "source": "hackernews",
+    "summary": "这篇 gRPC 深度解析，从契约优先到线格式，把协议栈全景讲透。既能帮你掌握跨语言微服务的底层逻辑，又能评估性能与维护成本，实用而不空泛，值得细读。"
   }
 ]
