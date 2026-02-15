@@ -102,5 +102,13 @@
     "url": "https://kreya.app/blog/grpc-deep-dive/",
     "source": "hackernews",
     "summary": "这篇 gRPC 深度解析，从契约优先到线格式，把协议栈全景讲透。既能帮你掌握跨语言微服务的底层逻辑，又能评估性能与维护成本，实用而不空泛，值得细读。"
+  },
+  {
+    "date": "2026-02-15",
+    "articleId": "lobsters-jcio2j",
+    "title": "Evolving Git for the next decade",
+    "url": "https://lwn.net/SubscriberLink/1057561/bddc1e61152fadf6/",
+    "source": "lobsters",
+    "summary": "这篇文章冷静剖析了 Git 迁移到 SHA‑256 的技术与兼容性挑战，既有长期安全保障，又触及大仓库与 CI 场景的落地细节，值得提前理解演进路径，做出稳健工具链规划。"
   }
 ]
