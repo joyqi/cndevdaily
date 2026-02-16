@@ -110,5 +110,13 @@
     "url": "https://lwn.net/SubscriberLink/1057561/bddc1e61152fadf6/",
     "source": "lobsters",
     "summary": "这篇文章冷静剖析了 Git 迁移到 SHA‑256 的技术与兼容性挑战，既有长期安全保障，又触及大仓库与 CI 场景的落地细节，值得提前理解演进路径，做出稳健工具链规划。"
+  },
+  {
+    "date": "2026-02-16",
+    "articleId": "hn-47025851",
+    "title": "Modern CSS Code Snippets: Stop writing CSS like it's 2015",
+    "url": "https://modern-css.com",
+    "source": "hackernews",
+    "summary": "这篇现代 CSS 实用指南，用原生特性替代复杂实现，既降前端维护成本又优化交互性能，投入低回报快，适合在项目中立刻落地。"
   }
 ]
