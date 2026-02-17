@@ -118,5 +118,13 @@
     "url": "https://modern-css.com",
     "source": "hackernews",
     "summary": "这篇现代 CSS 实用指南，用原生特性替代复杂实现，既降前端维护成本又优化交互性能，投入低回报快，适合在项目中立刻落地。"
+  },
+  {
+    "date": "2026-02-17",
+    "articleId": "lobsters-vh9bgg",
+    "title": "The only developer productivity metrics that matter",
+    "url": "https://genehack.blog/2026/02/the-only-developer-productivity-metrics-that-matter/",
+    "source": "lobsters",
+    "summary": "用发布频率和故障率衡量团队价值，这篇文章把复杂的生产力讨论回归到用户体验的核心，简单明确，实施成本低，却能长期驱动产品迭代方向。"
   }
 ]
