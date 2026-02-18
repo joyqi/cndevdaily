@@ -126,5 +126,13 @@
     "url": "https://genehack.blog/2026/02/the-only-developer-productivity-metrics-that-matter/",
     "source": "lobsters",
     "summary": "用发布频率和故障率衡量团队价值，这篇文章把复杂的生产力讨论回归到用户体验的核心，简单明确，实施成本低，却能长期驱动产品迭代方向。"
+  },
+  {
+    "date": "2026-02-18",
+    "articleId": "hn-47054464",
+    "title": "pg_background: Make Postgres do the long work (while your session stays light)",
+    "url": "https://vibhorkumar.wordpress.com/2026/02/16/pg_background-make-postgres-do-the-long-work-while-your-session-stays-light/",
+    "source": "hackernews",
+    "summary": "pg_background把异步任务搬进Postgres内核，既减轻架构负担，又解决PID重用等长期痛点，是能直接上生产、降低运维成本的务实好工具。"
   }
 ]
