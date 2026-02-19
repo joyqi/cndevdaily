@@ -134,5 +134,13 @@
     "url": "https://vibhorkumar.wordpress.com/2026/02/16/pg_background-make-postgres-do-the-long-work-while-your-session-stays-light/",
     "source": "hackernews",
     "summary": "pg_background把异步任务搬进Postgres内核，既减轻架构负担，又解决PID重用等长期痛点，是能直接上生产、降低运维成本的务实好工具。"
+  },
+  {
+    "date": "2026-02-19",
+    "articleId": "lobsters-3hsrhu",
+    "title": "DBML: DSL for easily creating ER diagrams",
+    "url": "https://dbml.dbdiagram.io/home",
+    "source": "lobsters",
+    "summary": "DBML用简洁统一的DSL把数据库结构与文档打通，让协作像画蓝图一样高效清晰。工具链成熟、易集成，能在大型项目中减少长期技术债，值得一试。"
   }
 ]
