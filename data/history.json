@@ -142,5 +142,13 @@
     "url": "https://dbml.dbdiagram.io/home",
     "source": "lobsters",
     "summary": "DBML用简洁统一的DSL把数据库结构与文档打通，让协作像画蓝图一样高效清晰。工具链成熟、易集成，能在大型项目中减少长期技术债，值得一试。"
+  },
+  {
+    "date": "2026-02-20",
+    "articleId": "lobsters-9zos31",
+    "title": "Every app you've built is an ETL pipeline (you just didn't call it that)",
+    "url": "https://www.inngest.com/blog/etl-via-inngest",
+    "source": "lobsters",
+    "summary": "这篇文章用 ETL 视角重构应用开发认知，把调试、可观测性和非确定性处理纳入统一模型，尤其“步骤级持久化”思路，能从架构源头减少技术债，提升复杂系统的稳定与可维护性。"
   }
 ]
