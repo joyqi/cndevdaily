@@ -150,5 +150,13 @@
     "url": "https://www.inngest.com/blog/etl-via-inngest",
     "source": "lobsters",
     "summary": "这篇文章用 ETL 视角重构应用开发认知，把调试、可观测性和非确定性处理纳入统一模型，尤其“步骤级持久化”思路，能从架构源头减少技术债，提升复杂系统的稳定与可维护性。"
+  },
+  {
+    "date": "2026-02-21",
+    "articleId": "lobsters-6yjefp",
+    "title": "eBPF the Hard Way",
+    "url": "https://feyor.sh/blog/ebpf-the-hard-way",
+    "source": "lobsters",
+    "summary": "直接与 eBPF 字节码对话，绕过高层工具，是真正理解内核性能与安全机制的好机会；虽硬核，但值得反复琢磨，能帮你在观测与优化上走得更深。"
   }
 ]
