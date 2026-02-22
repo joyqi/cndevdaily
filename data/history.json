@@ -158,5 +158,13 @@
     "url": "https://feyor.sh/blog/ebpf-the-hard-way",
     "source": "lobsters",
     "summary": "直接与 eBPF 字节码对话，绕过高层工具，是真正理解内核性能与安全机制的好机会；虽硬核，但值得反复琢磨，能帮你在观测与优化上走得更深。"
+  },
+  {
+    "date": "2026-02-22",
+    "articleId": "lobsters-oz7ebk",
+    "title": "lobste.rs migrates from MariaDB to SQLite",
+    "url": "https://lobste.rs/s/oz7ebk",
+    "source": "lobsters",
+    "summary": "一次少见的真实迁移案例，背后是对性能、维护成本与部署简便的深度权衡。读完能学到小团队如何用轻量化数据库支撑长期稳定运行。"
   }
 ]
