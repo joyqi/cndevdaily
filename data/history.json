@@ -166,5 +166,13 @@
     "url": "https://lobste.rs/s/oz7ebk",
     "source": "lobsters",
     "summary": "一次少见的真实迁移案例，背后是对性能、维护成本与部署简便的深度权衡。读完能学到小团队如何用轻量化数据库支撑长期稳定运行。"
+  },
+  {
+    "date": "2026-02-23",
+    "articleId": "lobsters-nddlyy",
+    "title": "codespelunker - CLI code search tool that understands code structure and ranks results by relevance. No indexing required",
+    "url": "https://github.com/boyter/cs",
+    "source": "lobsters",
+    "summary": "把语法解析融入无索引搜索，codespelunker在速度与相关性之间找到了平衡。它直接命中开发者痛点，轻量易用，却有接近重型平台的体验，值得放进日常工具箱。"
   }
 ]
