@@ -174,5 +174,13 @@
     "url": "https://github.com/boyter/cs",
     "source": "lobsters",
     "summary": "把语法解析融入无索引搜索，codespelunker在速度与相关性之间找到了平衡。它直接命中开发者痛点，轻量易用，却有接近重型平台的体验，值得放进日常工具箱。"
+  },
+  {
+    "date": "2026-02-24",
+    "articleId": "hn-47123631",
+    "title": "Show HN: PgDog – Scale Postgres without changing the app",
+    "url": "https://github.com/pgdogdev/pgdog",
+    "source": "hackernews",
+    "summary": "如果它真能做到无侵入扩展 Postgres，那就是开发与运维的双赢——省去改代码与迁移的成本，直接提升性能与可用性，值得关注与验证。"
   }
 ]
