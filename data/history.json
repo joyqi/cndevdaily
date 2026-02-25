@@ -182,5 +182,13 @@
     "url": "https://github.com/pgdogdev/pgdog",
     "source": "hackernews",
     "summary": "如果它真能做到无侵入扩展 Postgres，那就是开发与运维的双赢——省去改代码与迁移的成本，直接提升性能与可用性，值得关注与验证。"
+  },
+  {
+    "date": "2026-02-25",
+    "articleId": "lobsters-kwpvgy",
+    "title": "Goodbye innerHTML, Hello setHTML: Stronger XSS Protection in Firefox 148",
+    "url": "https://hacks.mozilla.org/2026/02/goodbye-innerhtml-hello-sethtml-stronger-xss-protection-in-firefox-148/",
+    "source": "lobsters",
+    "summary": "从浏览器 API 层消除 XSS 隐患，安全默认值让防护变成无感且低成本，这才是长久可维护的好设计。值得前端和后端都关注。"
   }
 ]
