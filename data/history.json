@@ -190,5 +190,13 @@
     "url": "https://hacks.mozilla.org/2026/02/goodbye-innerhtml-hello-sethtml-stronger-xss-protection-in-firefox-148/",
     "source": "lobsters",
     "summary": "从浏览器 API 层消除 XSS 隐患，安全默认值让防护变成无感且低成本，这才是长久可维护的好设计。值得前端和后端都关注。"
+  },
+  {
+    "date": "2026-02-26",
+    "articleId": "lobsters-tzyslr",
+    "title": "Reducing the size of Go binaries by up to 77%",
+    "url": "https://www.datadoghq.com/blog/engineering/agent-go-binaries/",
+    "source": "lobsters",
+    "summary": "深入剖析 Go 编译链与依赖裁剪，实测将二进制瘦身 77%，不减功能却显著提升部署与成本效益。这类可迁移的优化方法，值得在任何资源敏感项目中借鉴。"
   }
 ]
