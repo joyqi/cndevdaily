@@ -198,5 +198,13 @@
     "url": "https://www.datadoghq.com/blog/engineering/agent-go-binaries/",
     "source": "lobsters",
     "summary": "深入剖析 Go 编译链与依赖裁剪，实测将二进制瘦身 77%，不减功能却显著提升部署与成本效益。这类可迁移的优化方法，值得在任何资源敏感项目中借鉴。"
+  },
+  {
+    "date": "2026-02-27",
+    "articleId": "lobsters-0pof41",
+    "title": "BuildKit: Docker's hidden gem that can build almost anything",
+    "url": "https://tuananh.net/2026/02/25/buildkit-docker-hidden-gem/",
+    "source": "lobsters",
+    "summary": "这篇 BuildKit 文章让人看到构建系统的真正潜力——从底层抽象到可扩展前端，既能提速又能拓展场景，值得动手试。它不是概念吹风，而是能在生产环境立刻发挥价值的技术。"
   }
 ]
