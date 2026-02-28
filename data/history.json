@@ -206,5 +206,13 @@
     "url": "https://tuananh.net/2026/02/25/buildkit-docker-hidden-gem/",
     "source": "lobsters",
     "summary": "这篇 BuildKit 文章让人看到构建系统的真正潜力——从底层抽象到可扩展前端，既能提速又能拓展场景，值得动手试。它不是概念吹风，而是能在生产环境立刻发挥价值的技术。"
+  },
+  {
+    "date": "2026-02-28",
+    "articleId": "lobsters-vlpddk",
+    "title": "We deserve a better streams API for JavaScript",
+    "url": "https://blog.cloudflare.com/a-better-web-streams-api/",
+    "source": "lobsters",
+    "summary": "这篇对 Streams API 的重设计，不只是数据翻倍的性能秀，更是一次用现代语言特性重新梳理交互逻辑的尝试。若能落地到框架与工具链，能真正在性能与可维护性之间找到长期平衡。"
   }
 ]
