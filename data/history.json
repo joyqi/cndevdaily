@@ -214,5 +214,13 @@
     "url": "https://blog.cloudflare.com/a-better-web-streams-api/",
     "source": "lobsters",
     "summary": "这篇对 Streams API 的重设计，不只是数据翻倍的性能秀，更是一次用现代语言特性重新梳理交互逻辑的尝试。若能落地到框架与工具链，能真正在性能与可维护性之间找到长期平衡。"
+  },
+  {
+    "date": "2026-03-01",
+    "articleId": "lobsters-eai9st",
+    "title": "Stop Putting Secrets in .env Files",
+    "url": "https://jonmagic.com/posts/stop-putting-secrets-in-dotenv-files/",
+    "source": "lobsters",
+    "summary": "这篇文章直击 `.env` 明文存储的安全隐患，方案简洁、改动小，却能显著降低泄露风险，适合中小团队快速提升合规性与稳定性，不只是安全提醒，更是立刻可落地的实践。"
   }
 ]
