@@ -222,5 +222,13 @@
     "url": "https://jonmagic.com/posts/stop-putting-secrets-in-dotenv-files/",
     "source": "lobsters",
     "summary": "这篇文章直击 `.env` 明文存储的安全隐患，方案简洁、改动小，却能显著降低泄露风险，适合中小团队快速提升合规性与稳定性，不只是安全提醒，更是立刻可落地的实践。"
+  },
+  {
+    "date": "2026-03-03",
+    "articleId": "lobsters-gmhq26",
+    "title": "Free IP Geolocation Database",
+    "url": "https://ip66.dev/",
+    "source": "lobsters",
+    "summary": "免费、每日更新、零限制的 MMDB 格式 IP 库，兼容多语言，接入几乎无成本。数据新鲜、覆盖广，在任何地理定位需求里都能即刻落地，是值得长期依赖的实用工具。"
   }
 ]
