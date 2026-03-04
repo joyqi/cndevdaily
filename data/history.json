@@ -230,5 +230,13 @@
     "url": "https://ip66.dev/",
     "source": "lobsters",
     "summary": "免费、每日更新、零限制的 MMDB 格式 IP 库，兼容多语言，接入几乎无成本。数据新鲜、覆盖广，在任何地理定位需求里都能即刻落地，是值得长期依赖的实用工具。"
+  },
+  {
+    "date": "2026-03-04",
+    "articleId": "lobsters-zv0pyh",
+    "title": "When AI Writes the World's Software, Who Verifies It?",
+    "url": "https://leodemoura.github.io/blog/2026/02/28/when-ai-writes-the-worlds-software.html",
+    "source": "lobsters",
+    "summary": "这篇文章直击AI产码时代的核心隐患——验证缺口。它不止是安全焦虑，而是提醒我们，速度与规模必须有同等升级的验证体系，否则就是在构建不可控的系统风险。"
   }
 ]
