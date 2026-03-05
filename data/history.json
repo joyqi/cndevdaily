@@ -238,5 +238,13 @@
     "url": "https://leodemoura.github.io/blog/2026/02/28/when-ai-writes-the-worlds-software.html",
     "source": "lobsters",
     "summary": "这篇文章直击AI产码时代的核心隐患——验证缺口。它不止是安全焦虑，而是提醒我们，速度与规模必须有同等升级的验证体系，否则就是在构建不可控的系统风险。"
+  },
+  {
+    "date": "2026-03-05",
+    "articleId": "lobsters-ii2iaw",
+    "title": "SingleFile: Web Extension for saving a faithful copy of a complete web page in a single HTML file",
+    "url": "https://github.com/gildas-lormeau/SingleFile",
+    "source": "lobsters",
+    "summary": "SingleFile既简单又强大，把网页完整封装进一个HTML文件，离线可用、可自动化集成。对开发者来说，这是一种低成本、高效率的归档方案，能在日常工作流里立刻见效。"
   }
 ]
