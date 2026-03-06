@@ -246,5 +246,13 @@
     "url": "https://github.com/gildas-lormeau/SingleFile",
     "source": "lobsters",
     "summary": "SingleFile既简单又强大，把网页完整封装进一个HTML文件，离线可用、可自动化集成。对开发者来说，这是一种低成本、高效率的归档方案，能在日常工作流里立刻见效。"
+  },
+  {
+    "date": "2026-03-06",
+    "articleId": "lobsters-efkl8m",
+    "title": "A GitHub Issue Title Compromised 4,000 Developer Machines",
+    "url": "https://grith.ai/blog/clinejection-when-your-ai-tool-installs-another",
+    "source": "lobsters",
+    "summary": "这篇案例让人直面一个现实：AI自动化链路一旦失守，供应链风险会在无感中爆炸。细节扎实又易读，不只是安全警示，更是对开发流程与架构防护的深刻提醒。"
   }
 ]
