@@ -254,5 +254,13 @@
     "url": "https://grith.ai/blog/clinejection-when-your-ai-tool-installs-another",
     "source": "lobsters",
     "summary": "这篇案例让人直面一个现实：AI自动化链路一旦失守，供应链风险会在无感中爆炸。细节扎实又易读，不只是安全警示，更是对开发流程与架构防护的深刻提醒。"
+  },
+  {
+    "date": "2026-03-07",
+    "articleId": "lobsters-uwdjjy",
+    "title": "A new chapter for the Nix language, courtesy of WebAssembly",
+    "url": "https://determinate.systems/blog/builtins-wasm/",
+    "source": "lobsters",
+    "summary": "这篇文章用 WebAssembly 为 Nix 打开了扩展的新路径，让性能、可维护性与可重复性在同一架构内兼得。相比传统插件或 IFD，它更简洁、更稳，值得关注这样的底层演进。"
   }
 ]
