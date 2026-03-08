@@ -262,5 +262,13 @@
     "url": "https://determinate.systems/blog/builtins-wasm/",
     "source": "lobsters",
     "summary": "这篇文章用 WebAssembly 为 Nix 打开了扩展的新路径，让性能、可维护性与可重复性在同一架构内兼得。相比传统插件或 IFD，它更简洁、更稳，值得关注这样的底层演进。"
+  },
+  {
+    "date": "2026-03-08",
+    "articleId": "lobsters-mktb13",
+    "title": "SPA vs. Hypermedia: Real-World Performance Under Load",
+    "url": "https://zweiundeins.gmbh/en/methodology/spa-vs-hypermedia-real-world-performance-under-load",
+    "source": "lobsters",
+    "summary": "真实场景下的性能实测，直击 SPA 在弱网环境的硬伤。数据扎实、结论清晰，不止是架构选型参考，更是提醒我们回归简单高效的设计，让体验真正落在用户端。"
   }
 ]
