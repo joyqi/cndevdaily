@@ -270,5 +270,13 @@
     "url": "https://zweiundeins.gmbh/en/methodology/spa-vs-hypermedia-real-world-performance-under-load",
     "source": "lobsters",
     "summary": "真实场景下的性能实测，直击 SPA 在弱网环境的硬伤。数据扎实、结论清晰，不止是架构选型参考，更是提醒我们回归简单高效的设计，让体验真正落在用户端。"
+  },
+  {
+    "date": "2026-03-09",
+    "articleId": "lobsters-zwci4v",
+    "title": "Getting started with ClickHouse? 13 mistakes and how to avoid them",
+    "url": "https://clickhouse.com/blog/common-getting-started-issues-with-clickhouse",
+    "source": "lobsters",
+    "summary": "这篇 ClickHouse 指南扎实剖析存储结构与性能瓶颈，像是在上线前就帮你扫清暗礁。新手少踩坑，老手可优化长跑稳定性，值得细读并融入日常数据模型设计。"
   }
 ]
