@@ -278,5 +278,13 @@
     "url": "https://clickhouse.com/blog/common-getting-started-issues-with-clickhouse",
     "source": "lobsters",
     "summary": "这篇 ClickHouse 指南扎实剖析存储结构与性能瓶颈，像是在上线前就帮你扫清暗礁。新手少踩坑，老手可优化长跑稳定性，值得细读并融入日常数据模型设计。"
+  },
+  {
+    "date": "2026-03-10",
+    "articleId": "lobsters-dnqcvh",
+    "title": "Your LLM Doesn't Write Correct Code. It Writes Plausible Code",
+    "url": "https://blog.katanaquant.com/p/your-llm-doesnt-write-correct-code",
+    "source": "lobsters",
+    "summary": "这篇文章用严谨验证揭示了 LLM 生成代码的核心风险——它写的是“看似合理”而非真正正确。读完会让你在引入 AI 辅助时先立验收标准，再谈落地，长期能避免不少隐性成本。"
   }
 ]
