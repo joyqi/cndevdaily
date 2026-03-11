@@ -286,5 +286,13 @@
     "url": "https://blog.katanaquant.com/p/your-llm-doesnt-write-correct-code",
     "source": "lobsters",
     "summary": "这篇文章用严谨验证揭示了 LLM 生成代码的核心风险——它写的是“看似合理”而非真正正确。读完会让你在引入 AI 辅助时先立验收标准，再谈落地，长期能避免不少隐性成本。"
+  },
+  {
+    "date": "2026-03-11",
+    "articleId": "lobsters-9nzeu7",
+    "title": "Madblog: Turn a Markdown folder into a federated blog",
+    "url": "https://blog.fabiomanganiello.com/article/Madblog-federated-blogging-from-markdown",
+    "source": "lobsters",
+    "summary": "Madblog用纯Markdown实现部署极简，却能接入ActivityPub等开放协议，把去中心化互动融进个人博客。它既保留文本的优雅，又给开发者足够扩展空间，是真正兼顾简洁与性能的小而美方案。"
   }
 ]
