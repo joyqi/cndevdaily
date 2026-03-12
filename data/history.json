@@ -294,5 +294,13 @@
     "url": "https://blog.fabiomanganiello.com/article/Madblog-federated-blogging-from-markdown",
     "source": "lobsters",
     "summary": "Madblog用纯Markdown实现部署极简，却能接入ActivityPub等开放协议，把去中心化互动融进个人博客。它既保留文本的优雅，又给开发者足够扩展空间，是真正兼顾简洁与性能的小而美方案。"
+  },
+  {
+    "date": "2026-03-12",
+    "articleId": "lobsters-ei0ans",
+    "title": "Temporal: The 9-Year Journey to Fix Time in JavaScript",
+    "url": "https://bloomberg.github.io/js-blog/post/temporal/",
+    "source": "lobsters",
+    "summary": "九年磨一剑，Temporal 不只是修补 Date 的缺陷，更在工程上示范了标准化的耐心与协作。它让时间处理可预测、可维护，对任何依赖日期与时区的系统都是一次实用而深远的升级。"
   }
 ]
