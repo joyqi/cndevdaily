@@ -302,5 +302,13 @@
     "url": "https://bloomberg.github.io/js-blog/post/temporal/",
     "source": "lobsters",
     "summary": "九年磨一剑，Temporal 不只是修补 Date 的缺陷，更在工程上示范了标准化的耐心与协作。它让时间处理可预测、可维护，对任何依赖日期与时区的系统都是一次实用而深远的升级。"
+  },
+  {
+    "date": "2026-03-13",
+    "articleId": "lobsters-zcoz8h",
+    "title": "How do you manage SSH keys?",
+    "url": "https://lobste.rs/s/zcoz8h",
+    "source": "lobsters",
+    "summary": "短期硬件绑定 SSH 证书的自动化管理，让安全与运维真正融合，减少繁琐与风险。技术硬核又有落地路径，值得投入时间深入理解。"
   }
 ]
