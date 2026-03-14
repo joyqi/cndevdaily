@@ -310,5 +310,13 @@
     "url": "https://lobste.rs/s/zcoz8h",
     "source": "lobsters",
     "summary": "短期硬件绑定 SSH 证书的自动化管理，让安全与运维真正融合，减少繁琐与风险。技术硬核又有落地路径，值得投入时间深入理解。"
+  },
+  {
+    "date": "2026-03-14",
+    "articleId": "hn-47371064",
+    "title": "I Found 39 Algolia Admin Keys Exposed Across Open Source Documentation Sites",
+    "url": "https://benzimmermann.dev/blog/algolia-docsearch-admin-keys",
+    "source": "hackernews",
+    "summary": "这篇安全研究用真实案例敲响警钟——前端误用高权限 API Key，可能让整个索引被随意改写。方法可复用，风险可立刻排查，对开发和运维都是能马上落地的防护指南。"
   }
 ]
