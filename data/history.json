@@ -318,5 +318,13 @@
     "url": "https://benzimmermann.dev/blog/algolia-docsearch-admin-keys",
     "source": "hackernews",
     "summary": "这篇安全研究用真实案例敲响警钟——前端误用高权限 API Key，可能让整个索引被随意改写。方法可复用，风险可立刻排查，对开发和运维都是能马上落地的防护指南。"
+  },
+  {
+    "date": "2026-03-15",
+    "articleId": "hn-47381238",
+    "title": "Postgres with Builtin File Systems",
+    "url": "https://db9.ai/",
+    "source": "hackernews",
+    "summary": "将结构化数据、文件系统与向量检索融入 Postgres，这不是简单功能叠加，而是一次架构减法，直接压缩 AI 应用数据栈，减少依赖，提升一致性与可维护性，值得长期关注。"
   }
 ]
