@@ -326,5 +326,13 @@
     "url": "https://db9.ai/",
     "source": "hackernews",
     "summary": "将结构化数据、文件系统与向量检索融入 Postgres，这不是简单功能叠加，而是一次架构减法，直接压缩 AI 应用数据栈，减少依赖，提升一致性与可维护性，值得长期关注。"
+  },
+  {
+    "date": "2026-03-16",
+    "articleId": "lobsters-vvrsz3",
+    "title": "A most elegant TCP hole punching algorithm",
+    "url": "https://robertsdotpm.github.io/cryptography/tcp_hole_punching.html",
+    "source": "lobsters",
+    "summary": "这篇算法用确定性计算替代复杂依赖，把 TCP 穿透变成一场可控的实验，简洁而优雅。适合快速验证想法，也能让你在网络编程里体会到“小而美”的力量。"
   }
 ]
