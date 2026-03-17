@@ -334,5 +334,13 @@
     "url": "https://robertsdotpm.github.io/cryptography/tcp_hole_punching.html",
     "source": "lobsters",
     "summary": "这篇算法用确定性计算替代复杂依赖，把 TCP 穿透变成一场可控的实验，简洁而优雅。适合快速验证想法，也能让你在网络编程里体会到“小而美”的力量。"
+  },
+  {
+    "date": "2026-03-17",
+    "articleId": "lobsters-q1c7it",
+    "title": "Patching LMDB: How We Made Meilisearch’s Vector Store 3x Faster",
+    "url": "https://blog.kerollmops.com/patching-lmdb-how-we-made-meilisearch-s-vector-store-333-faster",
+    "source": "lobsters",
+    "summary": "敢在 LMDB 底层用 `unsafe` 精确控内存，并让向量检索性能翻三倍，这篇是难得的硬核优化案例。实现细节清晰，trade-off 交代到位，值得任何关注高性能存储的人细读。"
   }
 ]
