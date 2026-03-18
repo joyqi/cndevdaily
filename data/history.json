@@ -342,5 +342,13 @@
     "url": "https://blog.kerollmops.com/patching-lmdb-how-we-made-meilisearch-s-vector-store-333-faster",
     "source": "lobsters",
     "summary": "敢在 LMDB 底层用 `unsafe` 精确控内存，并让向量检索性能翻三倍，这篇是难得的硬核优化案例。实现细节清晰，trade-off 交代到位，值得任何关注高性能存储的人细读。"
+  },
+  {
+    "date": "2026-03-18",
+    "articleId": "lobsters-c2eiao",
+    "title": "syntaqlite: high-fidelity devtools that SQLite deserves",
+    "url": "https://lalitm.com/post/syntaqlite/",
+    "source": "lobsters",
+    "summary": "直接复用 SQLite 原生语法生成器的高保真工具链，精准支持版本差异与特性验证，填补了长期缺失的开发体验空白。对嵌入式、移动端项目来说，这是一次真正可落地的效率与稳定性升级。"
   }
 ]
