@@ -350,5 +350,13 @@
     "url": "https://lalitm.com/post/syntaqlite/",
     "source": "lobsters",
     "summary": "直接复用 SQLite 原生语法生成器的高保真工具链，精准支持版本差异与特性验证，填补了长期缺失的开发体验空白。对嵌入式、移动端项目来说，这是一次真正可落地的效率与稳定性升级。"
+  },
+  {
+    "date": "2026-03-19",
+    "articleId": "lobsters-2tspe2",
+    "title": "BEAM Metrics in ClickHouse",
+    "url": "https://andrealeopardi.com/posts/beam-metrics-in-clickhouse/",
+    "source": "lobsters",
+    "summary": "用 ClickHouse 替代 Datadog 存储高基数 BEAM 指标，不只是降成本，更是一次稳健的架构优化。真实场景、可复用方案，让性能分析与费用控制都落到实处。"
   }
 ]
