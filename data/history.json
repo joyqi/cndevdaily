@@ -358,5 +358,13 @@
     "url": "https://andrealeopardi.com/posts/beam-metrics-in-clickhouse/",
     "source": "lobsters",
     "summary": "用 ClickHouse 替代 Datadog 存储高基数 BEAM 指标，不只是降成本，更是一次稳健的架构优化。真实场景、可复用方案，让性能分析与费用控制都落到实处。"
+  },
+  {
+    "date": "2026-03-20",
+    "articleId": "lobsters-gqdltt",
+    "title": "Comprehension Debt - the hidden cost of AI generated code",
+    "url": "https://addyosmani.com/blog/comprehension-debt/",
+    "source": "lobsters",
+    "summary": "这篇“理解债”直击AI代码生成的长期隐患——速度掩盖了理解缺失。它提醒我们，真正的生产力来自对代码语义和结构的深入掌握，否则技术债会在维护阶段成倍反噬。"
   }
 ]
