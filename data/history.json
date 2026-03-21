@@ -366,5 +366,13 @@
     "url": "https://addyosmani.com/blog/comprehension-debt/",
     "source": "lobsters",
     "summary": "这篇“理解债”直击AI代码生成的长期隐患——速度掩盖了理解缺失。它提醒我们，真正的生产力来自对代码语义和结构的深入掌握，否则技术债会在维护阶段成倍反噬。"
+  },
+  {
+    "date": "2026-03-21",
+    "articleId": "lobsters-4fhlaz",
+    "title": "Trivy Compromised a Second Time - Malicious v0.69.4 Release",
+    "url": "https://www.stepsecurity.io/blog/trivy-compromised-a-second-time---malicious-v0-69-4-release",
+    "source": "lobsters",
+    "summary": "真实的供应链攻击案例，比任何性能优化故事都更能让人冷静下来。它揭示了自动化发布的薄弱点与防护思路，是值得每个依赖 CI/CD 的团队细读并落实到流程中的安全警示。"
   }
 ]
