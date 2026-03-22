@@ -374,5 +374,13 @@
     "url": "https://www.stepsecurity.io/blog/trivy-compromised-a-second-time---malicious-v0-69-4-release",
     "source": "lobsters",
     "summary": "真实的供应链攻击案例，比任何性能优化故事都更能让人冷静下来。它揭示了自动化发布的薄弱点与防护思路，是值得每个依赖 CI/CD 的团队细读并落实到流程中的安全警示。"
+  },
+  {
+    "date": "2026-03-22",
+    "articleId": "hn-47471601",
+    "title": "Professional video editing, right in the browser with WebGPU and WASM",
+    "url": "https://tooscut.app/",
+    "source": "hackernews",
+    "summary": "把专业视频剪辑搬进浏览器，WebGPU+WASM 的组合不仅炫技，更是在性能与易用性间找到平衡，零安装、实时预览，让创作像打开网页一样自然。"
   }
 ]
