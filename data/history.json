@@ -382,5 +382,13 @@
     "url": "https://tooscut.app/",
     "source": "hackernews",
     "summary": "把专业视频剪辑搬进浏览器，WebGPU+WASM 的组合不仅炫技，更是在性能与易用性间找到平衡，零安装、实时预览，让创作像打开网页一样自然。"
+  },
+  {
+    "date": "2026-03-23",
+    "articleId": "lobsters-1vcuqm",
+    "title": "Manyana: A Coherent Vision For The Future Of Version Control",
+    "url": "https://bramcohen.com/p/manyana",
+    "source": "lobsters",
+    "summary": "Manyana 用 CRDT 改写版本控制的底层逻辑，冲突处理不再是阻塞点，历史可视化更直观。这不是小改功能，而是有潜力重塑协作工具栈的蓝图，值得耐心关注与深入研究。"
   }
 ]
