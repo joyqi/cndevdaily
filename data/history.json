@@ -390,5 +390,13 @@
     "url": "https://bramcohen.com/p/manyana",
     "source": "lobsters",
     "summary": "Manyana 用 CRDT 改写版本控制的底层逻辑，冲突处理不再是阻塞点，历史可视化更直观。这不是小改功能，而是有潜力重塑协作工具栈的蓝图，值得耐心关注与深入研究。"
+  },
+  {
+    "date": "2026-03-24",
+    "articleId": "lobsters-jmfor8",
+    "title": "From error-handling to structured concurrency",
+    "url": "https://blog.nelhage.com/post/concurrent-error-handling/",
+    "source": "lobsters",
+    "summary": "这篇关于结构化并发的文章，把并发错误处理的老难题剖得透彻，并给出能落地的统一任务生命周期思路。稳定性与可观测性是长期价值，不是噱头，值得系统架构师静下心细读。"
   }
 ]
