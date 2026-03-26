@@ -398,5 +398,13 @@
     "url": "https://blog.nelhage.com/post/concurrent-error-handling/",
     "source": "lobsters",
     "summary": "这篇关于结构化并发的文章，把并发错误处理的老难题剖得透彻，并给出能落地的统一任务生命周期思路。稳定性与可观测性是长期价值，不是噱头，值得系统架构师静下心细读。"
+  },
+  {
+    "date": "2026-03-26",
+    "articleId": "lobsters-lzxb0m",
+    "title": "Magic Link Pitfalls",
+    "url": "https://etodd.io/2026/03/22/magic-link-pitfalls/",
+    "source": "lobsters",
+    "summary": "这篇文章不止拆解了 Magic Link 的安全坑，还给出可落地的交互与架构改进，让安全与可用性在现实系统中真正平衡，值得在设计登录流程时认真参考。"
   }
 ]
