@@ -406,5 +406,13 @@
     "url": "https://etodd.io/2026/03/22/magic-link-pitfalls/",
     "source": "lobsters",
     "summary": "这篇文章不止拆解了 Magic Link 的安全坑，还给出可落地的交互与架构改进，让安全与可用性在现实系统中真正平衡，值得在设计登录流程时认真参考。"
+  },
+  {
+    "date": "2026-03-27",
+    "articleId": "hn-47534283",
+    "title": "Show HN: Turbolite – a SQLite VFS serving sub-250ms cold JOIN queries from S3",
+    "url": "https://github.com/russellromney/turbolite",
+    "source": "hackernews",
+    "summary": "在云存储上跑出接近本地的 SQLite 延迟，这篇用 Rust 写的 Turbolite 把性能与架构平衡做得干净利落，多租户和数据分析场景都能直接受益，值得深入一看。"
   }
 ]
