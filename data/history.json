@@ -414,5 +414,13 @@
     "url": "https://github.com/russellromney/turbolite",
     "source": "hackernews",
     "summary": "在云存储上跑出接近本地的 SQLite 延迟，这篇用 Rust 写的 Turbolite 把性能与架构平衡做得干净利落，多租户和数据分析场景都能直接受益，值得深入一看。"
+  },
+  {
+    "date": "2026-03-28",
+    "articleId": "lobsters-suqhsn",
+    "title": "Scaling a Monolith to 1M LOC: 113 Pragmatic Lessons from Tech Lead to CTO",
+    "url": "https://www.semicolonandsons.com/articles/scaling-a-monolith-to-1m-loc-113-pragmatic-lessons-from-tech-lead-to-cto",
+    "source": "lobsters",
+    "summary": "这篇百万行单体的优化实录，既有数据库与内存的深坑破解，也有可观测性的落地策略，难得的是思路清晰、可跨框架复用，读完能立刻找到自己系统可提升的切口，是值得反复翻的长期资产。"
   }
 ]
