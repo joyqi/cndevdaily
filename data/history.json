@@ -422,5 +422,13 @@
     "url": "https://www.semicolonandsons.com/articles/scaling-a-monolith-to-1m-loc-113-pragmatic-lessons-from-tech-lead-to-cto",
     "source": "lobsters",
     "summary": "这篇百万行单体的优化实录，既有数据库与内存的深坑破解，也有可观测性的落地策略，难得的是思路清晰、可跨框架复用，读完能立刻找到自己系统可提升的切口，是值得反复翻的长期资产。"
+  },
+  {
+    "date": "2026-03-29",
+    "articleId": "lobsters-u4bws9",
+    "title": "BubbleWrap your dev env and agents",
+    "url": "https://dpc.pw/posts/bubblewrap-your-dev-env-and-agents/",
+    "source": "lobsters",
+    "summary": "这篇文章用 BubbleWrap+Nix 把开发环境和代理隔离得干净利落，不牺牲体验却显著提升安全性。思路务实，脚本自动化可直接落地，适合想在日常工作中把安全防护做成默认选项的团队参考。"
   }
 ]
