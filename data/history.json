@@ -430,5 +430,13 @@
     "url": "https://dpc.pw/posts/bubblewrap-your-dev-env-and-agents/",
     "source": "lobsters",
     "summary": "这篇文章用 BubbleWrap+Nix 把开发环境和代理隔离得干净利落，不牺牲体验却显著提升安全性。思路务实，脚本自动化可直接落地，适合想在日常工作中把安全防护做成默认选项的团队参考。"
+  },
+  {
+    "date": "2026-03-30",
+    "articleId": "lobsters-eelhis",
+    "title": "Free, native RISC-V (RV64GC) CI on GitHub",
+    "url": "https://riseproject.dev/2026/03/24/announcing-the-rise-risc-v-runners-free-native-risc-v-ci-on-github/",
+    "source": "lobsters",
+    "summary": "这篇介绍原生 RISC‑V GitHub Actions Runner的文章，真正解决了跨架构 CI 的一致性与硬件获取难题，减少模拟器带来的性能偏差。对多架构部署和长期维护来说，这是少有的可落地、可持续的基础设施升级。"
   }
 ]
