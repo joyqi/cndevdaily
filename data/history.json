@@ -438,5 +438,13 @@
     "url": "https://riseproject.dev/2026/03/24/announcing-the-rise-risc-v-runners-free-native-risc-v-ci-on-github/",
     "source": "lobsters",
     "summary": "这篇介绍原生 RISC‑V GitHub Actions Runner的文章，真正解决了跨架构 CI 的一致性与硬件获取难题，减少模拟器带来的性能偏差。对多架构部署和长期维护来说，这是少有的可落地、可持续的基础设施升级。"
+  },
+  {
+    "date": "2026-03-31",
+    "articleId": "lobsters-vxqecz",
+    "title": "Working software runs locally",
+    "url": "https://nickmonad.blog/2026/working-software-runs-locally/",
+    "source": "lobsters",
+    "summary": "这篇文章提醒我们，能在本地可靠跑起来的软件才算有开发生命力。它不谈花哨技巧，而是直击迭代效率与问题定位的核心，让你在复杂环境下依然握有快速反馈和调试的主动权，值得反复咀嚼并付诸实践。"
   }
 ]
