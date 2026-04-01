@@ -446,5 +446,13 @@
     "url": "https://nickmonad.blog/2026/working-software-runs-locally/",
     "source": "lobsters",
     "summary": "这篇文章提醒我们，能在本地可靠跑起来的软件才算有开发生命力。它不谈花哨技巧，而是直击迭代效率与问题定位的核心，让你在复杂环境下依然握有快速反馈和调试的主动权，值得反复咀嚼并付诸实践。"
+  },
+  {
+    "date": "2026-04-01",
+    "articleId": "lobsters-l57wuc",
+    "title": "Supply Chain Attack on Axios",
+    "url": "https://socket.dev/blog/axios-npm-package-compromised",
+    "source": "lobsters",
+    "summary": "这篇案例直击 npm 生态的现实风险，细节深入、可立即落地。它不仅提醒我们供应链攻击的隐蔽性，更让人反思发布流程与依赖治理的长期安全，这是一场值得每个开发者认真对待的警钟。"
   }
 ]
