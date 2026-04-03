@@ -454,5 +454,13 @@
     "url": "https://socket.dev/blog/axios-npm-package-compromised",
     "source": "lobsters",
     "summary": "这篇案例直击 npm 生态的现实风险，细节深入、可立即落地。它不仅提醒我们供应链攻击的隐蔽性，更让人反思发布流程与依赖治理的长期安全，这是一场值得每个开发者认真对待的警钟。"
+  },
+  {
+    "date": "2026-04-03",
+    "articleId": "lobsters-j6uemk",
+    "title": "Every dependency you add is a supply chain attack waiting to happen",
+    "url": "https://benhoyt.com/writings/dependencies/",
+    "source": "lobsters",
+    "summary": "这篇文章提醒我们，依赖不是免费生产力，而是信任链的延伸。每多一个包，就多一层不确定性。作者用冷静的语言揭开现代开发的隐性风险，也促使我们重新思考“最少依赖”的工程哲学——控制复杂度，才能守住系统的长期可控与安全。"
   }
 ]
