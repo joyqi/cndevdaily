@@ -462,5 +462,13 @@
     "url": "https://benhoyt.com/writings/dependencies/",
     "source": "lobsters",
     "summary": "这篇文章提醒我们，依赖不是免费生产力，而是信任链的延伸。每多一个包，就多一层不确定性。作者用冷静的语言揭开现代开发的隐性风险，也促使我们重新思考“最少依赖”的工程哲学——控制复杂度，才能守住系统的长期可控与安全。"
+  },
+  {
+    "date": "2026-04-04",
+    "articleId": "hn-47618223",
+    "title": "We replaced RAG with a virtual filesystem for our AI documentation assistant",
+    "url": "https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant",
+    "source": "hackernews",
+    "summary": "这篇文章最打动我的是它把检索问题工程化地重构了——不靠堆模型，而通过虚拟文件系统让知识变得可操作、可感知。设计思路极简却高效，性能提升也有量化证明，是兼顾技术深度与产品体验的难得案例。"
   }
 ]
