@@ -470,5 +470,13 @@
     "url": "https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant",
     "source": "hackernews",
     "summary": "这篇文章最打动我的是它把检索问题工程化地重构了——不靠堆模型，而通过虚拟文件系统让知识变得可操作、可感知。设计思路极简却高效，性能提升也有量化证明，是兼顾技术深度与产品体验的难得案例。"
+  },
+  {
+    "date": "2026-04-05",
+    "articleId": "lobsters-lh9rmv",
+    "title": "Claude Code Found a Linux Vulnerability Hidden for 23 Years",
+    "url": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
+    "source": "lobsters",
+    "summary": "这篇文章让我看到 AI 真正读懂代码的那一刻。Claude Code 在 Linux 内核中挖出隐藏 23 年的漏洞，不只是技术奇迹，更是软件安全审计的新范式。它让我们重新思考，未来的代码分析或许不靠更快的脚本，而靠更深的理解。"
   }
 ]
