@@ -478,5 +478,13 @@
     "url": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
     "source": "lobsters",
     "summary": "这篇文章让我看到 AI 真正读懂代码的那一刻。Claude Code 在 Linux 内核中挖出隐藏 23 年的漏洞，不只是技术奇迹，更是软件安全审计的新范式。它让我们重新思考，未来的代码分析或许不靠更快的脚本，而靠更深的理解。"
+  },
+  {
+    "date": "2026-04-06",
+    "articleId": "lobsters-gpqkcx",
+    "title": "Eight years of wanting, three months of building with AI",
+    "url": "https://lalitm.com/post/building-syntaqlite-ai/",
+    "source": "lobsters",
+    "summary": "一个人+AI，三个月重建 SQLite 工具，这篇文章把“AI 结对编程”的真实节奏讲得极其透彻。它不是炫技，而是把效率、理解与取舍都拆开分析，提醒我们：AI 能放大技术积累，但无法替代深思熟虑的系统设计。"
   }
 ]
