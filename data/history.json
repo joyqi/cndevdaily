@@ -486,5 +486,13 @@
     "url": "https://lalitm.com/post/building-syntaqlite-ai/",
     "source": "lobsters",
     "summary": "一个人+AI，三个月重建 SQLite 工具，这篇文章把“AI 结对编程”的真实节奏讲得极其透彻。它不是炫技，而是把效率、理解与取舍都拆开分析，提醒我们：AI 能放大技术积累，但无法替代深思熟虑的系统设计。"
+  },
+  {
+    "date": "2026-04-08",
+    "articleId": "lobsters-jz63s2",
+    "title": "defuddle: Get the main content of any page as Markdown",
+    "url": "https://github.com/kepano/defuddle",
+    "source": "lobsters",
+    "summary": "Defuddle 是那种“能立刻用”的作品——把杂乱网页提炼成干净 Markdown，不靠玄学算法，而是扎实的结构提取与格式统一。它把内容清理做到极致，体现了工程上的简洁美，适合想让信息回归纯粹的开发者。"
   }
 ]
