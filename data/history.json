@@ -494,5 +494,13 @@
     "url": "https://github.com/kepano/defuddle",
     "source": "lobsters",
     "summary": "Defuddle 是那种“能立刻用”的作品——把杂乱网页提炼成干净 Markdown，不靠玄学算法，而是扎实的结构提取与格式统一。它把内容清理做到极致，体现了工程上的简洁美，适合想让信息回归纯粹的开发者。"
+  },
+  {
+    "date": "2026-04-09",
+    "articleId": "lobsters-kz6rvd",
+    "title": "Under the hood of MDN's new frontend",
+    "url": "https://developer.mozilla.org/en-US/blog/mdn-front-end-deep-dive/",
+    "source": "lobsters",
+    "summary": "这篇文章展现了 MDN 团队一次脚踏实地的前端重构——用 Web Components 回归浏览器原生能力，消解了多年堆叠的复杂性。它不是技术炫技，而是一次以维护性和性能为核心的系统性简化，值得每个追求长期可持续架构的团队细读。"
   }
 ]
