@@ -502,5 +502,13 @@
     "url": "https://developer.mozilla.org/en-US/blog/mdn-front-end-deep-dive/",
     "source": "lobsters",
     "summary": "这篇文章展现了 MDN 团队一次脚踏实地的前端重构——用 Web Components 回归浏览器原生能力，消解了多年堆叠的复杂性。它不是技术炫技，而是一次以维护性和性能为核心的系统性简化，值得每个追求长期可持续架构的团队细读。"
+  },
+  {
+    "date": "2026-04-10",
+    "articleId": "lobsters-fu9wcm",
+    "title": "Giving LLMs a Formal Reasoning Engine for Code Analysis",
+    "url": "https://yogthos.net/posts/2026-04-08-neurosymbolic-mcp.html",
+    "source": "lobsters",
+    "summary": "这篇文章让代码分析真正走向“理解与验证”的融合。它用 Tree-sitter、Prolog、Z3 把 LLM 接进形式化推理体系，让智能分析不再停留在猜测，而能基于逻辑求解做出确定判断。技术扎实、方向前瞻，值得每个关心代码未来的人细读。"
   }
 ]
