@@ -510,5 +510,13 @@
     "url": "https://yogthos.net/posts/2026-04-08-neurosymbolic-mcp.html",
     "source": "lobsters",
     "summary": "这篇文章让代码分析真正走向“理解与验证”的融合。它用 Tree-sitter、Prolog、Z3 把 LLM 接进形式化推理体系，让智能分析不再停留在猜测，而能基于逻辑求解做出确定判断。技术扎实、方向前瞻，值得每个关心代码未来的人细读。"
+  },
+  {
+    "date": "2026-04-11",
+    "articleId": "lobsters-1sqv11",
+    "title": "Selective Test Execution at Stripe: Fast CI for a 50M-line Ruby monorepo",
+    "url": "https://stripe.dev/blog/selective-test-execution-at-stripe-fast-ci-for-a-50m-line-ruby-monorepo",
+    "source": "lobsters",
+    "summary": "这篇文章展示了 Stripe 在 5000 万行 Ruby 代码仓中的 CI 优化实践——他们没有靠堆资源提速，而是靠精细的依赖追踪与选择性测试，让庞大系统保持敏捷。这种以工程思维解复杂度的方式，很值得任何追求高效与稳健的团队细读。"
   }
 ]
