@@ -518,5 +518,13 @@
     "url": "https://stripe.dev/blog/selective-test-execution-at-stripe-fast-ci-for-a-50m-line-ruby-monorepo",
     "source": "lobsters",
     "summary": "这篇文章展示了 Stripe 在 5000 万行 Ruby 代码仓中的 CI 优化实践——他们没有靠堆资源提速，而是靠精细的依赖追踪与选择性测试，让庞大系统保持敏捷。这种以工程思维解复杂度的方式，很值得任何追求高效与稳健的团队细读。"
+  },
+  {
+    "date": "2026-04-12",
+    "articleId": "lobsters-qywh3s",
+    "title": "With AI, you barely need a frontend framework",
+    "url": "https://dlants.me/vamp.html",
+    "source": "lobsters",
+    "summary": "这篇文章以“去框架化”的方式重新审视前端本质——当模式清晰、约束合理，AI 就能接管重复劳动，让开发回归结构与逻辑之美。它未必成熟，却在提醒我们：优秀的前端不只在工具升级，而在简洁思维的回归。"
   }
 ]
