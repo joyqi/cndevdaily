@@ -526,5 +526,13 @@
     "url": "https://dlants.me/vamp.html",
     "source": "lobsters",
     "summary": "这篇文章以“去框架化”的方式重新审视前端本质——当模式清晰、约束合理，AI 就能接管重复劳动，让开发回归结构与逻辑之美。它未必成熟，却在提醒我们：优秀的前端不只在工具升级，而在简洁思维的回归。"
+  },
+  {
+    "date": "2026-04-13",
+    "articleId": "lobsters-gptqt7",
+    "title": "How I run multiple $10K MRR companies on a $20/month tech stack",
+    "url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack",
+    "source": "lobsters",
+    "summary": "这篇文章让我看到真正的工程克制力：用极简技术栈支撑可持续的商业系统，不靠堆栈取胜，而是靠对性能、成本与长期维护的精准拿捏。它提醒我们，技术的价值不在“多”，而在“够用且持久”。"
   }
 ]
