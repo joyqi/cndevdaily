@@ -542,5 +542,13 @@
     "url": "https://kirancodes.me/posts/log-who-watches-the-watchers.html",
     "source": "lobsters",
     "summary": "形式化验证能证明算法正确，却挡不住运行时漏洞，这篇文章精准揭示了理论完备与工程现实的边界。它提醒我们：正确性不是终点，执行环境也是风险面。在追求可验证系统的同时，别忘了性能与安全的根仍扎在真实世界。"
+  },
+  {
+    "date": "2026-04-15",
+    "articleId": "lobsters-xr9g5d",
+    "title": "GitHub Stacked PRs",
+    "url": "https://github.github.com/gh-stack/",
+    "source": "lobsters",
+    "summary": "这篇关于 GitHub Stacked PRs 的文章值得细读。它不是单纯的功能更新，而是对代码评审流程的系统性重构，让大改动的分层审查成为团队协作的常态。对追求高质量代码和持续交付的工程团队，这是一次真正实用的效率演进。"
   }
 ]
