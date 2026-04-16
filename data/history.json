@@ -550,5 +550,13 @@
     "url": "https://github.github.com/gh-stack/",
     "source": "lobsters",
     "summary": "这篇关于 GitHub Stacked PRs 的文章值得细读。它不是单纯的功能更新，而是对代码评审流程的系统性重构，让大改动的分层审查成为团队协作的常态。对追求高质量代码和持续交付的工程团队，这是一次真正实用的效率演进。"
+  },
+  {
+    "date": "2026-04-16",
+    "articleId": "lobsters-r4dspa",
+    "title": "AI Assistance Reduces Persistence and Hurts Independent Performance",
+    "url": "https://arxiv.org/pdf/2604.04721",
+    "source": "lobsters",
+    "summary": "这篇研究提醒我们，AI 辅助不只是效率工具，也在重塑人的学习曲线。它用实证揭示了“提效”背后的依赖风险，对构建开发者工具或学习系统的人，都值得细读。如何让智能协作不削弱人的独立性，是下一代工具设计的关键命题。"
   }
 ]
