@@ -558,5 +558,13 @@
     "url": "https://arxiv.org/pdf/2604.04721",
     "source": "lobsters",
     "summary": "这篇研究提醒我们，AI 辅助不只是效率工具，也在重塑人的学习曲线。它用实证揭示了“提效”背后的依赖风险，对构建开发者工具或学习系统的人，都值得细读。如何让智能协作不削弱人的独立性，是下一代工具设计的关键命题。"
+  },
+  {
+    "date": "2026-04-17",
+    "articleId": "hn-47792374",
+    "title": "Artifacts: Versioned storage that speaks Git",
+    "url": "https://blog.cloudflare.com/artifacts-git-for-agents-beta/",
+    "source": "hackernews",
+    "summary": "Artifacts 把 Git 的版本模型拓展到分布式存储，为自动化协作和智能体开发提供了统一的版本化底座。它不是概念炫技，而是对未来工程体系的一次结构性重构——让版本控制不止于代码仓库，而成为云原生时代的基础能力。"
   }
 ]
