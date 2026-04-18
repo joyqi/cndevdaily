@@ -566,5 +566,13 @@
     "url": "https://blog.cloudflare.com/artifacts-git-for-agents-beta/",
     "source": "hackernews",
     "summary": "Artifacts 把 Git 的版本模型拓展到分布式存储，为自动化协作和智能体开发提供了统一的版本化底座。它不是概念炫技，而是对未来工程体系的一次结构性重构——让版本控制不止于代码仓库，而成为云原生时代的基础能力。"
+  },
+  {
+    "date": "2026-04-18",
+    "articleId": "lobsters-tirqno",
+    "title": "Healthchecks.io Now Uses Self-hosted Object Storage",
+    "url": "https://blog.healthchecks.io/2026/04/healthchecks-io-now-uses-self-hosted-object-storage/",
+    "source": "lobsters",
+    "summary": "这篇迁移实录很有“工程现实感”，不是秀技术，而是呈现团队在性能、成本、稳定性上的取舍过程。它提醒我们：当规模与需求足够清晰时，自建存储不只是降成本，更是掌控命运。读完会重新思考，云之外还有可维护的路径。"
   }
 ]
