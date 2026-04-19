@@ -574,5 +574,13 @@
     "url": "https://blog.healthchecks.io/2026/04/healthchecks-io-now-uses-self-hosted-object-storage/",
     "source": "lobsters",
     "summary": "这篇迁移实录很有“工程现实感”，不是秀技术，而是呈现团队在性能、成本、稳定性上的取舍过程。它提醒我们：当规模与需求足够清晰时，自建存储不只是降成本，更是掌控命运。读完会重新思考，云之外还有可维护的路径。"
+  },
+  {
+    "date": "2026-04-19",
+    "articleId": "hn-47816629",
+    "title": "Show HN: MDV – a Markdown superset for docs, dashboards, and slides with data",
+    "url": "https://github.com/drasimwagan/mdv",
+    "source": "hackernews",
+    "summary": "MDV 让我看到 Markdown 的另一种可能——不靠复杂框架，也能在纯文本里构建数据可视化文档。语法克制、架构简洁，却把「文档即产品」这件事做到了极致。它不炫技，而是在效率与表达间找到最优解，值得每个热爱工具的开发者试一试。"
   }
 ]
