@@ -582,5 +582,13 @@
     "url": "https://github.com/drasimwagan/mdv",
     "source": "hackernews",
     "summary": "MDV 让我看到 Markdown 的另一种可能——不靠复杂框架，也能在纯文本里构建数据可视化文档。语法克制、架构简洁，却把「文档即产品」这件事做到了极致。它不炫技，而是在效率与表达间找到最优解，值得每个热爱工具的开发者试一试。"
+  },
+  {
+    "date": "2026-04-20",
+    "articleId": "lobsters-na7cxg",
+    "title": "Yojam: a macOS default-browser shim that routes URLs through a rule engine",
+    "url": "https://github.com/fluffypony/yojam",
+    "source": "lobsters",
+    "summary": "Yojam 让浏览器切换这件小事变成可编排的高效工作流。它用规则引擎把杂乱的链接入口统一治理，实现真正的上下文分流。这不是炫技，而是工程思维的优雅落地，对追求极致效率的开发者而言，值得一读。"
   }
 ]
