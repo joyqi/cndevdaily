@@ -590,5 +590,13 @@
     "url": "https://github.com/fluffypony/yojam",
     "source": "lobsters",
     "summary": "Yojam 让浏览器切换这件小事变成可编排的高效工作流。它用规则引擎把杂乱的链接入口统一治理，实现真正的上下文分流。这不是炫技，而是工程思维的优雅落地，对追求极致效率的开发者而言，值得一读。"
+  },
+  {
+    "date": "2026-04-21",
+    "articleId": "lobsters-y5nowq",
+    "title": "Modern Frontend Complexity: essential or accidental?",
+    "url": "https://binaryigor.com/modern-frontend-complexity.html",
+    "source": "lobsters",
+    "summary": "这篇文章像一面镜子，照出现代前端复杂度的必然与盲点。它不贩卖焦虑，而是提醒我们重新审视抽象层带来的代价与价值。读完你会更清楚，哪些复杂是真需求驱动，哪些只是被动随波逐流。"
   }
 ]
