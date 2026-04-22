@@ -598,5 +598,13 @@
     "url": "https://binaryigor.com/modern-frontend-complexity.html",
     "source": "lobsters",
     "summary": "这篇文章像一面镜子，照出现代前端复杂度的必然与盲点。它不贩卖焦虑，而是提醒我们重新审视抽象层带来的代价与价值。读完你会更清楚，哪些复杂是真需求驱动，哪些只是被动随波逐流。"
+  },
+  {
+    "date": "2026-04-22",
+    "articleId": "lobsters-vrmjge",
+    "title": "How To Make a Fast Dynamic Language Interpreter",
+    "url": "https://zef-lang.dev/implementation",
+    "source": "lobsters",
+    "summary": "这篇文章像是一堂真实的性能工程课，作者不用 JIT，却用精细的内存布局和执行路径优化，让解释器逼近 Lua 的速度。读完能体会到，性能不是玄学，而是持续打磨实现细节的结果，非常值得所有做语言或底层系统的人细读。"
   }
 ]
