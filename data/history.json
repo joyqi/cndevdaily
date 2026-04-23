@@ -606,5 +606,13 @@
     "url": "https://zef-lang.dev/implementation",
     "source": "lobsters",
     "summary": "这篇文章像是一堂真实的性能工程课，作者不用 JIT，却用精细的内存布局和执行路径优化，让解释器逼近 Lua 的速度。读完能体会到，性能不是玄学，而是持续打磨实现细节的结果，非常值得所有做语言或底层系统的人细读。"
+  },
+  {
+    "date": "2026-04-23",
+    "articleId": "lobsters-wps0js",
+    "title": "Arch Linux now has a bit-for-bit reproducible Docker image",
+    "url": "https://antiz.fr/blog/archlinux-now-has-a-reproducible-docker-image/",
+    "source": "lobsters",
+    "summary": "这是篇让人重新尊重“构建”二字的文章。Arch 团队把 Docker 镜像做到 bit-for-bit 可重现，这不是技巧炫技，而是工程信任体系的突破。它意味着供应链终于可以被验证、被复查，从玄学到科学，这一步值得每个开发者细读。"
   }
 ]
