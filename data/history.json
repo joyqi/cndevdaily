@@ -614,5 +614,13 @@
     "url": "https://antiz.fr/blog/archlinux-now-has-a-reproducible-docker-image/",
     "source": "lobsters",
     "summary": "这是篇让人重新尊重“构建”二字的文章。Arch 团队把 Docker 镜像做到 bit-for-bit 可重现，这不是技巧炫技，而是工程信任体系的突破。它意味着供应链终于可以被验证、被复查，从玄学到科学，这一步值得每个开发者细读。"
+  },
+  {
+    "date": "2026-04-24",
+    "articleId": "hn-47882697",
+    "title": "Show HN: Tolaria – open-source macOS app to manage Markdown knowledge bases",
+    "url": "https://github.com/refactoringhq/tolaria",
+    "source": "hackernews",
+    "summary": "Tolaria 是那种让人一看就想动手试的项目：files‑first、本地优先、不追噱头，却把效率与数据主权做得恰到好处。它提醒我们，好的知识管理不在云端热闹，而在工具的简洁和掌控感。"
   }
 ]
