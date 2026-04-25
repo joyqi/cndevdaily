@@ -622,5 +622,13 @@
     "url": "https://github.com/refactoringhq/tolaria",
     "source": "hackernews",
     "summary": "Tolaria 是那种让人一看就想动手试的项目：files‑first、本地优先、不追噱头，却把效率与数据主权做得恰到好处。它提醒我们，好的知识管理不在云端热闹，而在工具的简洁和掌控感。"
+  },
+  {
+    "date": "2026-04-25",
+    "articleId": "lobsters-zroip2",
+    "title": "Hire based on the conversation about code, not the code itself",
+    "url": "https://dbarabashh.com/thoughts-and-experience/hire-for-the-conversation-not-the-code",
+    "source": "lobsters",
+    "summary": "这篇文章抓住了技术招聘的本质——看人如何思考与沟通，而非只盯结果。好的工程师不是写出完美代码的人，而是能清晰地讲述取舍与逻辑的人。这种方法更贴近真实协作场景，也能让团队在长期维护中走得更稳。"
   }
 ]
