@@ -630,5 +630,13 @@
     "url": "https://dbarabashh.com/thoughts-and-experience/hire-for-the-conversation-not-the-code",
     "source": "lobsters",
     "summary": "这篇文章抓住了技术招聘的本质——看人如何思考与沟通，而非只盯结果。好的工程师不是写出完美代码的人，而是能清晰地讲述取舍与逻辑的人。这种方法更贴近真实协作场景，也能让团队在长期维护中走得更稳。"
+  },
+  {
+    "date": "2026-04-26",
+    "articleId": "hn-47905837",
+    "title": "Agents Aren't Coworkers, Embed Them in Your Software",
+    "url": "https://www.feldera.com/blog/ai-agents-arent-coworkers-embed-them-in-your-software",
+    "source": "hackernews",
+    "summary": "这篇文章把 AI 代理从“聊天对象”拉回系统工程的核心位置，讨论如何将其嵌入软件、让系统具备自愈与自治能力。它不是炒作概念，而是在讲一种可落地的架构思路——平静却高效的智能化，让软件更稳、更聪明。"
   }
 ]
