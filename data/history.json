@@ -638,5 +638,13 @@
     "url": "https://www.feldera.com/blog/ai-agents-arent-coworkers-embed-them-in-your-software",
     "source": "hackernews",
     "summary": "这篇文章把 AI 代理从“聊天对象”拉回系统工程的核心位置，讨论如何将其嵌入软件、让系统具备自愈与自治能力。它不是炒作概念，而是在讲一种可落地的架构思路——平静却高效的智能化，让软件更稳、更聪明。"
+  },
+  {
+    "date": "2026-04-27",
+    "articleId": "lobsters-8xd0x7",
+    "title": "The Mac App Gold Rush in the Age of Vibe Coding",
+    "url": "https://caio.ca/blog/ai-vibe-coded-mac-apps.html",
+    "source": "lobsters",
+    "summary": "一篇描写生成式 AI 如何重塑独立开发生态的好文。它让人看到工具不再只是提升效率，而是激活了创作欲——个人开发者能在极低成本下完成从灵感到产品的跃迁。读完会意识到，真正的创新正在从巨头回到个体手中。"
   }
 ]
