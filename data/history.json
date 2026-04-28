@@ -646,5 +646,13 @@
     "url": "https://caio.ca/blog/ai-vibe-coded-mac-apps.html",
     "source": "lobsters",
     "summary": "一篇描写生成式 AI 如何重塑独立开发生态的好文。它让人看到工具不再只是提升效率，而是激活了创作欲——个人开发者能在极低成本下完成从灵感到产品的跃迁。读完会意识到，真正的创新正在从巨头回到个体手中。"
+  },
+  {
+    "date": "2026-04-28",
+    "articleId": "lobsters-trap9p",
+    "title": "From Milliseconds to 26 Nanoseconds: How a $20 eBay SFP Module Beat My Entire NTP Setup",
+    "url": "https://austinsnerdythings.com/2026/04/26/ptp-osa5401-26-nanoseconds-raspberry-pi/",
+    "source": "lobsters",
+    "summary": "这篇文章让我重新思考“精度”的意义——用二手电信模块在家中做到 26 纳秒同步，不是炫技，而是工程理性的极致。作者以硬件、协议和开源工具构建出可复制的体系，体现了真正的系统思维与长期主义。"
   }
 ]
