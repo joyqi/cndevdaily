@@ -654,5 +654,13 @@
     "url": "https://austinsnerdythings.com/2026/04/26/ptp-osa5401-26-nanoseconds-raspberry-pi/",
     "source": "lobsters",
     "summary": "这篇文章让我重新思考“精度”的意义——用二手电信模块在家中做到 26 纳秒同步，不是炫技，而是工程理性的极致。作者以硬件、协议和开源工具构建出可复制的体系，体现了真正的系统思维与长期主义。"
+  },
+  {
+    "date": "2026-04-29",
+    "articleId": "lobsters-ngogon",
+    "title": "GitHub Actions is the weakest link",
+    "url": "https://nesbitt.io/2026/04/28/github-actions-is-the-weakest-link.html",
+    "source": "lobsters",
+    "summary": "这篇文章以系统视角揭开 GitHub Actions 的安全隐忧，不止指出漏洞，更反思平台设计的信任模型。它提醒我们：工程便利不能以安全为代价，CI/CD 的稳健同样需要架构级的思考与约束。读来清醒，值得每位开发者静下心审视自己的流水线。"
   }
 ]
