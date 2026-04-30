@@ -662,5 +662,13 @@
     "url": "https://nesbitt.io/2026/04/28/github-actions-is-the-weakest-link.html",
     "source": "lobsters",
     "summary": "这篇文章以系统视角揭开 GitHub Actions 的安全隐忧，不止指出漏洞，更反思平台设计的信任模型。它提醒我们：工程便利不能以安全为代价，CI/CD 的稳健同样需要架构级的思考与约束。读来清醒，值得每位开发者静下心审视自己的流水线。"
+  },
+  {
+    "date": "2026-04-30",
+    "articleId": "lobsters-ccbjxb",
+    "title": "Warp is now open-source",
+    "url": "https://www.warp.dev/blog/warp-is-now-open-source",
+    "source": "lobsters",
+    "summary": "Warp 的开源不只是代码放出，而是一种开发协作关系的再设计——让人与智能代理共建、共验软件。Rust 实现保证性能，开放代理模型拓展边界，它指向一种更高效、更透明的开发方式，值得每个工程师认真一读。"
   }
 ]
