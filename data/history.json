@@ -670,5 +670,13 @@
     "url": "https://www.warp.dev/blog/warp-is-now-open-source",
     "source": "lobsters",
     "summary": "Warp 的开源不只是代码放出，而是一种开发协作关系的再设计——让人与智能代理共建、共验软件。Rust 实现保证性能，开放代理模型拓展边界，它指向一种更高效、更透明的开发方式，值得每个工程师认真一读。"
+  },
+  {
+    "date": "2026-05-01",
+    "articleId": "hn-47963316",
+    "title": "Durable queues, streams, pub/sub, and a cron scheduler – inside your SQLite file",
+    "url": "https://honker.dev/",
+    "source": "hackernews",
+    "summary": "把队列、流和调度融进 SQLite，是极致简洁的工程选择。它用一个文件统一了存储与消息，不靠外部组件也能做到可靠一致，真正体现“少即是多”的系统智慧。轻量场景下，这是兼顾性能、维护性与优雅度的范本。"
   }
 ]
