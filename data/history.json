@@ -678,5 +678,13 @@
     "url": "https://honker.dev/",
     "source": "hackernews",
     "summary": "把队列、流和调度融进 SQLite，是极致简洁的工程选择。它用一个文件统一了存储与消息，不靠外部组件也能做到可靠一致，真正体现“少即是多”的系统智慧。轻量场景下，这是兼顾性能、维护性与优雅度的范本。"
+  },
+  {
+    "date": "2026-05-02",
+    "articleId": "lobsters-tkcood",
+    "title": "Progressive Web Components",
+    "url": "https://arielsalminen.com/2026/progressive-web-components/",
+    "source": "lobsters",
+    "summary": "这篇文章让我看到前端组件化重新回归「以网页为本」的可能。它不追逐框架潮流，而是用渐进增强让原生 HTML 重获生命。Elena 之轻，不止在体积，更在理念的克制与纯粹，对长期可维护的设计系统是一次有力的启发。"
   }
 ]
