@@ -686,5 +686,13 @@
     "url": "https://arielsalminen.com/2026/progressive-web-components/",
     "source": "lobsters",
     "summary": "这篇文章让我看到前端组件化重新回归「以网页为本」的可能。它不追逐框架潮流，而是用渐进增强让原生 HTML 重获生命。Elena 之轻，不止在体积，更在理念的克制与纯粹，对长期可维护的设计系统是一次有力的启发。"
+  },
+  {
+    "date": "2026-05-03",
+    "articleId": "lobsters-vk8as6",
+    "title": "fabrica - A terminal-based minimal coding agent harness",
+    "url": "https://github.com/Endi1/fabrica",
+    "source": "lobsters",
+    "summary": "在碎片化工具泛滥的时代，fabrica 选择回到终端，将多模型协作与自动化循环注入极简工作流。它不炫技，却在 Rust 的冷静中展现野心——让开发者重新思考“人与机器共同编程”的边界。"
   }
 ]
