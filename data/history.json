@@ -694,5 +694,13 @@
     "url": "https://github.com/Endi1/fabrica",
     "source": "lobsters",
     "summary": "在碎片化工具泛滥的时代，fabrica 选择回到终端，将多模型协作与自动化循环注入极简工作流。它不炫技，却在 Rust 的冷静中展现野心——让开发者重新思考“人与机器共同编程”的边界。"
+  },
+  {
+    "date": "2026-05-04",
+    "articleId": "lobsters-bznmaf",
+    "title": "Your Container Is Not a Sandbox",
+    "url": "https://emirb.github.io/blog/microvm-2026/",
+    "source": "lobsters",
+    "summary": "这篇文章让我重新审视容器时代的惯性思维——“隔离”从未足够。作者以系统级视角剖析容器安全的伪边界，并以 Rust 驱动的 MicroVM 展示下一代轻量隔离方向。内容扎实、不炫技，是真正能影响架构决策的讨论。"
   }
 ]
