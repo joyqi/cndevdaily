@@ -702,5 +702,13 @@
     "url": "https://emirb.github.io/blog/microvm-2026/",
     "source": "lobsters",
     "summary": "这篇文章让我重新审视容器时代的惯性思维——“隔离”从未足够。作者以系统级视角剖析容器安全的伪边界，并以 Rust 驱动的 MicroVM 展示下一代轻量隔离方向。内容扎实、不炫技，是真正能影响架构决策的讨论。"
+  },
+  {
+    "date": "2026-05-05",
+    "articleId": "hn-48013919",
+    "title": "How OpenAI delivers low-latency voice AI at scale",
+    "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/",
+    "source": "hackernews",
+    "summary": "这篇文章把语音交互的“实时性”问题讲到骨子里——从 WebRTC 到全球路由的架构再造，是真正面向规模的系统设计。它不像炫技，更像在给开发者展示怎样让性能与体验并行进化，这种工程思维值得细读。"
   }
 ]
