@@ -718,5 +718,13 @@
     "url": "https://productonboarding.com/articles/why-product-tours-get-skipped",
     "source": "hackernews",
     "summary": "多数新手引导之所以被跳过，不是用户没耐心，而是设计者忽视了探索的本能。这篇文章用真实行为数据提醒我们——最好的 onboarding 不是指令式讲解，而是自然嵌入用户操作流中。对想让产品“被用起来”的团队，这是一次务实而深刻的启发。"
+  },
+  {
+    "date": "2026-05-07",
+    "articleId": "lobsters-ze6pao",
+    "title": "Building the deployment tool I wish I had",
+    "url": "https://ruuda.nl/2026/deptool",
+    "source": "lobsters",
+    "summary": "这篇文章让我重新思考“部署工具”的定义。作者以极简设计实现可预期执行与自动回滚，把复杂运营流程重塑为确定而优雅的系统。它不是造新轮子，而是在追问：自动化能否既快又可靠。读完，会想去优化自己那套部署脚本。"
   }
 ]
