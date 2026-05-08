@@ -726,5 +726,13 @@
     "url": "https://ruuda.nl/2026/deptool",
     "source": "lobsters",
     "summary": "这篇文章让我重新思考“部署工具”的定义。作者以极简设计实现可预期执行与自动回滚，把复杂运营流程重塑为确定而优雅的系统。它不是造新轮子，而是在追问：自动化能否既快又可靠。读完，会想去优化自己那套部署脚本。"
+  },
+  {
+    "date": "2026-05-08",
+    "articleId": "lobsters-o1p8ee",
+    "title": "Potential Consequences of Using Postgres as a Job Queue",
+    "url": "http://richyen.com/postgres/2026/05/04/postgres_job_queue.html",
+    "source": "lobsters",
+    "summary": "这篇文章提醒我们，便利和性能常常是对立的。Postgres 能当队列，但它不是为高并发锁竞争而生。作者用实测揭露数据库在扩展阶段的结构性瓶颈，是一次技术选型的清醒反思，读完能让人少走弯路，多思考系统边界。"
   }
 ]
