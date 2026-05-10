@@ -742,5 +742,13 @@
     "url": "https://isabelroses.com/blog/nixos-and-secrets/",
     "source": "lobsters",
     "summary": "这篇文章把 NixOS 的声明式理念延伸到机密管理领域，既技术扎实又能直接提升生产环境的安全与可维护性。sops‑nix 的演进代表了一种更清醒的自动化思路——少手工、少风险、多可追溯，适合所有追求系统稳定与长期演进的工程师阅读。"
+  },
+  {
+    "date": "2026-05-10",
+    "articleId": "lobsters-eabrz3",
+    "title": "What We Lost the Last Time Code Got Cheap",
+    "url": "https://www.poppastring.com/blog/what-we-lost-the-last-time-code-got-cheap",
+    "source": "lobsters",
+    "summary": "这篇文章提醒我们，在 AI 让“写代码”变廉价的同时，真正稀缺的是对系统的理解力。代码生成可以自动化，理解与演进仍需人类思考。它不是反技术，而是让我们重新审视：软件的核心价值，不在产出速度，而在可解释性与长期可维护性。"
   }
 ]
