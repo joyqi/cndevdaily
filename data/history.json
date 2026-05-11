@@ -750,5 +750,13 @@
     "url": "https://www.poppastring.com/blog/what-we-lost-the-last-time-code-got-cheap",
     "source": "lobsters",
     "summary": "这篇文章提醒我们，在 AI 让“写代码”变廉价的同时，真正稀缺的是对系统的理解力。代码生成可以自动化，理解与演进仍需人类思考。它不是反技术，而是让我们重新审视：软件的核心价值，不在产出速度，而在可解释性与长期可维护性。"
+  },
+  {
+    "date": "2026-05-11",
+    "articleId": "lobsters-xb2edj",
+    "title": "Replacing a 3 GB SQLite database with a 10 MB FST (finite state transducer) binary",
+    "url": "https://til.andrew-quinn.me/posts/replacing-a-3-gb-sqlite-database-with-a-7-mb-fst-finite-state-trandsucer-binary/",
+    "source": "lobsters",
+    "summary": "这篇文章是工程思维的典范——用有限状态机替代通用数据库，把抽象的算法力量落地到极致优化。它提醒我们：性能不是靠堆硬件，而是靠理解数据的本质去设计结构。这种“小而美”的取舍，正是软件的长期生命力所在。"
   }
 ]
