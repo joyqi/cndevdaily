@@ -758,5 +758,13 @@
     "url": "https://til.andrew-quinn.me/posts/replacing-a-3-gb-sqlite-database-with-a-7-mb-fst-finite-state-trandsucer-binary/",
     "source": "lobsters",
     "summary": "这篇文章是工程思维的典范——用有限状态机替代通用数据库，把抽象的算法力量落地到极致优化。它提醒我们：性能不是靠堆硬件，而是靠理解数据的本质去设计结构。这种“小而美”的取舍，正是软件的长期生命力所在。"
+  },
+  {
+    "date": "2026-05-12",
+    "articleId": "lobsters-fy4spr",
+    "title": "You Need AI That Reduces Maintenance Costs",
+    "url": "https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs",
+    "source": "lobsters",
+    "summary": "这篇文章提醒我们，AI 的价值不在“写得快”，而在“让系统走得远”。作者用维护成本模型把抽象问题落到工程现实：可持续的代码才是生产力。对追求长期质量的团队来说，这是一次值得反思的视角。"
   }
 ]
