@@ -766,5 +766,13 @@
     "url": "https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs",
     "source": "lobsters",
     "summary": "这篇文章提醒我们，AI 的价值不在“写得快”，而在“让系统走得远”。作者用维护成本模型把抽象问题落到工程现实：可持续的代码才是生产力。对追求长期质量的团队来说，这是一次值得反思的视角。"
+  },
+  {
+    "date": "2026-05-13",
+    "articleId": "lobsters-7rpqbo",
+    "title": "Popular Go library fsnotify raises supply chain alarms after maintainer access changes",
+    "url": "https://socket.dev/blog/fsnotify-maintainer-dispute-sparks-supply-chain-concerns",
+    "source": "lobsters",
+    "summary": "这篇报道直击开源生态的隐性风险——依赖的不只是代码，更是维护者的信任。fsnotify 的风波提醒我们：权限、发布、治理同样属于架构的一部分。对重视系统稳定的开发者，这是一次关于“安全即结构”的深刻反思。"
   }
 ]
