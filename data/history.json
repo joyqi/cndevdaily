@@ -774,5 +774,13 @@
     "url": "https://socket.dev/blog/fsnotify-maintainer-dispute-sparks-supply-chain-concerns",
     "source": "lobsters",
     "summary": "这篇报道直击开源生态的隐性风险——依赖的不只是代码，更是维护者的信任。fsnotify 的风波提醒我们：权限、发布、治理同样属于架构的一部分。对重视系统稳定的开发者，这是一次关于“安全即结构”的深刻反思。"
+  },
+  {
+    "date": "2026-05-14",
+    "articleId": "lobsters-oznirn",
+    "title": "Redis and the Cost of Ambition",
+    "url": "https://charlesleifer.com/blog/redis-and-the-cost-of-ambition/",
+    "source": "lobsters",
+    "summary": "这篇文章冷静剖析了 Redis 从极简到复杂的演化代价，是理解“第二系统效应”的绝佳案例。它提醒我们：技术扩张若失去初心，性能与清晰皆会被雄心吞噬。读完，会重新思考——什么才是系统的底线与持久价值。"
   }
 ]
