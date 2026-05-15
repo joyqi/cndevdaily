@@ -782,5 +782,13 @@
     "url": "https://charlesleifer.com/blog/redis-and-the-cost-of-ambition/",
     "source": "lobsters",
     "summary": "这篇文章冷静剖析了 Redis 从极简到复杂的演化代价，是理解“第二系统效应”的绝佳案例。它提醒我们：技术扩张若失去初心，性能与清晰皆会被雄心吞噬。读完，会重新思考——什么才是系统的底线与持久价值。"
+  },
+  {
+    "date": "2026-05-15",
+    "articleId": "lobsters-wij1pq",
+    "title": "Browsers Treat Big Sites Differently",
+    "url": "https://denodell.com/blog/browsers-treat-big-sites-differently",
+    "source": "lobsters",
+    "summary": "这篇文章像是一面镜子，让我们看到浏览器生态的真实运作方式——标准并非绝对，兼容性往往被市场主导。它揭示了工程现实与理想规范的长期博弈，对理解 Web 的演化与产品决策都极具启发性。"
   }
 ]
