@@ -798,5 +798,13 @@
     "url": "https://1password.com/blog/what-we-learned-using-ai-agents-to-refactor-a-monolith",
     "source": "lobsters",
     "summary": "这篇文章真正触及了“AI 如何参与工程生产”的核心命题。1Password 没把 AI 当决策者，而是当工具链的构建者，让系统重构变得可解释、可回滚。它展示了一个务实范例：用智能化手段提升架构演进的可控性，而不是制造新的黑箱。"
+  },
+  {
+    "date": "2026-05-17",
+    "articleId": "lobsters-7a6atx",
+    "title": "Moving away from Tailwind, and learning to structure my CSS",
+    "url": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
+    "source": "lobsters",
+    "summary": "这篇文章的价值，不在于弃用 Tailwind，而在于学会看懂它背后的秩序。作者用一次框架“回撤”，重建了样式结构和语义边界，让 CSS 重新变得可推理、可维护。读完会意识到：工具能提效，但真正的掌控来自清晰的结构思考。"
   }
 ]
