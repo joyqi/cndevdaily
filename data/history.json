@@ -806,5 +806,13 @@
     "url": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
     "source": "lobsters",
     "summary": "这篇文章的价值，不在于弃用 Tailwind，而在于学会看懂它背后的秩序。作者用一次框架“回撤”，重建了样式结构和语义边界，让 CSS 重新变得可推理、可维护。读完会意识到：工具能提效，但真正的掌控来自清晰的结构思考。"
+  },
+  {
+    "date": "2026-05-18",
+    "articleId": "lobsters-bklf9j",
+    "title": "Content-defined chunking in Bazel's remote cache",
+    "url": "https://www.buildbuddy.io/blog/content-defined-chunking",
+    "source": "lobsters",
+    "summary": "这篇文章是真正面向工程现实的优化案例。BuildBuddy 用内容定义分块让 Bazel 的远程缓存更“聪明”——只传变化的部分，就能显著降低带宽与磁盘占用。它体现了一种务实的技术美感：用算法和系统设计去换取持续可见的构建效率提升。"
   }
 ]
