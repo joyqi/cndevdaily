@@ -814,5 +814,13 @@
     "url": "https://www.buildbuddy.io/blog/content-defined-chunking",
     "source": "lobsters",
     "summary": "这篇文章是真正面向工程现实的优化案例。BuildBuddy 用内容定义分块让 Bazel 的远程缓存更“聪明”——只传变化的部分，就能显著降低带宽与磁盘占用。它体现了一种务实的技术美感：用算法和系统设计去换取持续可见的构建效率提升。"
+  },
+  {
+    "date": "2026-05-19",
+    "articleId": "lobsters-saldxa",
+    "title": "cargo-crap: Finding Untested Complexity in AI-Generated Rust Code",
+    "url": "https://minikin.me/blog/cargo-crap/",
+    "source": "lobsters",
+    "summary": "这篇文章让我看到真正的工程理性——用数据揭示AI生成代码的复杂度与风险。cargo-crap不是炫技，而是把“代码质量”从感性变为量化判断，帮团队在快速迭代中保持稳健。这类工具，是让开发走得更长远的基础设施。"
   }
 ]
