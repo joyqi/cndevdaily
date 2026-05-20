@@ -822,5 +822,13 @@
     "url": "https://minikin.me/blog/cargo-crap/",
     "source": "lobsters",
     "summary": "这篇文章让我看到真正的工程理性——用数据揭示AI生成代码的复杂度与风险。cargo-crap不是炫技，而是把“代码质量”从感性变为量化判断，帮团队在快速迭代中保持稳健。这类工具，是让开发走得更长远的基础设施。"
+  },
+  {
+    "date": "2026-05-20",
+    "articleId": "lobsters-maqmo2",
+    "title": "How we used Quint to find over 10 bugs in SQLite while hardening Turso",
+    "url": "https://turso.tech/blog/how-we-used-quint-to-find-over-10-bugs-in-sqlite",
+    "source": "lobsters",
+    "summary": "这篇文章把形式化验证从理论带到生产，用 Quint 实打实挖出了 SQLite 的漏洞，是少见的工程级落地。它提醒我们，可靠性不是靠经验堆砌，而是靠系统性思维和可验证的模型。这类实践，值得每个后端工程师细读。"
   }
 ]
