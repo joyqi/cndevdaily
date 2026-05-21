@@ -830,5 +830,13 @@
     "url": "https://turso.tech/blog/how-we-used-quint-to-find-over-10-bugs-in-sqlite",
     "source": "lobsters",
     "summary": "这篇文章把形式化验证从理论带到生产，用 Quint 实打实挖出了 SQLite 的漏洞，是少见的工程级落地。它提醒我们，可靠性不是靠经验堆砌，而是靠系统性思维和可验证的模型。这类实践，值得每个后端工程师细读。"
+  },
+  {
+    "date": "2026-05-21",
+    "articleId": "lobsters-lgflsz",
+    "title": "Staged publishing for npm packages",
+    "url": "https://docs.npmjs.com/staged-publishing/",
+    "source": "lobsters",
+    "summary": "这篇文章展示了 npm 在安全发布链路上的一次务实革新。分阶段发布让权限、审查与上线解耦，减少了误操作的风险，也让协作更有秩序。它不是炫技，而是把“安全可控”落成工程习惯，对任何追求稳定与信任的团队都值得一读。"
   }
 ]
