@@ -838,5 +838,13 @@
     "url": "https://docs.npmjs.com/staged-publishing/",
     "source": "lobsters",
     "summary": "这篇文章展示了 npm 在安全发布链路上的一次务实革新。分阶段发布让权限、审查与上线解耦，减少了误操作的风险，也让协作更有秩序。它不是炫技，而是把“安全可控”落成工程习惯，对任何追求稳定与信任的团队都值得一读。"
+  },
+  {
+    "date": "2026-05-22",
+    "articleId": "lobsters-iggblv",
+    "title": "Kubernetes In Anger",
+    "url": "https://samof76.space/kubernetes-in-anger.html",
+    "source": "lobsters",
+    "summary": "这篇文章像一场冷静的应急演练，讲透了当 Kubernetes 不再按预期运转时，系统如何自救。它不炫技，也不卖弄概念，而是用一线经验重塑我们对平台可靠性的理解。读完会重新审视“高可用”到底意味着什么。"
   }
 ]
