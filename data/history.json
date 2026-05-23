@@ -846,5 +846,13 @@
     "url": "https://samof76.space/kubernetes-in-anger.html",
     "source": "lobsters",
     "summary": "这篇文章像一场冷静的应急演练，讲透了当 Kubernetes 不再按预期运转时，系统如何自救。它不炫技，也不卖弄概念，而是用一线经验重塑我们对平台可靠性的理解。读完会重新审视“高可用”到底意味着什么。"
+  },
+  {
+    "date": "2026-05-23",
+    "articleId": "lobsters-k2ifb5",
+    "title": "Megalodon: Mass GitHub Repo Backdooring via CI Workflows",
+    "url": "https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows",
+    "source": "lobsters",
+    "summary": "这篇文章揭开了自动化背后的隐性风险——CI 工作流一旦被攻陷，供应链会成批染毒。它不卖危言，而是以技术细节让人重新反思“信任”的边界。读完后，你会开始审视每个自动执行的脚本，这才是真正有价值的安全启蒙。"
   }
 ]
