@@ -854,5 +854,13 @@
     "url": "https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows",
     "source": "lobsters",
     "summary": "这篇文章揭开了自动化背后的隐性风险——CI 工作流一旦被攻陷，供应链会成批染毒。它不卖危言，而是以技术细节让人重新反思“信任”的边界。读完后，你会开始审视每个自动执行的脚本，这才是真正有价值的安全启蒙。"
+  },
+  {
+    "date": "2026-05-24",
+    "articleId": "lobsters-oyzqgz",
+    "title": "It's time to talk about my writerdeck",
+    "url": "https://veronicaexplains.net/my-first-writerdeck/",
+    "source": "lobsters",
+    "summary": "这篇文章的可贵在于用旧笔电和纯命令行系统，重构出一个极简、专注的写作空间。它不是炫技，而是用技术实践克制，让工具回归本真。这样的项目提醒我们：性能之外，专注与简洁同样是生产力的底层逻辑。"
   }
 ]
