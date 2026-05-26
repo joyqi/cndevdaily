@@ -870,5 +870,13 @@
     "url": "https://michael.stapelberg.ch/posts/2026-05-24-minimal-memory-safe-go-rsync-vulns/",
     "source": "lobsters",
     "summary": "这篇文章像一次久违的深呼吸——作者用 Go 重写 rsync，把内存安全与极简设计落到细节。不是炫技，而是用现代语言重构老系统的务实探索，让人看到“安全”也可以优雅、可维护。值得每个工程师细读。"
+  },
+  {
+    "date": "2026-05-26",
+    "articleId": "lobsters-vvb79k",
+    "title": "Fully in-browser container builds",
+    "url": "https://ochagavia.nl/blog/fully-in-browser-container-builds/",
+    "source": "lobsters",
+    "summary": "在浏览器里构建容器，这不是炫技，而是一次对系统边界的重新审视。它让前端触碰到容器底层原理，用纯 Web 技术验证隔离与构建的可能性。实验性质浓，但意义清晰——理解技术本质，才能打破层层抽象，重塑开发体验。"
   }
 ]
