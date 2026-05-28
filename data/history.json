@@ -886,5 +886,13 @@
     "url": "https://blog.rapidflare.ai/blog/temporal-ingestion-pipeline-part1/",
     "source": "lobsters",
     "summary": "这篇文章展现了真正的工程思维：用 Temporal 把复杂的数据摄取流程抽象为可观察、可伸缩的有状态工作流。设计克制而高效，解决了稳定性与扩展性的现实难题。读完会让人重新思考——架构的美，在于系统能长期稳健运转。"
+  },
+  {
+    "date": "2026-05-28",
+    "articleId": "lobsters-noahb3",
+    "title": "readable.css",
+    "url": "https://readable-css.freedomtowrite.org/",
+    "source": "lobsters",
+    "summary": "readable.css 回到网页的本质——让内容清晰、舒展、可读。它不炫技、不添乱，用语义化样式实现极简一致的视觉体验。对重视写作与阅读的开发者而言，这是一次技术回归人性的漂亮尝试。"
   }
 ]
