@@ -894,5 +894,13 @@
     "url": "https://readable-css.freedomtowrite.org/",
     "source": "lobsters",
     "summary": "readable.css 回到网页的本质——让内容清晰、舒展、可读。它不炫技、不添乱，用语义化样式实现极简一致的视觉体验。对重视写作与阅读的开发者而言，这是一次技术回归人性的漂亮尝试。"
+  },
+  {
+    "date": "2026-05-29",
+    "articleId": "hn-48313530",
+    "title": "Building durable workflows on Postgres",
+    "url": "https://www.dbos.dev/blog/postgres-is-all-you-need-for-durable-execution",
+    "source": "hackernews",
+    "summary": "这篇文章让人重新认识 Postgres 的边界——它不仅是数据库，也能是分布式工作流的核心。作者用事务和锁机制构筑出可靠执行框架，以极简架构解决复杂一致性问题，思路清晰、实现务实，是“以简单胜复杂”的典范之作。"
   }
 ]
