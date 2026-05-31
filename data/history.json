@@ -910,5 +910,13 @@
     "url": "https://marcelotryle.com/blog/2026/05/28/cve-2026-48710-a-maintainers-perspective/",
     "source": "lobsters",
     "summary": "别被“又一个CVE”标题骗了。这篇的价值不在漏洞本身，而在于它把框架与应用的安全责任边界讲透了——鉴权若依赖客户端可控的Host头，就等于把钥匙挂在门外。老架说得对，这是架构防御思维的必修课；运维也终于不用替糟糕的中间件设计背锅。值得每个后端开发者细读。"
+  },
+  {
+    "date": "2026-05-31",
+    "articleId": "lobsters-jp3nva",
+    "title": "You probably don't need Yocto, and that's fine",
+    "url": "https://sigma-star.at/blog/2026/05/you-probably-dont-need-yocto-and-thats-fine/",
+    "source": "lobsters",
+    "summary": "别再用 Yocto 给自己找长期维护的负担了。文章直指要害：大多数嵌入式场景，直接基于 LTS 内核维护整洁的补丁队列，远比扛起整个发行版的代价低得多。运维老王那句“半夜被叫醒十次有八次是补丁没打”太真实了，务实选型比技术虚荣重要。"
   }
 ]
