@@ -918,5 +918,13 @@
     "url": "https://sigma-star.at/blog/2026/05/you-probably-dont-need-yocto-and-thats-fine/",
     "source": "lobsters",
     "summary": "别再用 Yocto 给自己找长期维护的负担了。文章直指要害：大多数嵌入式场景，直接基于 LTS 内核维护整洁的补丁队列，远比扛起整个发行版的代价低得多。运维老王那句“半夜被叫醒十次有八次是补丁没打”太真实了，务实选型比技术虚荣重要。"
+  },
+  {
+    "date": "2026-06-01",
+    "articleId": "hn-48326053",
+    "title": "Reconciling Kubernetes cost estimates with CUR / FOCUS billing data",
+    "url": "https://github.com/tanrikuluozlem/burn",
+    "source": "hackernews",
+    "summary": "云成本算不清比半夜告警更让人头疼。Burn 零安装就能把 Prometheus 数据对齐到账单，还内置 Spot 优化建议，Geek 哥担心的折扣分摊、CUR 对齐这些硬骨头它都啃了。不炫技，直接省钱，这才是 FinOps 该有的样子。"
   }
 ]
