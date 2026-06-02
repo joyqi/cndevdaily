@@ -926,5 +926,13 @@
     "url": "https://github.com/tanrikuluozlem/burn",
     "source": "hackernews",
     "summary": "云成本算不清比半夜告警更让人头疼。Burn 零安装就能把 Prometheus 数据对齐到账单，还内置 Spot 优化建议，Geek 哥担心的折扣分摊、CUR 对齐这些硬骨头它都啃了。不炫技，直接省钱，这才是 FinOps 该有的样子。"
+  },
+  {
+    "date": "2026-06-02",
+    "articleId": "lobsters-uuvuhv",
+    "title": "Should you normalize RGB values by 255 or 256?",
+    "url": "https://30fps.net/pages/255-vs-256-division/",
+    "source": "lobsters",
+    "summary": "归一化除255还是256，讨论中有人关注色差坑，但Geek哥点醒：真正值得聚焦的是那个未认证远程内核堆溢出。GHSL 用源码分支比对找出memcpy绕过，直指“先写后校验”的设计病根。这种从异常路径反查的审计思路，对架构加固和安全基线有实操价值。安全底线，不容模糊。"
   }
 ]
