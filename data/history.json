@@ -934,5 +934,13 @@
     "url": "https://30fps.net/pages/255-vs-256-division/",
     "source": "lobsters",
     "summary": "归一化除255还是256，讨论中有人关注色差坑，但Geek哥点醒：真正值得聚焦的是那个未认证远程内核堆溢出。GHSL 用源码分支比对找出memcpy绕过，直指“先写后校验”的设计病根。这种从异常路径反查的审计思路，对架构加固和安全基线有实操价值。安全底线，不容模糊。"
+  },
+  {
+    "date": "2026-06-03",
+    "articleId": "lobsters-cnbztx",
+    "title": "Codex Discovered a Hidden HTTP/2 Bomb",
+    "url": "https://blog.calif.io/p/codex-discovered-a-hidden-http2-bomb",
+    "source": "lobsters",
+    "summary": "这篇文章把压缩炸弹和慢速攻击揉在一起，利用HPACK表管理开销而非解码后大小做内存放大，思路很“优雅”，也很致命。老架说得对，这直接威胁线上稳定性，不是修修配置就能挡住的。自动化发现组合攻击的路子值得写进可观测性脚本，推荐所有关心服务稳定性的同行细读。"
   }
 ]
