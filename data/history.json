@@ -942,5 +942,13 @@
     "url": "https://blog.calif.io/p/codex-discovered-a-hidden-http2-bomb",
     "source": "lobsters",
     "summary": "这篇文章把压缩炸弹和慢速攻击揉在一起，利用HPACK表管理开销而非解码后大小做内存放大，思路很“优雅”，也很致命。老架说得对，这直接威胁线上稳定性，不是修修配置就能挡住的。自动化发现组合攻击的路子值得写进可观测性脚本，推荐所有关心服务稳定性的同行细读。"
+  },
+  {
+    "date": "2026-06-04",
+    "articleId": "hn-48383056",
+    "title": "Uber's $1,500/month AI limit is a useful signal for AI tool pricing",
+    "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
+    "source": "hackernews",
+    "summary": "Uber把AI工具月费设了1500美元硬上限，倒推出的11%平均工资占比直接成了定价锚点——这比任何ROI理论都实在。团队讨论里独立老哥说得好，“这就是决策算盘”，无论大团队控预算还是独立开发者算账，这个基准都用得上。务实量化，比空谈趋势强得多。"
   }
 ]
