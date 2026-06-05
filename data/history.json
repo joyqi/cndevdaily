@@ -950,5 +950,13 @@
     "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
     "source": "hackernews",
     "summary": "Uber把AI工具月费设了1500美元硬上限，倒推出的11%平均工资占比直接成了定价锚点——这比任何ROI理论都实在。团队讨论里独立老哥说得好，“这就是决策算盘”，无论大团队控预算还是独立开发者算账，这个基准都用得上。务实量化，比空谈趋势强得多。"
+  },
+  {
+    "date": "2026-06-05",
+    "articleId": "lobsters-eriaol",
+    "title": "The terminal, the TTY, and the shell",
+    "url": "https://lfg.popovicu.com/series/the-shell-as-a-language/terminal-tty-and-shell/",
+    "source": "lobsters",
+    "summary": "别再被“终端”这个词骗了。这篇文章把终端模拟器、PTY和Shell三层拆得干干净净，串行通信的幽灵至今还在我们每一条命令里游荡。看似纯理论，但理解这个模型后，排查连接问题或配置终端环境时心里就有底了。硬核，不讨巧，值得静下心细读。"
   }
 ]
