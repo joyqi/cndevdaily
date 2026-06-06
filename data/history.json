@@ -958,5 +958,13 @@
     "url": "https://lfg.popovicu.com/series/the-shell-as-a-language/terminal-tty-and-shell/",
     "source": "lobsters",
     "summary": "别再被“终端”这个词骗了。这篇文章把终端模拟器、PTY和Shell三层拆得干干净净，串行通信的幽灵至今还在我们每一条命令里游荡。看似纯理论，但理解这个模型后，排查连接问题或配置终端环境时心里就有底了。硬核，不讨巧，值得静下心细读。"
+  },
+  {
+    "date": "2026-06-06",
+    "articleId": "hn-48415217",
+    "title": "Gov.uk has replaced Stripe with Dutch provider Adyen",
+    "url": "https://www.theregister.com/public-sector/2026/06/04/govuk-goes-dutch-on-payments-as-it-dumps-stripe/5250763",
+    "source": "hackernews",
+    "summary": "这篇 GOV.UK 支付切换的实践，值得每个做基础设施的同行细读。迁移约 1000 项服务却用户无感，靠的是扎实的解耦设计；引入 pay by bank 则把便捷和安全都向前推了一步。老架说得对，爆炸半径虽需权衡，但公共服务的可控性和开放性提升是实打实的长期价值。"
   }
 ]
