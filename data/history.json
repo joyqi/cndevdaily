@@ -966,5 +966,13 @@
     "url": "https://www.theregister.com/public-sector/2026/06/04/govuk-goes-dutch-on-payments-as-it-dumps-stripe/5250763",
     "source": "hackernews",
     "summary": "这篇 GOV.UK 支付切换的实践，值得每个做基础设施的同行细读。迁移约 1000 项服务却用户无感，靠的是扎实的解耦设计；引入 pay by bank 则把便捷和安全都向前推了一步。老架说得对，爆炸半径虽需权衡，但公共服务的可控性和开放性提升是实打实的长期价值。"
+  },
+  {
+    "date": "2026-06-07",
+    "articleId": "lobsters-76plqm",
+    "title": "The perils of UUID primary keys in SQLite",
+    "url": "https://andersmurphy.com/2026/06/05/the-perils-of-uuid-primary-keys-in-sqlite.html",
+    "source": "lobsters",
+    "summary": "SQLite 用 UUID 做主键？这篇把无序 UUID4 的代价量化得明明白白——插入慢 14 倍，全是 B 树页分裂的隐形成本。UUID7 作为有序替代，几乎零摩擦就用上高写入性能。不用追新潮概念，改个主键就能避坑，正是我们需要的务实优化。"
   }
 ]
