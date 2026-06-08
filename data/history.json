@@ -974,5 +974,13 @@
     "url": "https://andersmurphy.com/2026/06/05/the-perils-of-uuid-primary-keys-in-sqlite.html",
     "source": "lobsters",
     "summary": "SQLite 用 UUID 做主键？这篇把无序 UUID4 的代价量化得明明白白——插入慢 14 倍，全是 B 树页分裂的隐形成本。UUID7 作为有序替代，几乎零摩擦就用上高写入性能。不用追新潮概念，改个主键就能避坑，正是我们需要的务实优化。"
+  },
+  {
+    "date": "2026-06-08",
+    "articleId": "hn-48437609",
+    "title": "How's Linear so fast? A technical breakdown",
+    "url": "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown",
+    "source": "hackernews",
+    "summary": "Linear 把数据库搬进浏览器，用本地优先架构换来了毫秒级响应，这不止是前端技巧，更是对“速度即体验”的架构级诠释。团队讨论难得一致，运维老王和 Geek 哥都放下争执点了头。如果你也在意用户指尖那零点几秒的体感，这篇技术拆解值得细读。"
   }
 ]
