@@ -982,5 +982,13 @@
     "url": "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown",
     "source": "hackernews",
     "summary": "Linear 把数据库搬进浏览器，用本地优先架构换来了毫秒级响应，这不止是前端技巧，更是对“速度即体验”的架构级诠释。团队讨论难得一致，运维老王和 Geek 哥都放下争执点了头。如果你也在意用户指尖那零点几秒的体感，这篇技术拆解值得细读。"
+  },
+  {
+    "date": "2026-06-09",
+    "articleId": "lobsters-huxou2",
+    "title": "LLMs and performative productivity",
+    "url": "https://joshcollinsworth.com/blog/productivity",
+    "source": "lobsters",
+    "summary": "这篇对LLM辅助编程的反思，把“表演式生产力”说透了。表面效率掩盖理解缺失，代码生成一堆，真正的架构能力却在退化。小前说得好，这不只是技术债，是认知债。长期可维护性依赖深度理解，不是补丁速度——值得每个被Copilot推着跑的开发者冷静一读。"
   }
 ]
