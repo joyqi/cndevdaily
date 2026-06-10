@@ -990,5 +990,13 @@
     "url": "https://joshcollinsworth.com/blog/productivity",
     "source": "lobsters",
     "summary": "这篇对LLM辅助编程的反思，把“表演式生产力”说透了。表面效率掩盖理解缺失，代码生成一堆，真正的架构能力却在退化。小前说得好，这不只是技术债，是认知债。长期可维护性依赖深度理解，不是补丁速度——值得每个被Copilot推着跑的开发者冷静一读。"
+  },
+  {
+    "date": "2026-06-10",
+    "articleId": "hn-48445834",
+    "title": "Lies We Tell Ourselves About Email Addresses",
+    "url": "https://gitpush--force.com/commits/2026/06/lies-we-tell-ourselves-about-email/",
+    "source": "hackernews",
+    "summary": "邮箱验证的困局不在于正则写得多精妙，而在于我们是否愿意承认：格式正确不等于地址有效。这篇文章用极简验证加确认邮件的务实方案，戳破了开发者自我欺骗的泡沫。投入成本低，用户体验和系统可靠性双赢——少写一行正则，多留住一个用户，这笔账很实在。"
   }
 ]
