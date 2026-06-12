@@ -1006,5 +1006,13 @@
     "url": "https://mohkohn.co.uk/writing/html-first/",
     "source": "lobsters",
     "summary": "用最朴素的技术做减法，反而能触及最广泛的用户。这篇文章不讲花哨框架，只靠 HTML 优先和服务端渐进增强，就把复杂表单变得在任何网络下都可靠——用户翻倍就是最好的架构评审。做产品不必总追新潮，有时候回归基础，才是对体验最深的敬畏。"
+  },
+  {
+    "date": "2026-06-12",
+    "articleId": "lobsters-ptkd7x",
+    "title": "An interactive introduction to the terrific experience of rendering Arabic typography and its technical debt",
+    "url": "https://lr0.org/blog/p/arabic/",
+    "source": "lobsters",
+    "summary": "阿拉伯语排版这面镜子，照出了Web标准对多语言支持的长期亏欠。文章从CSS的无力追溯到活字印刷传统，让技术债变成了一堂生动的文化课。做国际化的前端不该错过——它提醒我们，细节里的尊重，远比像素对齐更厚重。"
   }
 ]
