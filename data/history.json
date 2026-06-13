@@ -1014,5 +1014,13 @@
     "url": "https://lr0.org/blog/p/arabic/",
     "source": "lobsters",
     "summary": "阿拉伯语排版这面镜子，照出了Web标准对多语言支持的长期亏欠。文章从CSS的无力追溯到活字印刷传统，让技术债变成了一堂生动的文化课。做国际化的前端不该错过——它提醒我们，细节里的尊重，远比像素对齐更厚重。"
+  },
+  {
+    "date": "2026-06-13",
+    "articleId": "lobsters-bsavh7",
+    "title": "Turn your site into a place people can bump into each other",
+    "url": "https://cauenapier.com/blog/townsquare_release/",
+    "source": "lobsters",
+    "summary": "有些产品不在乎功能多强大，只在乎让你感觉到“有人在”。Town Square 就是这样：一行脚本，几个匿名光标，页面就不再冷清。讨论时有人提“用户体验文艺复兴”，我倒觉得这是回归本真——技术不是炫技，是让偶然相遇变得可能。"
   }
 ]
