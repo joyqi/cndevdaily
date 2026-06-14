@@ -1022,5 +1022,13 @@
     "url": "https://cauenapier.com/blog/townsquare_release/",
     "source": "lobsters",
     "summary": "有些产品不在乎功能多强大，只在乎让你感觉到“有人在”。Town Square 就是这样：一行脚本，几个匿名光标，页面就不再冷清。讨论时有人提“用户体验文艺复兴”，我倒觉得这是回归本真——技术不是炫技，是让偶然相遇变得可能。"
+  },
+  {
+    "date": "2026-06-14",
+    "articleId": "hn-48518969",
+    "title": "AI coding at home without going broke",
+    "url": "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/",
+    "source": "hackernews",
+    "summary": "这篇文章算清了个人开发者最实在的一笔账：用前沿模型做规划，用开源廉价模型干重复活，千元成本撬动近二十人月产出。架构里的 trade-off 从来不是非黑即白，场景适配比全能方案更重要。对想在家低成本试水 AI 编码的人，这是真正可落地的路线图。"
   }
 ]
