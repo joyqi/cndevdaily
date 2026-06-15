@@ -1030,5 +1030,13 @@
     "url": "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/",
     "source": "hackernews",
     "summary": "这篇文章算清了个人开发者最实在的一笔账：用前沿模型做规划，用开源廉价模型干重复活，千元成本撬动近二十人月产出。架构里的 trade-off 从来不是非黑即白，场景适配比全能方案更重要。对想在家低成本试水 AI 编码的人，这是真正可落地的路线图。"
+  },
+  {
+    "date": "2026-06-15",
+    "articleId": "lobsters-bt7rtp",
+    "title": "Every Frame Perfect",
+    "url": "https://tonsky.me/blog/every-frame-perfect/",
+    "source": "lobsters",
+    "summary": "跟团队争论了一整天，最后大家都认可这篇——它从MVCC的写放大本质讲到分区轮转的常量级删除，把运维凌晨清表的血泪变成了可复制的架构模式。比起逐行DELETE的屎山优化，DROP TABLE才是真正系统级思维。架构师必读。"
   }
 ]
