@@ -1038,5 +1038,13 @@
     "url": "https://tonsky.me/blog/every-frame-perfect/",
     "source": "lobsters",
     "summary": "跟团队争论了一整天，最后大家都认可这篇——它从MVCC的写放大本质讲到分区轮转的常量级删除，把运维凌晨清表的血泪变成了可复制的架构模式。比起逐行DELETE的屎山优化，DROP TABLE才是真正系统级思维。架构师必读。"
+  },
+  {
+    "date": "2026-06-16",
+    "articleId": "lobsters-wlm6dv",
+    "title": "savearoundtrip: publish an HTTPS DNS record, skip a round trip",
+    "url": "https://savearoundtrip.com/",
+    "source": "lobsters",
+    "summary": "把协议协商前置到DNS层，省掉一次往返，这思路很务实。对跨地域、边缘计算这些高延迟场景，收益直接可衡量。我一直坚持“简洁优先”，这篇文章正是将复杂性收敛到基础设施的好例子——改一条DNS记录就能落地，低成本高回报，值得认真读。"
   }
 ]
