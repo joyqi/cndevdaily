@@ -1046,5 +1046,13 @@
     "url": "https://savearoundtrip.com/",
     "source": "lobsters",
     "summary": "把协议协商前置到DNS层，省掉一次往返，这思路很务实。对跨地域、边缘计算这些高延迟场景，收益直接可衡量。我一直坚持“简洁优先”，这篇文章正是将复杂性收敛到基础设施的好例子——改一条DNS记录就能落地，低成本高回报，值得认真读。"
+  },
+  {
+    "date": "2026-06-17",
+    "articleId": "lobsters-mneqgx",
+    "title": "RFC 10008: The HTTP QUERY Method",
+    "url": "https://www.rfc-editor.org/info/rfc10008/",
+    "source": "lobsters",
+    "summary": "HTTP QUERY 方法终于给复杂查询一个安全、幂等、可缓存的正式名分——不再用 POST 破坏缓存，也不再挤爆 GET 的 URL。团队里有人说这是“开发者体验的胜利”，我觉得更准确地说，它填补了协议设计长期存在的语义空白，让 API 架构回归简洁。值得一读。"
   }
 ]
