@@ -1054,5 +1054,13 @@
     "url": "https://www.rfc-editor.org/info/rfc10008/",
     "source": "lobsters",
     "summary": "HTTP QUERY 方法终于给复杂查询一个安全、幂等、可缓存的正式名分——不再用 POST 破坏缓存，也不再挤爆 GET 的 URL。团队里有人说这是“开发者体验的胜利”，我觉得更准确地说，它填补了协议设计长期存在的语义空白，让 API 架构回归简洁。值得一读。"
+  },
+  {
+    "date": "2026-06-18",
+    "articleId": "lobsters-hnoijy",
+    "title": "Color picking Oklch for mortals",
+    "url": "https://hugodaniel.com/posts/color-picking-oklch/",
+    "source": "lobsters",
+    "summary": "把感知均匀的色彩理论简化成交互式色相轮，让开发者不啃论文也能做出视觉一致的设计系统，这是难得的实用主义。Oklch 在 CSS 中原生落地，正是把复杂还给标准、把直觉还给人的好例子。少写代码，多对齐人眼的感知，这种工具值得放进你的工具箱。"
   }
 ]
