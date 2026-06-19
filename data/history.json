@@ -1062,5 +1062,13 @@
     "url": "https://hugodaniel.com/posts/color-picking-oklch/",
     "source": "lobsters",
     "summary": "把感知均匀的色彩理论简化成交互式色相轮，让开发者不啃论文也能做出视觉一致的设计系统，这是难得的实用主义。Oklch 在 CSS 中原生落地，正是把复杂还给标准、把直觉还给人的好例子。少写代码，多对齐人眼的感知，这种工具值得放进你的工具箱。"
+  },
+  {
+    "date": "2026-06-19",
+    "articleId": "lobsters-y9zfbv",
+    "title": "RFC 10008: The HTTP QUERY Method",
+    "url": "https://blainsmith.com/articles/rfc-10008-http-query-method/",
+    "source": "lobsters",
+    "summary": "HTTP QUERY 方法补上了 HTTP 生态长久缺的那块拼图：让只读查询能携带结构化请求体，同时安全、幂等、可缓存。它省去的不是几行代码，而是一整层自建缓存的脏活和语义扭曲。对追求简洁架构和性能的团队来说，这种协议演进比任何新轮子都实在。"
   }
 ]
