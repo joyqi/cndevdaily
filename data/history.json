@@ -1070,5 +1070,13 @@
     "url": "https://blainsmith.com/articles/rfc-10008-http-query-method/",
     "source": "lobsters",
     "summary": "HTTP QUERY 方法补上了 HTTP 生态长久缺的那块拼图：让只读查询能携带结构化请求体，同时安全、幂等、可缓存。它省去的不是几行代码，而是一整层自建缓存的脏活和语义扭曲。对追求简洁架构和性能的团队来说，这种协议演进比任何新轮子都实在。"
+  },
+  {
+    "date": "2026-06-20",
+    "articleId": "hn-48602918",
+    "title": "Surprising Economics of Load-Balanced Systems",
+    "url": "https://brooker.co.za/blog/2020/08/06/erlang.html",
+    "source": "hackernews",
+    "summary": "扩容反而降延迟？这篇用排队论撕开了分布式系统的反直觉真相。数学不骗人，小到几台服务器就能撬动实实在在的成本与体验优化。务实架构，就该这么算。"
   }
 ]
