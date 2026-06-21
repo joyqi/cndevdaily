@@ -1078,5 +1078,13 @@
     "url": "https://brooker.co.za/blog/2020/08/06/erlang.html",
     "source": "hackernews",
     "summary": "扩容反而降延迟？这篇用排队论撕开了分布式系统的反直觉真相。数学不骗人，小到几台服务器就能撬动实实在在的成本与体验优化。务实架构，就该这么算。"
+  },
+  {
+    "date": "2026-06-21",
+    "articleId": "hn-48612943",
+    "title": "Linux eliminates the strncpy API after six years of work, 360 patches",
+    "url": "https://www.phoronix.com/news/Linux-7.2-Drops-strncpy",
+    "source": "hackernews",
+    "summary": "六年，三百六十个补丁，只为抹去一个充满语义陷阱的函数。内核团队用 strscpy 等替代方案，系统性地缝合了缓冲区溢出的旧伤疤。这不是追逐新潮的狂欢，而是对代码根基最体面的善后。稳固的底层，才是所有上层创新的起点，少一類隱患，就少一次深夜响起的电话。推荐阅读，感受“代码洁净感”带来的踏实。"
   }
 ]
