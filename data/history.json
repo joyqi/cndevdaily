@@ -1086,5 +1086,13 @@
     "url": "https://www.phoronix.com/news/Linux-7.2-Drops-strncpy",
     "source": "hackernews",
     "summary": "六年，三百六十个补丁，只为抹去一个充满语义陷阱的函数。内核团队用 strscpy 等替代方案，系统性地缝合了缓冲区溢出的旧伤疤。这不是追逐新潮的狂欢，而是对代码根基最体面的善后。稳固的底层，才是所有上层创新的起点，少一類隱患，就少一次深夜响起的电话。推荐阅读，感受“代码洁净感”带来的踏实。"
+  },
+  {
+    "date": "2026-06-22",
+    "articleId": "hn-48620342",
+    "title": "The minimum viable unit of saleable software",
+    "url": "https://brandur.org/minimum-viable-unit",
+    "source": "hackernews",
+    "summary": "团队争论焦点很有意思，但第三篇直指本质。它没被AI降本的神话带偏，而是用总拥有成本算了一笔清醒账——编码只是冰山一角，维护、迭代、事故复盘才是真正的深水区。架构决策不是比较工具酷不酷，而是算清这笔长期账。对独立开发者或架构师，这个MVUS概念比一百个新框架都管用。"
   }
 ]
