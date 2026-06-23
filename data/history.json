@@ -1094,5 +1094,13 @@
     "url": "https://brandur.org/minimum-viable-unit",
     "source": "hackernews",
     "summary": "团队争论焦点很有意思，但第三篇直指本质。它没被AI降本的神话带偏，而是用总拥有成本算了一笔清醒账——编码只是冰山一角，维护、迭代、事故复盘才是真正的深水区。架构决策不是比较工具酷不酷，而是算清这笔长期账。对独立开发者或架构师，这个MVUS概念比一百个新框架都管用。"
+  },
+  {
+    "date": "2026-06-23",
+    "articleId": "lobsters-wnlece",
+    "title": "In memory of the man who put red and green squiggles under words",
+    "url": "https://devblogs.microsoft.com/oldnewthing/20260622-00/?p=112451",
+    "source": "lobsters",
+    "summary": "波浪线这个微小设计，把阻塞式检查变成了后台实时反馈，本质是一次交互状态的优雅重构。它提醒我们，好的架构不是炫技，而是让系统谦逊地服务于人的心流。在这个AI狂热时代重读这个故事，更能看清：工具应当增强人，而非削弱人。"
   }
 ]
