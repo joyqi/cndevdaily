@@ -1102,5 +1102,13 @@
     "url": "https://devblogs.microsoft.com/oldnewthing/20260622-00/?p=112451",
     "source": "lobsters",
     "summary": "波浪线这个微小设计，把阻塞式检查变成了后台实时反馈，本质是一次交互状态的优雅重构。它提醒我们，好的架构不是炫技，而是让系统谦逊地服务于人的心流。在这个AI狂热时代重读这个故事，更能看清：工具应当增强人，而非削弱人。"
+  },
+  {
+    "date": "2026-06-24",
+    "articleId": "hn-48648619",
+    "title": "FUTO Swipe – A new swipe typing model",
+    "url": "https://swipe.futo.tech/",
+    "source": "hackernews",
+    "summary": "FUTO Swipe 把滑动输入模型压到 250 万参数，离线毫秒响应，还开源了数据集和 C++ 推理库。这种从真实资源约束出发、优先保障可部署性的工程选择，比很多过度设计的方案更值得尊敬。轻量、可复现、可落地——对追求务实交付的开发者来说，是一份难得的好样本。"
   }
 ]
