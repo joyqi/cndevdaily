@@ -1110,5 +1110,13 @@
     "url": "https://swipe.futo.tech/",
     "source": "hackernews",
     "summary": "FUTO Swipe 把滑动输入模型压到 250 万参数，离线毫秒响应，还开源了数据集和 C++ 推理库。这种从真实资源约束出发、优先保障可部署性的工程选择，比很多过度设计的方案更值得尊敬。轻量、可复现、可落地——对追求务实交付的开发者来说，是一份难得的好样本。"
+  },
+  {
+    "date": "2026-06-25",
+    "articleId": "lobsters-kmx6wx",
+    "title": "How to Write an Effective Software Design Document",
+    "url": "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/",
+    "source": "lobsters",
+    "summary": "写文档不是堆字数，而是用决策出错的代价做筛子——这个视角精准。它把设计文档拉回工程本质：预决策是为了少付技术债。团队里有人觉得偏理论，但架构师都懂，没想清楚就动手，比写文档浪费的时间多得多。推荐给所有写代码前愿意多想一步的人。"
   }
 ]
