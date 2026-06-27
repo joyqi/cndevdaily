@@ -1126,5 +1126,13 @@
     "url": "https://andyatkinson.com/how-aura-frames-scales-for-peak-load-ruby-on-rails",
     "source": "lobsters",
     "summary": "Rails 水平分片到 8 个主库，用 `disable_joins` 把跨库 JOIN 拆成多条 SELECT，代码改动小，却扛住了每小时 4100 万请求——这就是我欣赏的架构取舍：不追逐花哨，只在现实约束里找最高杠杆的解。讨论里独立老哥说得准，ROI 就藏在框架特性深处。"
+  },
+  {
+    "date": "2026-06-27",
+    "articleId": "lobsters-yvvhve",
+    "title": "All you need is PostgreSQL",
+    "url": "https://ebellani.github.io/blog/2026/all-you-need-is-postgresql/",
+    "source": "lobsters",
+    "summary": "架构的简洁不应是口号，而是抉择。这篇从第一原理出发，把金融交易系统完整收敛到 PostgreSQL 原生能力里，用域约束、HOT 更新和触发器代替事件溯源与缓存层。省掉的不只是组件，更是深夜报警和运维债。推荐给厌倦了架构熵增的工程师。"
   }
 ]
