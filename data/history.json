@@ -1134,5 +1134,13 @@
     "url": "https://ebellani.github.io/blog/2026/all-you-need-is-postgresql/",
     "source": "lobsters",
     "summary": "架构的简洁不应是口号，而是抉择。这篇从第一原理出发，把金融交易系统完整收敛到 PostgreSQL 原生能力里，用域约束、HOT 更新和触发器代替事件溯源与缓存层。省掉的不只是组件，更是深夜报警和运维债。推荐给厌倦了架构熵增的工程师。"
+  },
+  {
+    "date": "2026-06-28",
+    "articleId": "lobsters-oaq69a",
+    "title": "Shard your locks: benchmarking 6 Go cache designs",
+    "url": "https://strebkov.dev/posts/shard-your-locks/",
+    "source": "lobsters",
+    "summary": "15行代码换8倍吞吐，这ROI实在扎实。文章用基准测试揭开了RWMutex在缓存场景下反直觉退化的本质，分片锁设计极简却直击争用要害。做Go服务优化，就该这样用数据说话，少写代码，多想并发。"
   }
 ]
