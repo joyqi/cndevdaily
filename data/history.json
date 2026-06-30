@@ -1150,5 +1150,13 @@
     "url": "https://victoriametrics.com/blog/victorialogs-internals-columnar-storage-on-disk/",
     "source": "lobsters",
     "summary": "把日志存储的取舍讲透了——列存布局兼顾压缩率和查询效率，分片缓冲避锁让高吞吐写入不再受锁拖累，读这篇就像拆解一个精心调校的引擎。讨论里运维老王说得好：“省下的IO就是省下的命”，这才是开发者该啃的硬骨头。"
+  },
+  {
+    "date": "2026-06-30",
+    "articleId": "hn-48687137",
+    "title": "SQLite improving performance with pre-sort",
+    "url": "https://andersmurphy.com/2026/06/07/sqlite-improving-performance-with-pre-sort.html",
+    "source": "hackernews",
+    "summary": "不改数据源，只调写入顺序，SQLite 批量插入就能有 2-3 倍提升。这思路干净利落，没增加架构复杂度，却精准打中 B-tree 写入瓶颈。做后端也好，做运维也好，这种低成本高回报的优化，正是日常决策里该抓住的实在收益。"
   }
 ]
