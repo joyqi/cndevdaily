@@ -1158,5 +1158,13 @@
     "url": "https://andersmurphy.com/2026/06/07/sqlite-improving-performance-with-pre-sort.html",
     "source": "hackernews",
     "summary": "不改数据源，只调写入顺序，SQLite 批量插入就能有 2-3 倍提升。这思路干净利落，没增加架构复杂度，却精准打中 B-tree 写入瓶颈。做后端也好，做运维也好，这种低成本高回报的优化，正是日常决策里该抓住的实在收益。"
+  },
+  {
+    "date": "2026-07-01",
+    "articleId": "lobsters-t2gomd",
+    "title": "May in Servo: user scripts, mp4 compat, blackboxing in DevTools, and more",
+    "url": "https://servo.org/blog/2026/06/30/may-in-servo/",
+    "source": "lobsters",
+    "summary": "Servo 0.3.0的更新很务实，黑盒调试和用户脚本直指效率痛点，MP4兼容、无障碍树优化细节到位。团队里有人嫌它偏前端，有人嫌它不够“深”，但技术的价值不只在学术深度——能落地的工具提升，才是开发者每天的真实增益。"
   }
 ]
