@@ -1166,5 +1166,13 @@
     "url": "https://servo.org/blog/2026/06/30/may-in-servo/",
     "source": "lobsters",
     "summary": "Servo 0.3.0的更新很务实，黑盒调试和用户脚本直指效率痛点，MP4兼容、无障碍树优化细节到位。团队里有人嫌它偏前端，有人嫌它不够“深”，但技术的价值不只在学术深度——能落地的工具提升，才是开发者每天的真实增益。"
+  },
+  {
+    "date": "2026-07-02",
+    "articleId": "hn-48754700",
+    "title": "The <Usermedia> HTML Element",
+    "url": "https://developer.chrome.com/blog/usermedia-html-element",
+    "source": "hackernews",
+    "summary": "有时候，最简洁的改进反而最见功力。一个 `<usermedia>` 元素，把权限恢复率从 10% 拉到 65%，不是靠堆代码，而是用声明式交互把用户意图摆正。这不仅解了前端的异步权限盲区，更让我看到好设计背后的克制——少写脚本，多尊重用户。推荐给每一个在意体验底层的开发者。"
   }
 ]
