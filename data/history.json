@@ -1174,5 +1174,13 @@
     "url": "https://developer.chrome.com/blog/usermedia-html-element",
     "source": "hackernews",
     "summary": "有时候，最简洁的改进反而最见功力。一个 `<usermedia>` 元素，把权限恢复率从 10% 拉到 65%，不是靠堆代码，而是用声明式交互把用户意图摆正。这不仅解了前端的异步权限盲区，更让我看到好设计背后的克制——少写脚本，多尊重用户。推荐给每一个在意体验底层的开发者。"
+  },
+  {
+    "date": "2026-07-03",
+    "articleId": "hn-48767347",
+    "title": "Virginia bans sale of geolocation data",
+    "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data",
+    "source": "hackernews",
+    "summary": "弗州把“销售”精准限定为金钱对价，像在数据流里划下一道干净边界。这不止是法条，更是产品设计的分水岭——倒逼我们做隐私优先架构，也让前端权限提醒不再含糊。值得一读。"
   }
 ]
