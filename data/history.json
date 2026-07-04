@@ -1182,5 +1182,13 @@
     "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data",
     "source": "hackernews",
     "summary": "弗州把“销售”精准限定为金钱对价，像在数据流里划下一道干净边界。这不止是法条，更是产品设计的分水岭——倒逼我们做隐私优先架构，也让前端权限提醒不再含糊。值得一读。"
+  },
+  {
+    "date": "2026-07-04",
+    "articleId": "lobsters-asi79o",
+    "title": "Clickhouse is winning the Observability Wars",
+    "url": "https://matduggan.com/clickhouse-is-winning-the-observability-wars/",
+    "source": "lobsters",
+    "summary": "ClickHouse 用一套引擎统一日志、指标与追踪，零 schema 高基数查询，直击可观测性选型中多工具整合的痼疾。老架说得对，这是架构上最务实的 trade-off，降复杂度、省运维成本。推荐给所有为半夜排障头疼的团队。"
   }
 ]
