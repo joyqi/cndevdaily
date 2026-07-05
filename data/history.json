@@ -1190,5 +1190,13 @@
     "url": "https://matduggan.com/clickhouse-is-winning-the-observability-wars/",
     "source": "lobsters",
     "summary": "ClickHouse 用一套引擎统一日志、指标与追踪，零 schema 高基数查询，直击可观测性选型中多工具整合的痼疾。老架说得对，这是架构上最务实的 trade-off，降复杂度、省运维成本。推荐给所有为半夜排障头疼的团队。"
+  },
+  {
+    "date": "2026-07-05",
+    "articleId": "lobsters-drf6my",
+    "title": "Bad Epoll (CVE-2026-46242)",
+    "url": "https://github.com/J-jaeyoung/bad-epoll",
+    "source": "lobsters",
+    "summary": "在内核 epoll 的微小竞态窗口里，构建出 99% 成功率的提权攻击——这不是一次安全恐吓，而是一次深水区排雷。老王说这是半夜被叫醒的根源，老架视为分布式系统的暗雷。它能被前沿模型遗漏，恰恰证明真正的稳定性，从来不是 benchmark 跑分，而是对底层细节的长期敬畏。"
   }
 ]
