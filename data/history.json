@@ -1198,5 +1198,13 @@
     "url": "https://github.com/J-jaeyoung/bad-epoll",
     "source": "lobsters",
     "summary": "在内核 epoll 的微小竞态窗口里，构建出 99% 成功率的提权攻击——这不是一次安全恐吓，而是一次深水区排雷。老王说这是半夜被叫醒的根源，老架视为分布式系统的暗雷。它能被前沿模型遗漏，恰恰证明真正的稳定性，从来不是 benchmark 跑分，而是对底层细节的长期敬畏。"
+  },
+  {
+    "date": "2026-07-06",
+    "articleId": "lobsters-d1hevp",
+    "title": "Dark mode with web standards",
+    "url": "https://olliewilliams.xyz/blog/dark-mode/",
+    "source": "lobsters",
+    "summary": "真正讲透暗黑模式的一篇。用 meta 标签而非纯 CSS 媒体查询，先发制人地避免加载闪烁，再用 localStorage 做偏好覆盖——这种“系统默认 + 站点内控制”的双层设计，务实且尊重用户感受。还把 `color-scheme` 与 `prefers-color-scheme` 的作用域差异拆解得明明白白，少写代码，多想，就在这种细节里。"
   }
 ]
