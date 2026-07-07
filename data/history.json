@@ -1206,5 +1206,13 @@
     "url": "https://olliewilliams.xyz/blog/dark-mode/",
     "source": "lobsters",
     "summary": "真正讲透暗黑模式的一篇。用 meta 标签而非纯 CSS 媒体查询，先发制人地避免加载闪烁，再用 localStorage 做偏好覆盖——这种“系统默认 + 站点内控制”的双层设计，务实且尊重用户感受。还把 `color-scheme` 与 `prefers-color-scheme` 的作用域差异拆解得明明白白，少写代码，多想，就在这种细节里。"
+  },
+  {
+    "date": "2026-07-07",
+    "articleId": "lobsters-rk0bl2",
+    "title": "Postgres Is Enough",
+    "url": "https://postgresisenough.dev",
+    "source": "lobsters",
+    "summary": "Postgres Is Enough 切中过度设计通病，用一张对照表讲清单库替代多数据栈的可能。运维老王说得实在——少维护一套数据库，半夜告警少一半。对独立开发者和 MVP 团队，这种“够用”哲学就是降本提速的最优解。若补上高压短板讨论，会更完整。"
   }
 ]
