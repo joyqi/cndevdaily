@@ -1222,5 +1222,13 @@
     "url": "https://pranitha.dev/posts/rust-and-memory-allocators/",
     "source": "lobsters",
     "summary": "内存虚高不一定是泄漏，很可能是分配器在\"囤地\"。这篇把 ptmalloc 的 arena 保留机制讲透了，给出了从堆分析到换用 jemalloc 的完整排查路径。运维不用半夜背锅，开发也能少走弯路——务实、可落地，直接体现在服务器账单上的优化，值得每位后端同学细读。"
+  },
+  {
+    "date": "2026-07-09",
+    "articleId": "lobsters-txmyod",
+    "title": "Announcing TypeScript 7.0",
+    "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
+    "source": "lobsters",
+    "summary": "TypeScript 7 用 Go 重写编译器，不是追新，是对构建性能这一核心痛点的直接回应。原生多线程让编译快 8-12 倍，CI 省资源，开发少等待，这种把十年类型检查逻辑果断移植的工程决策，背后是难得的架构清醒。简洁即性能，这个案例值得细读。"
   }
 ]
