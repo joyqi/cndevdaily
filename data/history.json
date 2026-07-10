@@ -1230,5 +1230,13 @@
     "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
     "source": "lobsters",
     "summary": "TypeScript 7 用 Go 重写编译器，不是追新，是对构建性能这一核心痛点的直接回应。原生多线程让编译快 8-12 倍，CI 省资源，开发少等待，这种把十年类型检查逻辑果断移植的工程决策，背后是难得的架构清醒。简洁即性能，这个案例值得细读。"
+  },
+  {
+    "date": "2026-07-10",
+    "articleId": "hn-48841676",
+    "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+    "url": "https://github.com/malisper/pgrust",
+    "source": "hackernews",
+    "summary": "用Rust从零重写PostgreSQL，并通过全部回归测试，这绝非简单的语言迁移。它触及了数据库内核最棘手的痛点：缓冲区溢出、VACUUM膨胀、并发瓶颈，给出了一个可实验、可演进的解法。虽离生产落地尚远，但这份构建安全基石的长线投入，正是我们面对复杂系统时最需要的清醒。"
   }
 ]
