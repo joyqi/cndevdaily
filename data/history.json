@@ -1238,5 +1238,13 @@
     "url": "https://github.com/malisper/pgrust",
     "source": "hackernews",
     "summary": "用Rust从零重写PostgreSQL，并通过全部回归测试，这绝非简单的语言迁移。它触及了数据库内核最棘手的痛点：缓冲区溢出、VACUUM膨胀、并发瓶颈，给出了一个可实验、可演进的解法。虽离生产落地尚远，但这份构建安全基石的长线投入，正是我们面对复杂系统时最需要的清醒。"
+  },
+  {
+    "date": "2026-07-11",
+    "articleId": "lobsters-sdweip",
+    "title": "Experimenting with random() in CSS",
+    "url": "https://polypane.app/blog/experimenting-with-random-in-css/",
+    "source": "lobsters",
+    "summary": "CSS 原生 `random()` 不是锦上添花，是把随机熵从 JS 和预处理器里解放出来。少写脚本，省下 runtime 开销，声明式动画本该如此轻量。Demo 里花瓣飘落那种流畅感，正是我坚持的“简洁优先性能”的最佳注脚。值得每个前端试试。"
   }
 ]
