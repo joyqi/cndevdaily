@@ -1246,5 +1246,13 @@
     "url": "https://polypane.app/blog/experimenting-with-random-in-css/",
     "source": "lobsters",
     "summary": "CSS 原生 `random()` 不是锦上添花，是把随机熵从 JS 和预处理器里解放出来。少写脚本，省下 runtime 开销，声明式动画本该如此轻量。Demo 里花瓣飘落那种流畅感，正是我坚持的“简洁优先性能”的最佳注脚。值得每个前端试试。"
+  },
+  {
+    "date": "2026-07-12",
+    "articleId": "lobsters-ydjxee",
+    "title": "Good Tools Are Invisible",
+    "url": "https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/",
+    "source": "lobsters",
+    "summary": "好工具不是让你把玩它的复杂，而是让你忘了它的存在。这篇谈“隐形”设计哲学的文章，直指当下工具生态的痛点——太多产品把摩擦包装成勋章。前端同事说“配置比业务代码还厚”，正是这个道理。简洁、无感，才是对开发者真正的尊重。推荐一读。"
   }
 ]
