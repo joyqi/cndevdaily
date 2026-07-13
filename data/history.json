@@ -1254,5 +1254,13 @@
     "url": "https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/",
     "source": "lobsters",
     "summary": "好工具不是让你把玩它的复杂，而是让你忘了它的存在。这篇谈“隐形”设计哲学的文章，直指当下工具生态的痛点——太多产品把摩擦包装成勋章。前端同事说“配置比业务代码还厚”，正是这个道理。简洁、无感，才是对开发者真正的尊重。推荐一读。"
+  },
+  {
+    "date": "2026-07-13",
+    "articleId": "lobsters-7840ca",
+    "title": "Closing a three-year-old issue using Rust arenas",
+    "url": "https://giacomocavalieri.me/writing/gleam-rust-arenas",
+    "source": "lobsters",
+    "summary": "用 arena 重构文档结构来消除重复分配，这个优化思路很实在。有性能数据，还兼顾了低侵入性和内存安全，后端同学看了会心一笑。讨论里大家也认可它“直接省钱”的价值——能用代码省服务器，比花架子靠谱。"
   }
 ]
