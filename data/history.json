@@ -1262,5 +1262,13 @@
     "url": "https://giacomocavalieri.me/writing/gleam-rust-arenas",
     "source": "lobsters",
     "summary": "用 arena 重构文档结构来消除重复分配，这个优化思路很实在。有性能数据，还兼顾了低侵入性和内存安全，后端同学看了会心一笑。讨论里大家也认可它“直接省钱”的价值——能用代码省服务器，比花架子靠谱。"
+  },
+  {
+    "date": "2026-07-14",
+    "articleId": "hn-48896665",
+    "title": "Building and shipping Mac and iOS apps without opening Xcode",
+    "url": "https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/",
+    "source": "hackernews",
+    "summary": "把 Xcode 的手动流程一键脚本化，这条自动化链路正是我们一直追求的——让工具退后，让发布流水线真正跑起来。讨论里运维和独立开发者都看到了它的务实价值：告别界面困扰，把精力放回代码本身，简洁且可靠。"
   }
 ]
