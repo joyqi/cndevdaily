@@ -1270,5 +1270,13 @@
     "url": "https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/",
     "source": "hackernews",
     "summary": "把 Xcode 的手动流程一键脚本化，这条自动化链路正是我们一直追求的——让工具退后，让发布流水线真正跑起来。讨论里运维和独立开发者都看到了它的务实价值：告别界面困扰，把精力放回代码本身，简洁且可靠。"
+  },
+  {
+    "date": "2026-07-15",
+    "articleId": "lobsters-xv8dix",
+    "title": "Jurassic Park computers in excruciating detail",
+    "url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
+    "source": "lobsters",
+    "summary": "比起追新潮，我更欣赏这种硬核考古。它不只是在盘点硬件，而是还原了一套实时3D图形系统如何用底层协作撑起整个视觉叙事。那种用简陋技术堆出超预期体验的工程精神，对今天动不动就套框架的前端来说，是一种清醒的提醒。简洁有力，推荐一读。"
   }
 ]
