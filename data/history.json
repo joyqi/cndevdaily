@@ -1278,5 +1278,13 @@
     "url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
     "source": "lobsters",
     "summary": "比起追新潮，我更欣赏这种硬核考古。它不只是在盘点硬件，而是还原了一套实时3D图形系统如何用底层协作撑起整个视觉叙事。那种用简陋技术堆出超预期体验的工程精神，对今天动不动就套框架的前端来说，是一种清醒的提醒。简洁有力，推荐一读。"
+  },
+  {
+    "date": "2026-07-16",
+    "articleId": "lobsters-vlr279",
+    "title": "Full disclosure: Arbitrary code execution in Cursor",
+    "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+    "source": "lobsters",
+    "summary": "信任是软件架构的基石，而 Cursor 用七个月的沉默告诉我们，这个根基可以脆弱到一个 git.exe 就能击穿。极低门槛的 RCE，暴露的不只是安全疏忽，更是对用户责任的漠视。这篇文章值得每位把“DevEx”挂在嘴边的开发者警醒——基础若不牢，一切酷炫都是沙上筑塔。"
   }
 ]
