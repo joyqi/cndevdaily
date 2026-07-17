@@ -1286,5 +1286,13 @@
     "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
     "source": "lobsters",
     "summary": "信任是软件架构的基石，而 Cursor 用七个月的沉默告诉我们，这个根基可以脆弱到一个 git.exe 就能击穿。极低门槛的 RCE，暴露的不只是安全疏忽，更是对用户责任的漠视。这篇文章值得每位把“DevEx”挂在嘴边的开发者警醒——基础若不牢，一切酷炫都是沙上筑塔。"
+  },
+  {
+    "date": "2026-07-17",
+    "articleId": "lobsters-axdfjx",
+    "title": "How Our Rust-to-Zig Rewrite is Going",
+    "url": "https://rtfeldman.com/rust-to-zig",
+    "source": "lobsters",
+    "summary": "487天、30万行代码，从Rust迁到Zig，换来Wasm体积砍半——单文件31KB，这不是理论推演，是真金白银的加载体验提升。重写不是追逐新潮，而是对编译产物、架构可维护性的整体权衡。务实派必读。"
   }
 ]
