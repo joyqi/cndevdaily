@@ -1294,5 +1294,13 @@
     "url": "https://rtfeldman.com/rust-to-zig",
     "source": "lobsters",
     "summary": "487天、30万行代码，从Rust迁到Zig，换来Wasm体积砍半——单文件31KB，这不是理论推演，是真金白银的加载体验提升。重写不是追逐新潮，而是对编译产物、架构可维护性的整体权衡。务实派必读。"
+  },
+  {
+    "date": "2026-07-18",
+    "articleId": "hn-48899847",
+    "title": "Lobste.rs is now running on SQLite",
+    "url": "https://lobste.rs/s/ko1ji1",
+    "source": "hackernews",
+    "summary": "用 SQLite 单文件扛起 Lobste.rs 的生产流量，MariaDB 直接退役，VPS 成本砍半。这不是数据库选型的教条胜利，而是老老实实修 N+1、消全表扫描后，简单方案自然浮现的工程回报。务实远比追随潮流可靠。"
   }
 ]
