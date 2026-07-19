@@ -1302,5 +1302,13 @@
     "url": "https://lobste.rs/s/ko1ji1",
     "source": "hackernews",
     "summary": "用 SQLite 单文件扛起 Lobste.rs 的生产流量，MariaDB 直接退役，VPS 成本砍半。这不是数据库选型的教条胜利，而是老老实实修 N+1、消全表扫描后，简单方案自然浮现的工程回报。务实远比追随潮流可靠。"
+  },
+  {
+    "date": "2026-07-19",
+    "articleId": "lobsters-5kgenk",
+    "title": "Reviewing AI Code Is Not A Viable Argument",
+    "url": "https://softwaremaxims.com/blog/reviewing-ai-code",
+    "source": "lobsters",
+    "summary": "这篇文章用实证敲醒了一味信奉“审查兜底”的人。代码审查本就难揪深层逻辑缺陷，押注它来补救 AI 代码，无异于把可靠性建立在沙滩上。架构决策需要这种清醒：少些盲信，多些严谨。"
   }
 ]
