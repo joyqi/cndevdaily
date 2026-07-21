@@ -1318,5 +1318,13 @@
     "url": "https://news.ycombinator.com/item?id=48968606",
     "source": "hackernews",
     "summary": "硬件改造这事，有人嫌它不够深，有人担心稳定性，但 $1600 替掉 12 万美元系统的思路，恰好是我们这行被忽略的“最小成本解决核心问题”。开放协议与社区共享，则像在碎片化时代种下一粒长线协作的种子——简洁、务实，且充满尊重旧物的温情。"
+  },
+  {
+    "date": "2026-07-21",
+    "articleId": "lobsters-iypcjj",
+    "title": "Secrets Don’t Belong in Config",
+    "url": "https://secretspec.dev/blog/secrets-dont-belong-in-config/",
+    "source": "lobsters",
+    "summary": "密钥和配置混在一起，是很多生产事故的源头。这篇文章用 NixOS 110 个模块的审计实打实地讲透了为什么要分离，以及怎么通过文件、系统凭证等运行时通道解耦。简洁务实，没有空话，值得每个做部署和架构的人认真读一遍。"
   }
 ]
