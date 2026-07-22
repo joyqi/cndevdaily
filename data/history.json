@@ -1326,5 +1326,13 @@
     "url": "https://secretspec.dev/blog/secrets-dont-belong-in-config/",
     "source": "lobsters",
     "summary": "密钥和配置混在一起，是很多生产事故的源头。这篇文章用 NixOS 110 个模块的审计实打实地讲透了为什么要分离，以及怎么通过文件、系统凭证等运行时通道解耦。简洁务实，没有空话，值得每个做部署和架构的人认真读一遍。"
+  },
+  {
+    "date": "2026-07-22",
+    "articleId": "lobsters-jmuobj",
+    "title": "Your Agentic Workflow's Cache Keepalive Costs 8x Too Much",
+    "url": "https://blog.mempko.com/keeping-the-kv-cache-warm-measuring-prompt-cache-eviction-across-anthropic-openai-and-google/",
+    "source": "lobsters",
+    "summary": "用实测数据把“30秒保活”的约定俗成打了个粉碎，最优间隔其实是4分钟，直接省下8倍成本。这才是代理工作流该有的工程严谨——用可重复的测量替代拍脑袋，把缓存经济学算到真金白银上。架构优化就该这么务实。"
   }
 ]
