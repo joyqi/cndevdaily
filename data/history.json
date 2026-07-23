@@ -1334,5 +1334,13 @@
     "url": "https://blog.mempko.com/keeping-the-kv-cache-warm-measuring-prompt-cache-eviction-across-anthropic-openai-and-google/",
     "source": "lobsters",
     "summary": "用实测数据把“30秒保活”的约定俗成打了个粉碎，最优间隔其实是4分钟，直接省下8倍成本。这才是代理工作流该有的工程严谨——用可重复的测量替代拍脑袋，把缓存经济学算到真金白银上。架构优化就该这么务实。"
+  },
+  {
+    "date": "2026-07-23",
+    "articleId": "hn-49005973",
+    "title": "Businesses with ugly AI menu redesigns",
+    "url": "https://blog.fiddery.com/businesses-with-ugly-ai-menu-redesigns/",
+    "source": "hackernews",
+    "summary": "这篇AI菜单翻车的文章，用一顿饭的代价讲清了一个道理：工具越易用，越需要审美判断。商家省了设计费，却在餐桌上制造出“恐怖谷”般的食欲杀手，品牌信任比那点成本昂贵得多。技术门槛降低时，对用户感知的敬畏才是最后的护栏。"
   }
 ]
