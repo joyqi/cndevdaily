@@ -1342,5 +1342,13 @@
     "url": "https://blog.fiddery.com/businesses-with-ugly-ai-menu-redesigns/",
     "source": "hackernews",
     "summary": "这篇AI菜单翻车的文章，用一顿饭的代价讲清了一个道理：工具越易用，越需要审美判断。商家省了设计费，却在餐桌上制造出“恐怖谷”般的食欲杀手，品牌信任比那点成本昂贵得多。技术门槛降低时，对用户感知的敬畏才是最后的护栏。"
+  },
+  {
+    "date": "2026-07-24",
+    "articleId": "lobsters-n0hq44",
+    "title": "Your analytics are lying to you",
+    "url": "https://ankursethi.com/blog/your-analytics-are-lying-to-you/",
+    "source": "lobsters",
+    "summary": "数据会骗人，这文章一针见血。前端埋点被广告拦截和脚本加载拖垮，漏斗失真到什么程度，你可能根本不知道。回归服务端日志，把底裤穿上，才是架构可观测性的基本功。别急着追新，先保证决策用的是真数据。"
   }
 ]
