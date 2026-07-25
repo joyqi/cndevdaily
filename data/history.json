@@ -1350,5 +1350,13 @@
     "url": "https://ankursethi.com/blog/your-analytics-are-lying-to-you/",
     "source": "lobsters",
     "summary": "数据会骗人，这文章一针见血。前端埋点被广告拦截和脚本加载拖垮，漏斗失真到什么程度，你可能根本不知道。回归服务端日志，把底裤穿上，才是架构可观测性的基本功。别急着追新，先保证决策用的是真数据。"
+  },
+  {
+    "date": "2026-07-25",
+    "articleId": "hn-49034292",
+    "title": "My security camera shipped a GitHub admin token in its login page",
+    "url": "https://hhh.hn/hanwha-github-token/",
+    "source": "hackernews",
+    "summary": "构建产物里直接打包 CI 环境变量？连 GitHub admin token 都裸奔在前端，这不是失误，是 DevOps 流程上的致命塌方。文章用 Cloude Code 逆向固件的技术路径很扎实，把“能跑就行”的自动化思维解剖得清清楚楚。每个做系统架构的人都该细读一遍，凭证泄露从来都比业务漏洞更难排查，也更致命。"
   }
 ]
