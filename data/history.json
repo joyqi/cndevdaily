@@ -1358,5 +1358,13 @@
     "url": "https://hhh.hn/hanwha-github-token/",
     "source": "hackernews",
     "summary": "构建产物里直接打包 CI 环境变量？连 GitHub admin token 都裸奔在前端，这不是失误，是 DevOps 流程上的致命塌方。文章用 Cloude Code 逆向固件的技术路径很扎实，把“能跑就行”的自动化思维解剖得清清楚楚。每个做系统架构的人都该细读一遍，凭证泄露从来都比业务漏洞更难排查，也更致命。"
+  },
+  {
+    "date": "2026-07-26",
+    "articleId": "hn-49051130",
+    "title": "Show HN: Writemark, a dependency free web component for inline Markdown editing",
+    "url": "https://news.ycombinator.com/item?id=49051130",
+    "source": "hackernews",
+    "summary": "Writemark 这种零依赖、一个标签就嵌入的 Web Component，让我看到久违的克制。951 个测试不是炫技，是对手写解析器负责。很多项目追逐重型编辑框架，它却回归简洁——输入输出纯 Markdown，模式切换流畅。真正的优雅，往往来自少写代码、多想场景。"
   }
 ]
