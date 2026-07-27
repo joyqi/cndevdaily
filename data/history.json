@@ -1366,5 +1366,13 @@
     "url": "https://news.ycombinator.com/item?id=49051130",
     "source": "hackernews",
     "summary": "Writemark 这种零依赖、一个标签就嵌入的 Web Component，让我看到久违的克制。951 个测试不是炫技，是对手写解析器负责。很多项目追逐重型编辑框架，它却回归简洁——输入输出纯 Markdown，模式切换流畅。真正的优雅，往往来自少写代码、多想场景。"
+  },
+  {
+    "date": "2026-07-27",
+    "articleId": "lobsters-uusfyj",
+    "title": "SQLite WAL Mode Can Lock Short-Lived Readers",
+    "url": "https://hynek.me/til/sqlite-read-only-wal-locked/",
+    "source": "lobsters",
+    "summary": "SQLite WAL 模式的这个坑，我们已经踩过。短命读连接在极端场景下触发排他锁，量化为可复现的错误，这远不止是文档上的一行提醒。作者没有停留在解释，而是给出了明确的 trade-off 和回退 DELETE 的决策路径——这才是架构师需要的深度。如果你也在高频小事务场景中用 SQLite，值得花五分钟认真读读这篇。"
   }
 ]
