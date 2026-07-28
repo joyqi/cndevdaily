@@ -1374,5 +1374,13 @@
     "url": "https://hynek.me/til/sqlite-read-only-wal-locked/",
     "source": "lobsters",
     "summary": "SQLite WAL 模式的这个坑，我们已经踩过。短命读连接在极端场景下触发排他锁，量化为可复现的错误，这远不止是文档上的一行提醒。作者没有停留在解释，而是给出了明确的 trade-off 和回退 DELETE 的决策路径——这才是架构师需要的深度。如果你也在高频小事务场景中用 SQLite，值得花五分钟认真读读这篇。"
+  },
+  {
+    "date": "2026-07-28",
+    "articleId": "hn-49067301",
+    "title": "Removing React.js from the codebase and adapting Htmx for UI interactivity (2023)",
+    "url": "https://misago-project.org/t/removing-reactjs-from-the-codebase-and-adapting-htmx-for-ui-interactivity/1267/",
+    "source": "hackernews",
+    "summary": "从React迁回Htmx，这事看着像“返祖”，实则把论坛类软件的交互本质算明白了——大部分页面不需要全局状态机，局部替换就够了。小前说这是“开发者体验的文艺复兴”，我更看重它省掉的构建步骤和维护负担。少写代码，多思考架构，这才是长期主义的务实选择。"
   }
 ]
