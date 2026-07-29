@@ -1382,5 +1382,13 @@
     "url": "https://misago-project.org/t/removing-reactjs-from-the-codebase-and-adapting-htmx-for-ui-interactivity/1267/",
     "source": "hackernews",
     "summary": "从React迁回Htmx，这事看着像“返祖”，实则把论坛类软件的交互本质算明白了——大部分页面不需要全局状态机，局部替换就够了。小前说这是“开发者体验的文艺复兴”，我更看重它省掉的构建步骤和维护负担。少写代码，多思考架构，这才是长期主义的务实选择。"
+  },
+  {
+    "date": "2026-07-29",
+    "articleId": "hn-49091738",
+    "title": "The Difference Between a Button and a Link",
+    "url": "https://unplannedobsolescence.com/blog/buttons-vs-links/",
+    "source": "hackernews",
+    "summary": "按钮与链接的语义混淆是前端体验的慢性病。这篇文章从无障碍与可预测交互切入，直指 `<a>` 当按钮的病灶，提案用 `action` 属性让动作回归“不可重定向”的本质。团队成员改语义后点击率涨12%的案例，证明小细节撬动大转化。推荐每位前端细读，多思考，少写糊弄的代码。"
   }
 ]
