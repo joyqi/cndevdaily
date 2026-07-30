@@ -1390,5 +1390,13 @@
     "url": "https://unplannedobsolescence.com/blog/buttons-vs-links/",
     "source": "hackernews",
     "summary": "按钮与链接的语义混淆是前端体验的慢性病。这篇文章从无障碍与可预测交互切入，直指 `<a>` 当按钮的病灶，提案用 `action` 属性让动作回归“不可重定向”的本质。团队成员改语义后点击率涨12%的案例，证明小细节撬动大转化。推荐每位前端细读，多思考，少写糊弄的代码。"
+  },
+  {
+    "date": "2026-07-30",
+    "articleId": "lobsters-ozules",
+    "title": "Overengineered calculator: Zig + QBE",
+    "url": "https://tomekw.com/overengineered-calculator-zig-qbe/",
+    "source": "lobsters",
+    "summary": "Zig 与 QBE 的搭配，是对 LLVM 臃肿的一次务实减法。这篇从词法到原生代码的完整演示，不只补了编译教程的缺，更在工具链选型上给出轻量思路。团队有人说“不适合生产”，但把底层复杂度降下来，本身就是在为语言创新腾出空间。推荐给厌倦堆砌、偏爱简洁的架构者。"
   }
 ]
