@@ -1398,5 +1398,13 @@
     "url": "https://tomekw.com/overengineered-calculator-zig-qbe/",
     "source": "lobsters",
     "summary": "Zig 与 QBE 的搭配，是对 LLVM 臃肿的一次务实减法。这篇从词法到原生代码的完整演示，不只补了编译教程的缺，更在工具链选型上给出轻量思路。团队有人说“不适合生产”，但把底层复杂度降下来，本身就是在为语言创新腾出空间。推荐给厌倦堆砌、偏爱简洁的架构者。"
+  },
+  {
+    "date": "2026-07-31",
+    "articleId": "hn-49112232",
+    "title": "Stacked PRs are now live on GitHub",
+    "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
+    "source": "hackernews",
+    "summary": "GitHub 终于把 Stacked PRs 做进了原生体验，不再靠 CLI hack 硬撑。它将大型变更拆成可独立审查的小块，深度集成分支保护与合并队列，让代码审查从串行阻塞变成并行流水线。对团队协作和主干稳定性来说，这是务实且影响深远的工程优化，值得立刻尝试。"
   }
 ]
