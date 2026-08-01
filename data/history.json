@@ -1406,5 +1406,13 @@
     "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
     "source": "hackernews",
     "summary": "GitHub 终于把 Stacked PRs 做进了原生体验，不再靠 CLI hack 硬撑。它将大型变更拆成可独立审查的小块，深度集成分支保护与合并队列，让代码审查从串行阻塞变成并行流水线。对团队协作和主干稳定性来说，这是务实且影响深远的工程优化，值得立刻尝试。"
+  },
+  {
+    "date": "2026-08-01",
+    "articleId": "lobsters-ri8bav",
+    "title": "Stripe Just Wants a Number",
+    "url": "https://blog.exe.dev/billable-facts",
+    "source": "lobsters",
+    "summary": "计费逻辑从主流程解耦，用事件驱动处理“脏数据”，这个方案务实而优雅。初创期过度设计是陷阱，把side effect隔离到异步worker里，既保持核心简洁又留足扩展空间。真正的好架构，往往就是这样少写代码、多想边界。"
   }
 ]
