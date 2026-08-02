@@ -14,7 +14,7 @@
 2. **候选筛选** - ① 按社区热度每源保留 Top 5；② 从剩余冷门文章里凭主编 **Joyqi** 的个人品味挑几篇"遗珠"作为备选（不只看热度，专捞被埋没的好文）
 3. **内容评估** - 抓取全部候选正文，逐篇基于**真实内容**打分（新颖度 / 实用性 / 深度 / 相关性 / AI 相关度），并行执行。AI 相关度会适度加权，让 AI 方向的内容更容易被选上
 4. **主编终选** - 从内容打分 Top 3 中选出一篇今日推荐，并给出选中理由（价值相当时偏向 AI 方向）
-5. **撰写推荐语** - 以主编 **Joyqi** 的声音写 120 字以内的推荐语，程序自动检查"AI 腔"套话与超长，不合格自动重写
+5. **撰写推荐语** - 以主编 **Joyqi** 的声音写 120 字以内的推荐语，由独立的 AI 评审扮演目标读者把关文风（套话、AI 句式、论文腔、黑话、长度等），不合格自动重写
 6. **发布** - 发布到 Mastodon
 
 > 相比"多角色讨论"，这套流程去掉了高成本低收益的 AI 角色辩论，把预算花在刀刃上：
@@ -23,7 +23,8 @@
 ## AI 主编
 
 主编 **Joyqi** 负责最终选文与推荐语撰写，风格真诚沉稳、不说空话套话。
-推荐语会围绕文章里最具体的一个细节（数字、工具名、具体做法）展开，并由程序对套话词做硬性检查。
+推荐语参考阮一峰分享链接的平实口吻：就事论事讲清楚"这是什么、它做了什么"，开头每篇各不相同，不喊口号、不写"值得一读"。
+文风质量由独立的 AI 评审（flash 级模型）扮演零背景读者把关，所有规则（套话词、AI 句式、论文腔、黑话、长度、Markdown 等）都在评审 prompt 里判断，代码不做文本匹配。
 内容打分对 AI 方向（AI 开发、LLM、Agent、AI 工具链等）做适度加权，选文与遗珠挑选都会稍微偏向 AI 内容。
 
 ## 使用方法
@@ -38,7 +39,9 @@ cp .env.example .env
 
 - `OPENAI_API_KEY` - OpenAI API 密钥
 - `OPENAI_API_BASE_URL` - API 地址（可选，用于自定义 endpoint）
-- `OPENAI_API_MODEL` - 模型名称（可选）
+- `OPENAI_API_MODEL` - 默认模型（打分/选文）
+- `OPENAI_API_MODEL_WRITER` - 写作专用模型（推荐语质量优先，可选）
+- `OPENAI_API_MODEL_JUDGE` - 评审专用模型（文风把关，可选）
 - `MASTODON_INSTANCE` - Mastodon 实例地址
 - `MASTODON_ACCESS_TOKEN` - Mastodon 访问令牌
 
@@ -56,6 +59,12 @@ pnpm build
 pnpm start
 ```
 
+### 测试
+
+```bash
+pnpm test
+```
+
 ### GitHub Actions
 
 配置以下 Secrets：
@@ -63,6 +72,8 @@ pnpm start
 - `OPENAI_API_KEY`
 - `OPENAI_API_BASE_URL`（可选）
 - `OPENAI_API_MODEL`（可选）
+- `OPENAI_API_MODEL_WRITER`（可选）
+- `OPENAI_API_MODEL_JUDGE`（可选）
 - `MASTODON_INSTANCE`
 - `MASTODON_ACCESS_TOKEN`
 
@@ -73,12 +84,15 @@ pnpm start
 ```
 cndevdaily/
 ├── src/                    # 源代码
-│   ├── agents/             # AI 主编（内容打分 / 终选 / 推荐语）
+│   ├── agents/             # AI 主编：editor（打分/终选/遗珠）、writer（推荐语写作+评审）、personas（人设加载）
 │   ├── graph/              # LangGraph 工作流
-│   ├── services/           # 外部服务
+│   │   └── nodes/          # fetch → selectCandidates → evaluate → write → publish
+│   ├── services/           # 外部服务（HN / Lobsters / 抓取 / Mastodon）
 │   ├── types/              # 类型定义
-│   └── utils/              # 工具函数
-├── personas/               # 主编人设 Markdown
+│   └── utils/              # 工具函数（历史、LLM、排序、重试、运行记录）
+├── personas/               # 主编人设 Markdown（moderator.md）
+├── scripts/                # 写作模型对比工具
+├── tests/                  # 单元测试（vitest）
 ├── data/                   # 历史记录
 ├── discussions/            # 每日运行记录存档
 └── .github/workflows/      # GitHub Actions
