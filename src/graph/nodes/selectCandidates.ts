@@ -2,7 +2,7 @@ import { rankCandidates } from '../../utils/ranking.js';
 import { withRetry } from '../../utils/retry.js';
 import { createLLM } from '../../utils/llm.js';
 import { pickHiddenGems } from '../../agents/editor.js';
-import { loadModeratorPersona } from '../../agents/personas.js';
+import { MODERATOR_PERSONA } from '../../agents/personas.js';
 import type { Article } from '../../types/index.js';
 import type { GraphStateType } from '../state.js';
 
@@ -34,13 +34,7 @@ export async function selectCandidatesNode(
   if (rest.length > 0) {
     console.log(`💎 挑选遗珠（从 ${rest.length} 篇冷门文章中选 ${GEM_COUNT} 篇）...`);
     const model = createLLM(0.3);
-    let persona;
-    try {
-      persona = await loadModeratorPersona();
-    } catch {
-      persona = undefined;
-    }
-    gems = await withRetry(() => pickHiddenGems(model, rest, GEM_COUNT, persona), {
+    gems = await withRetry(() => pickHiddenGems(model, rest, GEM_COUNT, MODERATOR_PERSONA), {
       retries: 2,
       baseDelayMs: 1500,
     });

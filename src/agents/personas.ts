@@ -1,59 +1,27 @@
-import { readFile } from 'fs/promises';
-import { join } from 'path';
 import type { Persona } from '../types/index.js';
 
-const PERSONAS_DIR = 'personas';
-
-const MODERATOR_FILE = 'moderator';
-
-function parsePersonaMd(content: string, id: string): Persona {
-  const lines = content.split('\n');
-
-  let name = '';
-  let nickname = '';
-  let description = '';
-  const interests: string[] = [];
-  let votingPreference = '';
-  let speakingStyle = '';
-
-  let currentSection = '';
-
-  for (const line of lines) {
-    const trimmed = line.trim();
-
-    if (trimmed.startsWith('# ')) {
-      name = trimmed.slice(2);
-    } else if (trimmed.startsWith('## ')) {
-      currentSection = trimmed.slice(3);
-    } else if (trimmed.startsWith('- 昵称:')) {
-      nickname = trimmed.split(':')[1]?.trim() || '';
-    } else if (currentSection === '性格特点' && trimmed.startsWith('- ')) {
-      description += (description ? '；' : '') + trimmed.slice(2);
-    } else if (currentSection === '关注领域' && trimmed.startsWith('- ')) {
-      interests.push(trimmed.slice(2));
-    } else if (currentSection === '投票倾向' && trimmed.startsWith('- ')) {
-      votingPreference += (votingPreference ? '；' : '') + trimmed.slice(2);
-    } else if (currentSection === '说话风格' && trimmed.startsWith('- ')) {
-      speakingStyle += (speakingStyle ? '；' : '') + trimmed.slice(2);
-    }
-  }
-
-  return {
-    id,
-    name,
-    nickname,
-    description,
-    interests,
-    votingPreference,
-    speakingStyle,
-  };
-}
-
-export async function loadModeratorPersona(): Promise<Persona> {
-  const filePath = join(PERSONAS_DIR, `${MODERATOR_FILE}.md`);
-  const content = await readFile(filePath, 'utf-8');
-  return parsePersonaMd(content, MODERATOR_FILE);
-}
+/**
+ * 主编 Joyqi 的人设。历史上曾以单独 Markdown 文件存放，
+ * 现在只剩这一个角色，直接内联为常量，便于维护。
+ */
+export const MODERATOR_PERSONA: Persona = {
+  id: 'moderator',
+  name: '主持人',
+  nickname: 'Joyqi',
+  description:
+    '追求极致简洁与性能，在设计产品和架构时将"简洁"和"性能"放在首位；坚持与长情，对软件开发饱含热情，即便在碎片化时代仍坚持深耕；清醒务实，提倡"多思考，少写代码"，不盲目追随新潮；崇尚开放协作，热爱构建能赋能开发者的工具；稳重而不失进取，技术选型上既考虑兼容性也会果断推动技术栈演进',
+  interests: [
+    'Web 架构与性能优化',
+    '开源软件工程',
+    '后端语言演进（PHP、Go）',
+    '容器化与云原生',
+    '数据库选型与优化',
+  ],
+  votingPreference:
+    '偏爱高品质、有深度的内容，赞赏能"深入浅出"讲清复杂技术逻辑的文章；排斥碎片化与情绪化表达，不喜欢缺乏深度的"快餐式"内容；重视技术严谨性与原创性；关注长期主义，偏好探讨系统稳定性、可持续维护性的案例',
+  speakingStyle:
+    '真诚沉稳，条理清晰，习惯分条缕析地陈述逻辑；人文与技术交织，喜欢在技术讨论中穿插对行业、社会的思考；实战派导向，习惯结合实际项目案例来阐述技术选型背后的逻辑；语气平和但观点坚定，不说空话套话',
+};
 
 export function buildModeratorPrompt(persona: Persona): string {
   return `你是「${persona.nickname}」，一位资深的${persona.name}，开发者新闻的主编。

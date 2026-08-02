@@ -2,7 +2,7 @@ import { withRetry } from '../../utils/retry.js';
 import { createWriterLLM, createJudgeLLM } from '../../utils/llm.js';
 import { saveRunLog } from '../../utils/runlog.js';
 import { loadHistory } from '../../utils/history.js';
-import { loadModeratorPersona, buildModeratorPrompt } from '../../agents/personas.js';
+import { MODERATOR_PERSONA, buildModeratorPrompt } from '../../agents/personas.js';
 import {
   generateRecommendation,
   rewriteRecommendation,
@@ -31,15 +31,8 @@ export async function writeRecommendationNode(
 
   console.log('✍️ 撰写推荐语...');
 
-  // 加载主持人人设，作为写作声音
-  let personaPrompt = '你是一位资深技术编辑，擅长撰写简洁有力的内容推荐语。';
-  try {
-    const persona = await loadModeratorPersona();
-    personaPrompt = buildModeratorPrompt(persona);
-  } catch {
-    // 使用默认 prompt
-  }
-  const systemPrompt = buildWriterSystemPrompt(personaPrompt);
+  // 用主编 Joyqi 的人设作为写作声音
+  const systemPrompt = buildWriterSystemPrompt(buildModeratorPrompt(MODERATOR_PERSONA));
 
   const evaluation = evaluations.find((e) => e.article.id === winner.id);
   const context: WriteContext = {

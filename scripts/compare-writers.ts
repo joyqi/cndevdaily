@@ -6,7 +6,7 @@
  */
 import { createLLM } from '../src/utils/llm.js';
 import { scrapeArticle } from '../src/services/scraper.js';
-import { loadModeratorPersona, buildModeratorPrompt } from '../src/agents/personas.js';
+import { MODERATOR_PERSONA, buildModeratorPrompt } from '../src/agents/personas.js';
 import {
   generateRecommendation,
   humanizeRecommendation,
@@ -26,7 +26,7 @@ const JUDGE_MODEL = 'deepseek/deepseek-v4-flash';
 const ARTICLE_URL = 'https://victoriametrics.com/blog/go-1-27/';
 
 async function main() {
-  const persona = await loadModeratorPersona();
+  const persona = MODERATOR_PERSONA;
   const systemPrompt = buildWriterSystemPrompt(buildModeratorPrompt(persona));
 
   console.log('📥 抓取测试文章...');

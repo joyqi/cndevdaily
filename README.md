@@ -84,13 +84,12 @@ pnpm test
 ```
 cndevdaily/
 ├── src/                    # 源代码
-│   ├── agents/             # AI 主编：editor（打分/终选/遗珠）、writer（推荐语写作+评审）、personas（人设加载）
+│   ├── agents/             # AI 主编：editor（打分/终选/遗珠）、writer（推荐语写作+评审）、personas（主编人设）
 │   ├── graph/              # LangGraph 工作流
 │   │   └── nodes/          # fetch → selectCandidates → evaluate → write → publish
 │   ├── services/           # 外部服务（HN / Lobsters / 抓取 / Mastodon）
 │   ├── types/              # 类型定义
 │   └── utils/              # 工具函数（历史、LLM、排序、重试、运行记录）
-├── personas/               # 主编人设 Markdown（moderator.md）
 ├── scripts/                # 写作模型对比工具
 ├── tests/                  # 单元测试（vitest）
 ├── data/                   # 历史记录
