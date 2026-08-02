@@ -1414,5 +1414,13 @@
     "url": "https://blog.exe.dev/billable-facts",
     "source": "lobsters",
     "summary": "计费逻辑从主流程解耦，用事件驱动处理“脏数据”，这个方案务实而优雅。初创期过度设计是陷阱，把side effect隔离到异步worker里，既保持核心简洁又留足扩展空间。真正的好架构，往往就是这样少写代码、多想边界。"
+  },
+  {
+    "date": "2026-08-02",
+    "articleId": "lobsters-m0pytv",
+    "title": "The development pipeline is a production system",
+    "url": "https://sundry.jerryorr.com/2026/07/31/development-pipeline-is-a-production-system",
+    "source": "lobsters",
+    "summary": "把 CI/CD 管道当作生产系统来对待，不只是优先级调整，更是工程效能的底线思维。管道一堵，团队空转，所谓敏捷就成了一句口号。可靠交付从尊重构建系统开始。"
   }
 ]
