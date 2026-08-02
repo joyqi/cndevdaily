@@ -1,4 +1,5 @@
 import type { Article } from '../types/index.js';
+import { withRetry } from '../utils/retry.js';
 
 interface LobstersStory {
   short_id: string;
@@ -11,7 +12,9 @@ interface LobstersStory {
 }
 
 export async function fetchLobstersArticles(limit: number = 25): Promise<Article[]> {
-  const response = await fetch('https://lobste.rs/hottest.json');
+  const response = await withRetry(() => fetch('https://lobste.rs/hottest.json'), {
+    retries: 3,
+  });
 
   if (!response.ok) {
     throw new Error(`Failed to fetch Lobsters: ${response.status}`);

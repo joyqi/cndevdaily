@@ -1,50 +1,47 @@
 import { StateGraph, END } from '@langchain/langgraph';
 import { GraphState } from './state.js';
 import { fetchArticlesNode } from './nodes/fetch.js';
-import { titleDiscussionNode, contentDiscussionNode } from './nodes/discuss.js';
-import { scrapeAndSummarizeNode } from './nodes/scrape.js';
+import { selectCandidatesNode } from './nodes/selectCandidates.js';
+import { evaluateArticlesNode } from './nodes/evaluate.js';
+import { writeRecommendationNode } from './nodes/write.js';
 import { publishNode } from './nodes/publish.js';
-import { directSummaryNode } from './nodes/summary.js';
 
 function shouldContinue(state: typeof GraphState.State): string {
   if (state.articles.length === 0) {
     console.log('⚠️ 没有新文章，结束流程');
     return END;
   }
-  return 'discussTitles';
+  return 'selectCandidates';
 }
 
-function afterTitleDiscussion(state: typeof GraphState.State): string {
-  const count = state.top3Articles.length;
-
-  if (count === 0) {
-    console.log('⚠️ 没有选出任何文章，结束流程');
+function afterSelect(state: typeof GraphState.State): string {
+  if (state.articles.length === 0) {
+    console.log('⚠️ 没有筛出候选文章，结束流程');
     return END;
   }
+  return 'evaluateArticles';
+}
 
-  if (count === 1) {
-    console.log('📌 只选出 1 篇文章，跳过内容投票，直接总结');
-    return 'directSummary';
+function afterEvaluate(state: typeof GraphState.State): string {
+  if (!state.winner) {
+    console.log('⚠️ 没有选出有效文章，结束流程');
+    return END;
   }
-
-  console.log(`📌 选出 ${count} 篇文章，进入内容评选`);
-  return 'scrapeArticles';
+  return 'writeRecommendation';
 }
 
 export function createWorkflow() {
   const workflow = new StateGraph(GraphState)
     .addNode('fetchArticles', fetchArticlesNode)
-    .addNode('discussTitles', titleDiscussionNode)
-    .addNode('scrapeArticles', scrapeAndSummarizeNode)
-    .addNode('discussContent', contentDiscussionNode)
-    .addNode('directSummary', directSummaryNode)
+    .addNode('selectCandidates', selectCandidatesNode)
+    .addNode('evaluateArticles', evaluateArticlesNode)
+    .addNode('writeRecommendation', writeRecommendationNode)
     .addNode('publishResult', publishNode)
     .addEdge('__start__', 'fetchArticles')
     .addConditionalEdges('fetchArticles', shouldContinue)
-    .addConditionalEdges('discussTitles', afterTitleDiscussion)
-    .addEdge('scrapeArticles', 'discussContent')
-    .addEdge('discussContent', 'publishResult')
-    .addEdge('directSummary', 'publishResult')
+    .addConditionalEdges('selectCandidates', afterSelect)
+    .addConditionalEdges('evaluateArticles', afterEvaluate)
+    .addEdge('writeRecommendation', 'publishResult')
     .addEdge('publishResult', END);
 
   return workflow.compile();

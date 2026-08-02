@@ -11,9 +11,9 @@ async function main() {
 
     console.log('\n✨ 运行完成！');
 
-    if (result.finalArticle) {
-      console.log(`\n📰 今日推荐：${result.finalArticle.title}`);
-      console.log(`🔗 ${result.finalArticle.url}`);
+    if (result.winner) {
+      console.log(`\n📰 今日推荐：${result.winner.title}`);
+      console.log(`🔗 ${result.winner.url}`);
       console.log(`\n💬 ${result.finalSummary}`);
     }
 

@@ -1,23 +1,39 @@
 import { JSDOM } from 'jsdom';
 import { Readability } from '@mozilla/readability';
+import { withRetry } from '../utils/retry.js';
 import type { Article, ArticleWithContent } from '../types/index.js';
 
 const MAX_CONTENT_LENGTH = 8000;
 
+// 抓取失败标记。以该前缀开头的内容表示抓取失败，不应作为真实内容使用。
+export const SCRAPE_FAILURE_PREFIX = 'SCRAPE_FAILED:';
+
+export function isScrapeFailure(content: string): boolean {
+  return content.startsWith(SCRAPE_FAILURE_PREFIX);
+}
+
+function failureContent(reason: string): string {
+  return `${SCRAPE_FAILURE_PREFIX}${reason}`;
+}
+
 export async function scrapeArticle(article: Article): Promise<ArticleWithContent> {
   try {
-    const response = await fetch(article.url, {
-      headers: {
-        'User-Agent':
-          'Mozilla/5.0 (compatible; DevNewsBot/1.0; +https://github.com/devnews)',
-      },
-      signal: AbortSignal.timeout(10000),
-    });
+    const response = await withRetry(
+      () =>
+        fetch(article.url, {
+          headers: {
+            'User-Agent':
+              'Mozilla/5.0 (compatible; DevNewsBot/1.0; +https://github.com/devnews)',
+          },
+          signal: AbortSignal.timeout(10000),
+        }),
+      { retries: 2, baseDelayMs: 1500 }
+    );
 
     if (!response.ok) {
       return {
         ...article,
-        content: `[无法获取文章内容: HTTP ${response.status}]`,
+        content: failureContent(`HTTP ${response.status}`),
       };
     }
 
@@ -29,7 +45,7 @@ export async function scrapeArticle(article: Article): Promise<ArticleWithConten
     if (!parsed || !parsed.textContent) {
       return {
         ...article,
-        content: '[无法解析文章内容]',
+        content: failureContent('无法解析文章内容'),
       };
     }
 
@@ -47,7 +63,7 @@ export async function scrapeArticle(article: Article): Promise<ArticleWithConten
     const message = error instanceof Error ? error.message : 'Unknown error';
     return {
       ...article,
-      content: `[抓取失败: ${message}]`,
+      content: failureContent(message),
     };
   }
 }

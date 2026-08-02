@@ -38,6 +38,9 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_API_BASE_URL: ${{ secrets.OPENAI_API_BASE_URL }}
           OPENAI_API_MODEL: ${{ secrets.OPENAI_API_MODEL }}
+          # 写作/评审专用模型（可选，缺省回退到 OPENAI_API_MODEL）
+          OPENAI_API_MODEL_WRITER: ${{ secrets.OPENAI_API_MODEL_WRITER }}
+          OPENAI_API_MODEL_JUDGE: ${{ secrets.OPENAI_API_MODEL_JUDGE }}
           MASTODON_INSTANCE: ${{ secrets.MASTODON_INSTANCE }}
           MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
         run: pnpm start

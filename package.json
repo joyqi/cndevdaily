@@ -7,9 +7,16 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "DRY_RUN=true tsx --env-file=.env src/index.ts"
+    "dev": "DRY_RUN=true tsx --env-file=.env src/index.ts",
+    "test": "vitest run"
   },
-  "keywords": ["devnews", "ai", "langgraph", "hackernews", "lobsters"],
+  "keywords": [
+    "devnews",
+    "ai",
+    "langgraph",
+    "hackernews",
+    "lobsters"
+  ],
   "license": "MIT",
   "dependencies": {
     "@langchain/core": "^0.3.30",
@@ -23,6 +30,7 @@
     "@types/jsdom": "^21.1.7",
     "@types/node": "^22.10.7",
     "tsx": "^4.19.2",
-    "typescript": "^5.7.3"
+    "typescript": "^5.7.3",
+    "vitest": "^4.1.10"
   }
 }

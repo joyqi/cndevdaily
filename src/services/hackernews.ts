@@ -1,4 +1,5 @@
 import type { Article } from '../types/index.js';
+import { withRetry } from '../utils/retry.js';
 
 interface HNItem {
   id: number;
@@ -13,7 +14,10 @@ interface HNItem {
 const HN_API_BASE = 'https://hacker-news.firebaseio.com/v0';
 
 async function fetchItem(id: number): Promise<HNItem | null> {
-  const response = await fetch(`${HN_API_BASE}/item/${id}.json`);
+  const response = await withRetry(() => fetch(`${HN_API_BASE}/item/${id}.json`), {
+    retries: 2,
+    baseDelayMs: 1500,
+  });
 
   if (!response.ok) {
     return null;
@@ -23,7 +27,9 @@ async function fetchItem(id: number): Promise<HNItem | null> {
 }
 
 export async function fetchHackerNewsArticles(limit: number = 25): Promise<Article[]> {
-  const response = await fetch(`${HN_API_BASE}/topstories.json`);
+  const response = await withRetry(() => fetch(`${HN_API_BASE}/topstories.json`), {
+    retries: 3,
+  });
 
   if (!response.ok) {
     throw new Error(`Failed to fetch HackerNews: ${response.status}`);

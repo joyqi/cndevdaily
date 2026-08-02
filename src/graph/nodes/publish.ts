@@ -1,6 +1,5 @@
 import { publishToMastodon } from '../../services/mastodon.js';
 import { addToHistory } from '../../utils/history.js';
-import { getDiscussionWriter } from './discuss.js';
 import type { GraphStateType } from '../state.js';
 
 export async function publishNode(
@@ -8,14 +7,14 @@ export async function publishNode(
 ): Promise<Partial<GraphStateType>> {
   console.log('📤 正在发布结果...');
 
-  const { finalArticle, finalSummary } = state;
+  const { winner, finalSummary } = state;
 
-  if (!finalArticle) {
-    throw new Error('No final article selected');
+  if (!winner) {
+    throw new Error('No winner selected');
   }
 
   // 生成发布内容
-  const publishContent = `${finalSummary}\n\n${finalArticle.url}`;
+  const publishContent = `${finalSummary}\n\n${winner.url}`;
   console.log(`   发布内容：\n${publishContent}`);
 
   // 发布到 Mastodon
@@ -24,6 +23,7 @@ export async function publishNode(
   const dryRun = process.env.DRY_RUN === 'true';
 
   let publishedUrl = '';
+  let actuallyPublished = false;
 
   if (dryRun) {
     console.log('   🧪 DRY_RUN 模式，跳过发布');
@@ -31,6 +31,7 @@ export async function publishNode(
     try {
       const status = await publishToMastodon(publishContent, instance, token);
       publishedUrl = status.url;
+      actuallyPublished = true;
       console.log(`   ✅ 发布成功：${publishedUrl}`);
     } catch (error) {
       console.error(`   ❌ 发布失败：${error}`);
@@ -39,21 +40,21 @@ export async function publishNode(
     console.log('   ⚠️ 未配置 Mastodon，跳过发布');
   }
 
-  // 保存历史记录
-  await addToHistory({
-    date: new Date().toISOString().split('T')[0],
-    articleId: finalArticle.id,
-    title: finalArticle.title,
-    url: finalArticle.url,
-    source: finalArticle.source,
-    summary: finalSummary,
-  });
-  console.log('   💾 历史记录已保存');
-
-  // 讨论记录已在讨论过程中实时写入
-  const writer = getDiscussionWriter();
-  if (writer) {
-    console.log(`   📝 讨论记录：${writer.getFilename()}`);
+  // 只有真正发布成功才写入历史，避免：
+  // 1. 本地 dev/DRY_RUN 测试把文章永久标记为"已发布"
+  // 2. 线上发布失败后文章永远不再被推荐
+  if (actuallyPublished) {
+    await addToHistory({
+      date: new Date().toISOString().split('T')[0],
+      articleId: winner.id,
+      title: winner.title,
+      url: winner.url,
+      source: winner.source,
+      summary: finalSummary,
+    });
+    console.log('   💾 历史记录已保存');
+  } else {
+    console.log('   ⏭️ 未成功发布，不写入历史记录');
   }
 
   return {
