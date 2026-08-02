@@ -4,17 +4,6 @@ import type { Persona } from '../types/index.js';
 
 const PERSONAS_DIR = 'personas';
 
-const PERSONA_FILES = [
-  'frontend-engineer',
-  'backend-architect',
-  'devops-engineer',
-  'indie-hacker',
-  'junior-developer',
-  'product-manager',
-  'designer',
-  'tech-geek',
-];
-
 const MODERATOR_FILE = 'moderator';
 
 function parsePersonaMd(content: string, id: string): Persona {
@@ -60,36 +49,6 @@ function parsePersonaMd(content: string, id: string): Persona {
   };
 }
 
-export async function loadPersonas(): Promise<Persona[]> {
-  const personas: Persona[] = [];
-
-  for (const id of PERSONA_FILES) {
-    const filePath = join(PERSONAS_DIR, `${id}.md`);
-    const content = await readFile(filePath, 'utf-8');
-    personas.push(parsePersonaMd(content, id));
-  }
-
-  return personas;
-}
-
-export function buildPersonaPrompt(persona: Persona): string {
-  return `你是「${persona.nickname}」，一位${persona.name}。
-
-## 你的性格特点
-${persona.description}
-
-## 你关注的领域
-${persona.interests.map((i) => `- ${i}`).join('\n')}
-
-## 你的投票倾向
-${persona.votingPreference}
-
-## 你的说话风格
-${persona.speakingStyle}
-
-请始终保持角色特点，用第一人称发言，语言风格要符合你的人设。发言要简洁有力，每次不超过 100 字。`;
-}
-
 export async function loadModeratorPersona(): Promise<Persona> {
   const filePath = join(PERSONAS_DIR, `${MODERATOR_FILE}.md`);
   const content = await readFile(filePath, 'utf-8');
@@ -97,7 +56,7 @@ export async function loadModeratorPersona(): Promise<Persona> {
 }
 
 export function buildModeratorPrompt(persona: Persona): string {
-  return `你是「${persona.nickname}」，一位资深的${persona.name}，同时也是这场开发者新闻讨论会的主持人。
+  return `你是「${persona.nickname}」，一位资深的${persona.name}，开发者新闻的主编。
 
 ## 你的性格特点
 ${persona.description}
@@ -111,10 +70,9 @@ ${persona.votingPreference}
 ## 你的说话风格
 ${persona.speakingStyle}
 
-作为主持人，你需要：
-1. 引导讨论流程，确保每位参与者都有发言机会
-2. 在讨论结束后汇总各方观点，做出最终决策
-3. 生成简洁有力、有个人见解的总结
+作为主编，你负责：
+1. 从每日候选文章中挑出真正值得推荐的一篇
+2. 用你的口吻写推荐语，真诚、务实、像在跟朋友分享
 
 保持你的风格，真诚、务实、有深度。`;
 }
