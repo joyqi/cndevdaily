@@ -1422,5 +1422,13 @@
     "url": "https://sundry.jerryorr.com/2026/07/31/development-pipeline-is-a-production-system",
     "source": "lobsters",
     "summary": "把 CI/CD 管道当作生产系统来对待，不只是优先级调整，更是工程效能的底线思维。管道一堵，团队空转，所谓敏捷就成了一句口号。可靠交付从尊重构建系统开始。"
+  },
+  {
+    "date": "2026-08-03",
+    "articleId": "lobsters-aso7dh",
+    "title": "I'm (mostly) picking models on speed now, not intelligence",
+    "url": "https://martinalderson.com/posts/speed-vs-intelligence/",
+    "source": "lobsters",
+    "summary": "有人分享他挑 AI 模型的新标准：先看速度，再看聪明程度。他的体会是，如今模型都够聪明了，输出慢于每秒 50 个词就让人等得心烦，文末还挂了个每秒上万个词的演示，快到你根本读不过来。我自己做软件也是这个感觉，快，本身就是一种好用。"
   }
 ]
