@@ -1438,5 +1438,13 @@
     "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
     "source": "lobsters",
     "summary": "漏洞编号现在也能批量造假了。一批 SQLite 高危漏洞报告被权威漏洞库打上严重评分，安全研究员去核证，发现全是 AI 编的：点名的函数在对应版本里根本不存在，攻击演示也跑不出任何崩溃。看完有点后怕，AI 写的安全报告，先验证再信。"
+  },
+  {
+    "date": "2026-08-05",
+    "articleId": "hn-49171268",
+    "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
+    "url": "https://mistral.ai/news/shieldstral/",
+    "source": "hackernews",
+    "summary": "凡是让用户发内容的产品，都得有人把关内容安不安全。Mistral 开源了一个专干这活的小模型，思路挺巧：审核规则不用写死，你用大白话问它就行，比如\"这张图能给未成年人看吗\"，它就给出安全分数。一张 16G 显卡能跑，效果还压过比它大七倍的模型。"
   }
 ]
