@@ -1446,5 +1446,13 @@
     "url": "https://mistral.ai/news/shieldstral/",
     "source": "hackernews",
     "summary": "凡是让用户发内容的产品，都得有人把关内容安不安全。Mistral 开源了一个专干这活的小模型，思路挺巧：审核规则不用写死，你用大白话问它就行，比如\"这张图能给未成年人看吗\"，它就给出安全分数。一张 16G 显卡能跑，效果还压过比它大七倍的模型。"
+  },
+  {
+    "date": "2026-08-06",
+    "articleId": "lobsters-czvkjy",
+    "title": "rust-lang/rust is adopting an LLM policy",
+    "url": "https://blog.rust-lang.org/inside-rust/2026/08/05/rust-langrust-is-adopting-an-llm-policy/",
+    "source": "lobsters",
+    "summary": "AI 让生成漂亮代码变得零成本，开源项目的审查员快被淹没了。Rust 团队最近公开了一份规矩：仓库压着 1200 多个待审提交，原样搬运 AI 代码的会直接关掉。规矩写得很细，做开源维护的能直接参考，其他社区估计迟早也得跟上。"
   }
 ]
