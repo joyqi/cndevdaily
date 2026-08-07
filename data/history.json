@@ -1454,5 +1454,13 @@
     "url": "https://blog.rust-lang.org/inside-rust/2026/08/05/rust-langrust-is-adopting-an-llm-policy/",
     "source": "lobsters",
     "summary": "AI 让生成漂亮代码变得零成本，开源项目的审查员快被淹没了。Rust 团队最近公开了一份规矩：仓库压着 1200 多个待审提交，原样搬运 AI 代码的会直接关掉。规矩写得很细，做开源维护的能直接参考，其他社区估计迟早也得跟上。"
+  },
+  {
+    "date": "2026-08-07",
+    "articleId": "hn-49202852",
+    "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
+    "url": "https://www.aleksagordic.com/blog/vllm",
+    "source": "hackernews",
+    "summary": "不少团队上线大模型服务，背后跑的都是 vLLM 这个开源引擎。有人写了篇长文，把它从里到外拆开讲：请求怎么排队调度、显存怎么省着用、多张显卡怎么分工，配图不少，写得也扎实。想弄明白自家模型服务为什么快、为什么慢，读它正好。"
   }
 ]
