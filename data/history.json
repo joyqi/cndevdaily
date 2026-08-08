@@ -1462,5 +1462,13 @@
     "url": "https://www.aleksagordic.com/blog/vllm",
     "source": "hackernews",
     "summary": "不少团队上线大模型服务，背后跑的都是 vLLM 这个开源引擎。有人写了篇长文，把它从里到外拆开讲：请求怎么排队调度、显存怎么省着用、多张显卡怎么分工，配图不少，写得也扎实。想弄明白自家模型服务为什么快、为什么慢，读它正好。"
+  },
+  {
+    "date": "2026-08-08",
+    "articleId": "lobsters-pe58bh",
+    "title": "Concurrency vs. Throughput: why more parallelism can make databases slower",
+    "url": "https://planetscale.com/blog/concurrency-vs-throughput-vitess-mysql",
+    "source": "lobsters",
+    "summary": "一个批量任务改了数据却十五分钟不提交，把整个 MySQL 拖垮了：吞吐量从每秒一万五跌到一千五。复盘写得清楚：每次读都要沿着越积越长的历史版本往回翻，绕开那笔未确认的改动，最后连不相干的查询也被拖死。看完我默默去查了自家的长事务。"
   }
 ]
