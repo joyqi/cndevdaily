@@ -1470,5 +1470,13 @@
     "url": "https://planetscale.com/blog/concurrency-vs-throughput-vitess-mysql",
     "source": "lobsters",
     "summary": "一个批量任务改了数据却十五分钟不提交，把整个 MySQL 拖垮了：吞吐量从每秒一万五跌到一千五。复盘写得清楚：每次读都要沿着越积越长的历史版本往回翻，绕开那笔未确认的改动，最后连不相干的查询也被拖死。看完我默默去查了自家的长事务。"
+  },
+  {
+    "date": "2026-08-09",
+    "articleId": "hn-49220126",
+    "title": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones",
+    "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+    "source": "hackernews",
+    "summary": "台风预警多抢出一天，沿海的人就多一天准备时间。DeepMind 发在《自然》上的 WeatherNext 模型做到了：它的三天预报，准头相当于过去模型的两天，差不多是气象领域十年的进步。模型已经开源，做天气类应用的可以拿来跑一跑。"
   }
 ]
