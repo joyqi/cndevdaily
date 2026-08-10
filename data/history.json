@@ -1478,5 +1478,13 @@
     "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
     "source": "hackernews",
     "summary": "台风预警多抢出一天，沿海的人就多一天准备时间。DeepMind 发在《自然》上的 WeatherNext 模型做到了：它的三天预报，准头相当于过去模型的两天，差不多是气象领域十年的进步。模型已经开源，做天气类应用的可以拿来跑一跑。"
+  },
+  {
+    "date": "2026-08-10",
+    "articleId": "lobsters-x0jlp7",
+    "title": "Tracking down a Zsh history data loss bug",
+    "url": "https://michael.stapelberg.ch/posts/2026-08-09-zsh-history-truncation-bug/",
+    "source": "lobsters",
+    "summary": "用 Zsh 的人可能都遇到过：明明敲过的命令，过段时间在历史里搜不到了。作者被这毛病烦了好几年，干脆改源码，让 Zsh 一发现历史文件被截断就当场崩溃、留下完整现场，果然抓到一个多个进程同时写入引发的老 bug。这种让 bug 自己现形的思路值得学。"
   }
 ]
