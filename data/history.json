@@ -1494,5 +1494,13 @@
     "url": "https://martinalderson.com/posts/watch-out-for-cache-read-costs/",
     "source": "lobsters",
     "summary": "给 AI Agent 付账单的人，可能一直算错了重点。有人拆开细账：Agent 每多跑一轮，都要把之前全部对话重读一遍，这笔重读费随轮数滚雪球，比输入输出加起来还贵。实测100轮后，它占了 Claude 账单的76%，一次任务从2.3美元滚到21美元。想省钱，最实在的一招是少跑几轮。"
+  },
+  {
+    "date": "2026-08-12",
+    "articleId": "hn-49257876",
+    "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+    "url": "https://stolen-thoughts.com/",
+    "source": "hackernews",
+    "summary": "大模型回答前会先想一遍，这段思考过程厂商加了密，以为外人读不懂。最近有研究把它原样塞回同一家的小模型，再哄小模型把内容念出来，加密等于没加，顺手从里面翻出两百多条个人信息和一百多份账号密码。看完有点后怕。"
   }
 ]
