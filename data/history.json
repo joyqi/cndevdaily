@@ -1510,5 +1510,13 @@
     "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
     "source": "hackernews",
     "summary": "阿里头一回把自家最强一档的模型开源：Qwen3.8。在写代码、让 AI 自己一步步把任务做完这类测试里，成绩已经追上各家不开放的顶级模型。总参数 2.4 万亿，但每次生成内容只有 950 亿参与计算，跑起来的开销远没有数字看上去那么吓人。"
+  },
+  {
+    "date": "2026-08-14",
+    "articleId": "lobsters-iarwcp",
+    "title": "Write a SQL Optimizer using Egg (2023)",
+    "url": "https://rustmagazine.org/issue-2/write-a-sql-optimizer-using-egg",
+    "source": "lobsters",
+    "summary": "数据库查询跑多快，全看优化器这个部件怎么改写你的 SQL。有人用 Rust 写了个迷你版，不到一千行代码，教科书里的经典提速手段都做了，还能跑真实的数据库测试题。想搞懂数据库原理的话，这比啃论文实在，代码开源，可以照着做一遍。"
   }
 ]
