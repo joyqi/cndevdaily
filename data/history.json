@@ -1518,5 +1518,13 @@
     "url": "https://rustmagazine.org/issue-2/write-a-sql-optimizer-using-egg",
     "source": "lobsters",
     "summary": "数据库查询跑多快，全看优化器这个部件怎么改写你的 SQL。有人用 Rust 写了个迷你版，不到一千行代码，教科书里的经典提速手段都做了，还能跑真实的数据库测试题。想搞懂数据库原理的话，这比啃论文实在，代码开源，可以照着做一遍。"
+  },
+  {
+    "date": "2026-08-15",
+    "articleId": "hn-49299605",
+    "title": "Qwen 3.8 27B",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+    "source": "hackernews",
+    "summary": "千问 3.8 今天发布，有个数字挺抢眼：在考察模型自己动手修复真实代码缺陷的测试里，这个 27B 的中等尺寸版本得分从上代的 13.3 涨到 42.2，翻了三倍多。官方还附带了体积减半的压缩权重，精度几乎不掉，常见的模型运行工具直接能跑。"
   }
 ]
