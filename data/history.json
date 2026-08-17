@@ -1534,5 +1534,13 @@
     "url": "https://sankalp.bearblog.dev/autoresearch/",
     "source": "hackernews",
     "summary": "有人让 AI 全自动打了一场 GPU 编程比赛：OpenAI 的编程工具 Codex 自己提交代码、跑性能测试、根据结果继续改，14 天循环 1500 多次，把矩阵分解提速 232 倍。183 人里只排第 12，但他把自动迭代的搭法和踩的坑都写了，过程比名次有看头。"
+  },
+  {
+    "date": "2026-08-17",
+    "articleId": "hn-49324985",
+    "title": "Qwen 3.8 27B is excellent, but it defaults to overthinking things",
+    "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+    "source": "hackernews",
+    "summary": "在自己电脑上跑大模型的朋友，这条能省不少时间：千问 3.8 出厂就把思考强度开到最高档，再简单的活儿也要先想个没完。有人让它画一张骑自行车的鹈鹕，足足想了 21 分钟才动笔；把思考关掉，两分多钟就画完，效果居然没打折。"
   }
 ]
