@@ -1542,5 +1542,13 @@
     "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
     "source": "hackernews",
     "summary": "在自己电脑上跑大模型的朋友，这条能省不少时间：千问 3.8 出厂就把思考强度开到最高档，再简单的活儿也要先想个没完。有人让它画一张骑自行车的鹈鹕，足足想了 21 分钟才动笔；把思考关掉，两分多钟就画完，效果居然没打折。"
+  },
+  {
+    "date": "2026-08-18",
+    "articleId": "hn-49331423",
+    "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+    "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+    "source": "hackernews",
+    "summary": "数据公司 Snowflake 被曝一起安全事故，GitHub 的 AI 助手参与改的代码留下严重漏洞，AI 审查也没发现，谁发个标题动过手脚的帖子就能偷走内部系统凭证。五天后挖出漏洞的是别家的攻击型 AI，首次失败后还自己分析报错换写法。"
   }
 ]
