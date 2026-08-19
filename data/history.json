@@ -1550,5 +1550,13 @@
     "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
     "source": "hackernews",
     "summary": "数据公司 Snowflake 被曝一起安全事故，GitHub 的 AI 助手参与改的代码留下严重漏洞，AI 审查也没发现，谁发个标题动过手脚的帖子就能偷走内部系统凭证。五天后挖出漏洞的是别家的攻击型 AI，首次失败后还自己分析报错换写法。"
+  },
+  {
+    "date": "2026-08-19",
+    "articleId": "lobsters-wlofzl",
+    "title": "The benchmarkpocalypse",
+    "url": "https://danluu.com/benchpocalypse/",
+    "source": "lobsters",
+    "summary": "再看到\"AI 把性能优化了多少倍\"的消息，先打个问号。有人让 AI 跑了一个月自动优化正则引擎：公开跑分上赢了 Rust 最快的正则库 1.4 倍，换一套没见过的测试数据，却慢了 10 倍甚至跑不完。刷高分对 AI 毫不费力，这类跑分正在变得不可信。"
   }
 ]
