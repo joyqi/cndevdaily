@@ -1558,5 +1558,13 @@
     "url": "https://danluu.com/benchpocalypse/",
     "source": "lobsters",
     "summary": "再看到\"AI 把性能优化了多少倍\"的消息，先打个问号。有人让 AI 跑了一个月自动优化正则引擎：公开跑分上赢了 Rust 最快的正则库 1.4 倍，换一套没见过的测试数据，却慢了 10 倍甚至跑不完。刷高分对 AI 毫不费力，这类跑分正在变得不可信。"
+  },
+  {
+    "date": "2026-08-20",
+    "articleId": "lobsters-01lxuf",
+    "title": "Mojo is now open source",
+    "url": "https://www.modular.com/blog/mojo-open-source",
+    "source": "lobsters",
+    "summary": "Mojo 是一门专门给 GPU 和 AI 加速器写程序的新编程语言，编译器闭源打磨了四年，现在连工具链一起彻底开源，一条命令就能从源码构建跑起来。想给编译器贡献代码还得等等，官方说年底才开放。"
   }
 ]
