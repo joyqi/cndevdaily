@@ -1566,5 +1566,13 @@
     "url": "https://www.modular.com/blog/mojo-open-source",
     "source": "lobsters",
     "summary": "Mojo 是一门专门给 GPU 和 AI 加速器写程序的新编程语言，编译器闭源打磨了四年，现在连工具链一起彻底开源，一条命令就能从源码构建跑起来。想给编译器贡献代码还得等等，官方说年底才开放。"
+  },
+  {
+    "date": "2026-08-21",
+    "articleId": "hn-49373456",
+    "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
+    "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
+    "source": "hackernews",
+    "summary": "一位开发者把电钢琴连上 iPhone，弹几个音，小模型就在手机上实时把曲子续下去，每秒约 108 个音符，就像给钢琴做了个代码补全。他折腾了一年才成，经验里最有用的是乐谱怎么表示给模型、数据怎么狠心清洗，做手机端 AI 的能直接借用。"
   }
 ]
