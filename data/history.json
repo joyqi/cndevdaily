@@ -1574,5 +1574,13 @@
     "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
     "source": "hackernews",
     "summary": "一位开发者把电钢琴连上 iPhone，弹几个音，小模型就在手机上实时把曲子续下去，每秒约 108 个音符，就像给钢琴做了个代码补全。他折腾了一年才成，经验里最有用的是乐谱怎么表示给模型、数据怎么狠心清洗，做手机端 AI 的能直接借用。"
+  },
+  {
+    "date": "2026-08-22",
+    "articleId": "hn-49386163",
+    "title": "DeepSeek-v4-flash-vision-exp",
+    "url": "https://api-docs.deepseek.com/guides/vision/",
+    "source": "hackernews",
+    "summary": "DeepSeek 新出的视觉模型能看图了：读截图文字、分析图表都行，调用写法和 OpenAI 一样，手头代码基本能直接搬过来。文档把三种传图方式讲得挺明白，记住一条就够：大图走文件上传，单张上限 64 兆，比贴链接的 32 兆宽一倍。"
   }
 ]
