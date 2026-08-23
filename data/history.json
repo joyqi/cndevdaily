@@ -1582,5 +1582,13 @@
     "url": "https://api-docs.deepseek.com/guides/vision/",
     "source": "hackernews",
     "summary": "DeepSeek 新出的视觉模型能看图了：读截图文字、分析图表都行，调用写法和 OpenAI 一样，手头代码基本能直接搬过来。文档把三种传图方式讲得挺明白，记住一条就够：大图走文件上传，单张上限 64 兆，比贴链接的 32 兆宽一倍。"
+  },
+  {
+    "date": "2026-08-23",
+    "articleId": "hn-49375176",
+    "title": "ProgramBench Vetted: Reverse Engineering from a Runnable Binary",
+    "url": "https://vetto.ai/companies/programbench-vetted.html",
+    "source": "hackernews",
+    "summary": "有人想出个测 AI 的狠办法：不给源代码，只扔给它一个能运行的程序和一份说明书，让它照观察到的行为把程序重写一遍。结果几个最强模型都有近三分之一的步骤花在反复试探那个程序上，这个数字比得分更能看出 AI 做长任务时的真实水平。"
   }
 ]
