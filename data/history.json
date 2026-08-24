@@ -1590,5 +1590,13 @@
     "url": "https://vetto.ai/companies/programbench-vetted.html",
     "source": "hackernews",
     "summary": "有人想出个测 AI 的狠办法：不给源代码，只扔给它一个能运行的程序和一份说明书，让它照观察到的行为把程序重写一遍。结果几个最强模型都有近三分之一的步骤花在反复试探那个程序上，这个数字比得分更能看出 AI 做长任务时的真实水平。"
+  },
+  {
+    "date": "2026-08-24",
+    "articleId": "hn-49413320",
+    "title": "Everything I own, owned",
+    "url": "https://schlarp.com/posts/everything-i-own-owned/",
+    "source": "hackernews",
+    "summary": "你桌上的摄像头和补光灯，可能没你想的那么安全。有位作者让 AI 帮忙分析自己手边几件设备里运行的程序，前后十几小时就全找到了控制它们的办法：摄像头能边录像边熄灭指示灯，补光灯允许同一 WiFi 下的任何人改写它的内存。看完有点后怕。"
   }
 ]
