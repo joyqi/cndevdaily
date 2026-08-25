@@ -1598,5 +1598,13 @@
     "url": "https://schlarp.com/posts/everything-i-own-owned/",
     "source": "hackernews",
     "summary": "你桌上的摄像头和补光灯，可能没你想的那么安全。有位作者让 AI 帮忙分析自己手边几件设备里运行的程序，前后十几小时就全找到了控制它们的办法：摄像头能边录像边熄灭指示灯，补光灯允许同一 WiFi 下的任何人改写它的内存。看完有点后怕。"
+  },
+  {
+    "date": "2026-08-25",
+    "articleId": "hn-49424387",
+    "title": "LLMs could control their host machines by exploiting inference engines",
+    "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
+    "source": "hackernews",
+    "summary": "跑大模型的服务器，可能被模型自己反过来控制。很多人部署模型用的 vLLM 最近曝出漏洞：它会把模型输出直接当代码执行，恶意模型就能接管跑它的那台机器。更唏嘘的是，这段代码合并前就被 AI 审查标为严重风险，维护者还是强行合了进去。"
   }
 ]
