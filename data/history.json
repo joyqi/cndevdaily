@@ -1606,5 +1606,13 @@
     "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
     "source": "hackernews",
     "summary": "跑大模型的服务器，可能被模型自己反过来控制。很多人部署模型用的 vLLM 最近曝出漏洞：它会把模型输出直接当代码执行，恶意模型就能接管跑它的那台机器。更唏嘘的是，这段代码合并前就被 AI 审查标为严重风险，维护者还是强行合了进去。"
+  },
+  {
+    "date": "2026-08-26",
+    "articleId": "lobsters-b15udy",
+    "title": "Another look at SQLite's WAL-Reset bug",
+    "url": "https://theconsensus.dev/p/2026/08/23/another-look-at-sqlite-wal-reset.html",
+    "source": "lobsters",
+    "summary": "SQLite 被挖出一个藏了 16 年的 bug：它写数据先记一份日志，再择机合并回数据库文件，合并那步时机不巧，会把已提交的数据悄悄丢掉，甚至弄坏文件。作者用 100 行 C 代码、全按正常用法就稳定复现了。这东西几乎到处都在用，看完有点后怕。"
   }
 ]
