@@ -1614,5 +1614,13 @@
     "url": "https://theconsensus.dev/p/2026/08/23/another-look-at-sqlite-wal-reset.html",
     "source": "lobsters",
     "summary": "SQLite 被挖出一个藏了 16 年的 bug：它写数据先记一份日志，再择机合并回数据库文件，合并那步时机不巧，会把已提交的数据悄悄丢掉，甚至弄坏文件。作者用 100 行 C 代码、全按正常用法就稳定复现了。这东西几乎到处都在用，看完有点后怕。"
+  },
+  {
+    "date": "2026-08-27",
+    "articleId": "lobsters-q6qjjr",
+    "title": "VMs won't contain cyber-capable agents",
+    "url": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/",
+    "source": "lobsters",
+    "summary": "虚拟机一直被认为是关住 AI 的最后一道门。一位安全研究者偏要检验这一点：他让一个新出的 AI 模型尝试逃逸，结果约一小时就成功了三次，用的还是从未公开过的漏洞。看完我默默复查了一遍自己的隔离方案。"
   }
 ]
