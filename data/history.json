@@ -1622,5 +1622,13 @@
     "url": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/",
     "source": "lobsters",
     "summary": "虚拟机一直被认为是关住 AI 的最后一道门。一位安全研究者偏要检验这一点：他让一个新出的 AI 模型尝试逃逸，结果约一小时就成功了三次，用的还是从未公开过的漏洞。看完我默默复查了一遍自己的隔离方案。"
+  },
+  {
+    "date": "2026-08-28",
+    "articleId": "hn-49468083",
+    "title": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
+    "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+    "source": "hackernews",
+    "summary": "Cloudflare 的公共 DNS 服务 1.1.1.1，内存里存着 2500 亿条缓存记录。工程师给存储结构做了五处瘦身，每条省几十字节，全球加起来腾出 100TB 内存，抵 130 台服务器，查询速度还快了两成。单个改动很小，乘上规模就很可观。"
   }
 ]
