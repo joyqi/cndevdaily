@@ -1630,5 +1630,13 @@
     "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
     "source": "hackernews",
     "summary": "Cloudflare 的公共 DNS 服务 1.1.1.1，内存里存着 2500 亿条缓存记录。工程师给存储结构做了五处瘦身，每条省几十字节，全球加起来腾出 100TB 内存，抵 130 台服务器，查询速度还快了两成。单个改动很小，乘上规模就很可观。"
+  },
+  {
+    "date": "2026-08-29",
+    "articleId": "hn-49479878",
+    "title": "GLM-5.3 is now open-weight",
+    "url": "https://huggingface.co/zai-org/GLM-5.3",
+    "source": "hackernews",
+    "summary": "智谱把 GLM-5.3 的权重开放了，能下载自己部署。它的底子和上一代是同一个，进步全靠后期训练：一项让 AI 在终端里独立干活的测试，分数从 4.6 跳到 28.3。官方还坦言它挖漏洞的本事涨得比预期快，这点让我有点在意。"
   }
 ]
