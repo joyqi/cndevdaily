@@ -1638,5 +1638,13 @@
     "url": "https://huggingface.co/zai-org/GLM-5.3",
     "source": "hackernews",
     "summary": "智谱把 GLM-5.3 的权重开放了，能下载自己部署。它的底子和上一代是同一个，进步全靠后期训练：一项让 AI 在终端里独立干活的测试，分数从 4.6 跳到 28.3。官方还坦言它挖漏洞的本事涨得比预期快，这点让我有点在意。"
+  },
+  {
+    "date": "2026-08-30",
+    "articleId": "hn-49469786",
+    "title": "Benchmarking Pocket-Scale Inference",
+    "url": "https://artificialanalysis.ai/hardware-inference-stack/mobile-phones",
+    "source": "hackernews",
+    "summary": "手机里能跑的小模型越来越多，到底哪个够用？有人把它们拉到 iPhone 17 Pro 上统一考了一遍：喂同一段长文本，记下各自花了多久、答得怎么样，还统计了有多少回答写到一半撞上长度上限被掐断。打算往 App 里装 AI 功能的人，可以照着这份成绩单挑。"
   }
 ]
