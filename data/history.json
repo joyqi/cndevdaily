@@ -1646,5 +1646,13 @@
     "url": "https://artificialanalysis.ai/hardware-inference-stack/mobile-phones",
     "source": "hackernews",
     "summary": "手机里能跑的小模型越来越多，到底哪个够用？有人把它们拉到 iPhone 17 Pro 上统一考了一遍：喂同一段长文本，记下各自花了多久、答得怎么样，还统计了有多少回答写到一半撞上长度上限被掐断。打算往 App 里装 AI 功能的人，可以照着这份成绩单挑。"
+  },
+  {
+    "date": "2026-08-31",
+    "articleId": "lobsters-ktbweg",
+    "title": "Prompt Injection in Claude Code Opus 5 Auto Mode",
+    "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
+    "source": "lobsters",
+    "summary": "有篇实测挺打脸：编程助手 Claude Code 的自动模式，官方委托评估说把指令藏进网页骗 AI 这类攻击成功率为零，作者自己动手，最高做到 80%。最妙的一环：攻击者在目录里放了个和系统组件同名的毒文件，AI 一导入就中招。这模式如今是默认设置，别拿它当隔离环境用。"
   }
 ]
