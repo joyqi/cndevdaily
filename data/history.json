@@ -1654,5 +1654,13 @@
     "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
     "source": "lobsters",
     "summary": "有篇实测挺打脸：编程助手 Claude Code 的自动模式，官方委托评估说把指令藏进网页骗 AI 这类攻击成功率为零，作者自己动手，最高做到 80%。最妙的一环：攻击者在目录里放了个和系统组件同名的毒文件，AI 一导入就中招。这模式如今是默认设置，别拿它当隔离环境用。"
+  },
+  {
+    "date": "2026-09-01",
+    "articleId": "hn-49511856",
+    "title": "I turned my security cameras into an automatic bird identification system",
+    "url": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
+    "source": "hackernews",
+    "summary": "家里的安防摄像头，除了防盗还能干嘛？有人拿它改出一套全天候识鸟系统：用摄像头的麦克风收音，开源软件在自己电脑上识别鸟叫、报出品种，还能给稀有鸟设提醒，全程不上云。最好笑的是，有天它郑重报告：检测到一声屁。"
   }
 ]
