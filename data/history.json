@@ -1662,5 +1662,13 @@
     "url": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
     "source": "hackernews",
     "summary": "家里的安防摄像头，除了防盗还能干嘛？有人拿它改出一套全天候识鸟系统：用摄像头的麦克风收音，开源软件在自己电脑上识别鸟叫、报出品种，还能给稀有鸟设提醒，全程不上云。最好笑的是，有天它郑重报告：检测到一声屁。"
+  },
+  {
+    "date": "2026-09-02",
+    "articleId": "lobsters-nmhtnw",
+    "title": "Agent memory as a file format",
+    "url": "https://calpaterson.com/memoryfields.html",
+    "source": "lobsters",
+    "summary": "想让 AI 助手记住以前聊过的事，常见做法是上一整套数据库加复杂流程，还绑死在某个平台。有人提了个朴素的思路：把记忆做成一个 zip 文件，里面就几篇文本笔记加个搜索索引，AI 自己读写，换工具整个拷走就行。想法简单，看完越想越觉得对。"
   }
 ]
