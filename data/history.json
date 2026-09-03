@@ -1670,5 +1670,13 @@
     "url": "https://calpaterson.com/memoryfields.html",
     "source": "lobsters",
     "summary": "想让 AI 助手记住以前聊过的事，常见做法是上一整套数据库加复杂流程，还绑死在某个平台。有人提了个朴素的思路：把记忆做成一个 zip 文件，里面就几篇文本笔记加个搜索索引，AI 自己读写，换工具整个拷走就行。想法简单，看完越想越觉得对。"
+  },
+  {
+    "date": "2026-09-03",
+    "articleId": "hn-49536375",
+    "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
+    "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+    "source": "hackernews",
+    "summary": "AI 搜索给你的答案，依据从哪来的？有人统计了 AI 搜索工具 Perplexity 推荐软件时引用的七千多个网页，近六成来自排不上名的小站，还有三个站点专门批量生成了 21 万个「最佳某某软件」页面，等着被 AI 引用。看完有点后怕，拿 AI 推荐做技术选型，确实得多留个心眼。"
   }
 ]
