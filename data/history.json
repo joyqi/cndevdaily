@@ -1678,5 +1678,13 @@
     "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
     "source": "hackernews",
     "summary": "AI 搜索给你的答案，依据从哪来的？有人统计了 AI 搜索工具 Perplexity 推荐软件时引用的七千多个网页，近六成来自排不上名的小站，还有三个站点专门批量生成了 21 万个「最佳某某软件」页面，等着被 AI 引用。看完有点后怕，拿 AI 推荐做技术选型，确实得多留个心眼。"
+  },
+  {
+    "date": "2026-09-04",
+    "articleId": "lobsters-2avct0",
+    "title": "How Swiss Tables Work in Go’s Built-in Map",
+    "url": "https://victoriametrics.com/blog/go-swiss-table-map/",
+    "source": "lobsters",
+    "summary": "天天用 Go 的 map 存数据，但它内部到底是怎么运作的？1.24 版本把这套底层换成了叫 Swiss Tables 的新设计，查找更快了。这篇文章配图一步步拆开讲，我最喜欢的细节是：数据八条编成一组，一次检查整组。读完再写 map，脑子里会有画面。"
   }
 ]
