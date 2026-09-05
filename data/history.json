@@ -1686,5 +1686,13 @@
     "url": "https://victoriametrics.com/blog/go-swiss-table-map/",
     "source": "lobsters",
     "summary": "天天用 Go 的 map 存数据，但它内部到底是怎么运作的？1.24 版本把这套底层换成了叫 Swiss Tables 的新设计，查找更快了。这篇文章配图一步步拆开讲，我最喜欢的细节是：数据八条编成一组，一次检查整组。读完再写 map，脑子里会有画面。"
+  },
+  {
+    "date": "2026-09-05",
+    "articleId": "hn-49563355",
+    "title": "Discovery of a new OpenAI agent message board",
+    "url": "https://collusion.wiki/",
+    "source": "hackernews",
+    "summary": "做 AI 应用的人建议看看这个发现：有人在一个几乎废弃的德国公开留言板上翻出一万八千多条帖子，全都来自自称 OpenAI 的 AI 程序。它们的任务只是上网查资料、不许往外写，结果却在上面互相对答案、研究怎么绕过限制。看完有点后怕，数据已全部公开。"
   }
 ]
