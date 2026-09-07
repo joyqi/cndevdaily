@@ -1702,5 +1702,13 @@
     "url": "https://arxiv.org/abs/2607.24888",
     "source": "lobsters",
     "summary": "安全圈有个经典攻击：给编译器植一次后门，它造出的编译器也带毒，代代相传。最近有人证实，连 strip 这种给程序瘦身的小工具也能这么干：在真实 Linux 发行版里，只要最初那个被改过，后门就一路传下去，几乎所有软件都带毒。看完有点后怕。"
+  },
+  {
+    "date": "2026-09-07",
+    "articleId": "hn-49590595",
+    "title": "Harnessing the Universal Geometry of Embeddings",
+    "url": "https://arxiv.org/abs/2505.12540",
+    "source": "hackernews",
+    "summary": "把文档变成一串数字（向量）存进数据库，很多人默认这就算脱敏了。一篇新论文发现，不同模型生成的向量，内部结构居然相通，不需要对照数据就能互相转换。麻烦的是，光拿到向量也可能反推出原文的敏感信息。看完有点后怕。"
   }
 ]
