@@ -1710,5 +1710,13 @@
     "url": "https://arxiv.org/abs/2505.12540",
     "source": "hackernews",
     "summary": "把文档变成一串数字（向量）存进数据库，很多人默认这就算脱敏了。一篇新论文发现，不同模型生成的向量，内部结构居然相通，不需要对照数据就能互相转换。麻烦的是，光拿到向量也可能反推出原文的敏感信息。看完有点后怕。"
+  },
+  {
+    "date": "2026-09-08",
+    "articleId": "lobsters-8hz82r",
+    "title": "Hardening Container Images",
+    "url": "https://www.grepular.com/Hardening_Container_Images",
+    "source": "lobsters",
+    "summary": "一个 DNS 服务的官方镜像有 355MB、约 7500 个文件，因为里面装了整套 Linux 系统。有人把它静态编译后塞进空白镜像，再锁死进程能读写的文件和端口，最后只剩 36MB、两个文件，就算被攻破也翻不出一件可用的工具。过程看着挺过瘾，步骤也能照搬。"
   }
 ]
