@@ -1718,5 +1718,13 @@
     "url": "https://www.grepular.com/Hardening_Container_Images",
     "source": "lobsters",
     "summary": "一个 DNS 服务的官方镜像有 355MB、约 7500 个文件，因为里面装了整套 Linux 系统。有人把它静态编译后塞进空白镜像，再锁死进程能读写的文件和端口，最后只剩 36MB、两个文件，就算被攻破也翻不出一件可用的工具。过程看着挺过瘾，步骤也能照搬。"
+  },
+  {
+    "date": "2026-09-09",
+    "articleId": "lobsters-ikzvtv",
+    "title": "Switching Password Managers in 2026",
+    "url": "https://rmondello.com/2026/09/07/switching-password-managers-2026/",
+    "source": "lobsters",
+    "summary": "换密码管理器最烦的就是几百条数据搬不动。最近看到有人演示新机制：iPhone 上刷个脸，1Password 里一百条密码、验证码、笔记就原样进了苹果自带的密码应用，Bitwarden 等也能互导。这套开放格式，是当年给免密登录定标准时顺手做出来的。"
   }
 ]
