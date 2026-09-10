@@ -1726,5 +1726,13 @@
     "url": "https://rmondello.com/2026/09/07/switching-password-managers-2026/",
     "source": "lobsters",
     "summary": "换密码管理器最烦的就是几百条数据搬不动。最近看到有人演示新机制：iPhone 上刷个脸，1Password 里一百条密码、验证码、笔记就原样进了苹果自带的密码应用，Bitwarden 等也能互导。这套开放格式，是当年给免密登录定标准时顺手做出来的。"
+  },
+  {
+    "date": "2026-09-10",
+    "articleId": "hn-49637435",
+    "title": "Training a 3.8B LLM to 0.384 CORE for $998 – Hugo Vergnes",
+    "url": "https://hugovergnes.github.io/little-lm-3-8b/",
+    "source": "hackernews",
+    "summary": "一个人、一千美元，能不能从零训出一个像样的大模型？有人真做了：花 998 美元租显卡，训出的模型跑分还超过 OpenAI 的 GPT-2，账单和踩过的坑全部公开。看完有个感觉，一千美元能买到的算力，一年比一年值钱。"
   }
 ]
