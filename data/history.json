@@ -1734,5 +1734,13 @@
     "url": "https://hugovergnes.github.io/little-lm-3-8b/",
     "source": "hackernews",
     "summary": "一个人、一千美元，能不能从零训出一个像样的大模型？有人真做了：花 998 美元租显卡，训出的模型跑分还超过 OpenAI 的 GPT-2，账单和踩过的坑全部公开。看完有个感觉，一千美元能买到的算力，一年比一年值钱。"
+  },
+  {
+    "date": "2026-09-11",
+    "articleId": "hn-49643982",
+    "title": "Shopify is moving from React Native back to Swift and Kotlin",
+    "url": "https://shopify.engineering/back-to-native",
+    "source": "hackernews",
+    "summary": "Shopify 放弃用了五年的 React Native，回归原生开发。这套跨平台框架当年帮他们一套代码同时上 iOS 和安卓，如今 AI 能照着一端的代码把另一端写出来，写两遍不再多花功夫，跨平台的最大好处就不成立了。年初他们还说要继续投入，年底就改了主意。"
   }
 ]
