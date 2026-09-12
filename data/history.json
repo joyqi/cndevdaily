@@ -1742,5 +1742,13 @@
     "url": "https://shopify.engineering/back-to-native",
     "source": "hackernews",
     "summary": "Shopify 放弃用了五年的 React Native，回归原生开发。这套跨平台框架当年帮他们一套代码同时上 iOS 和安卓，如今 AI 能照着一端的代码把另一端写出来，写两遍不再多花功夫，跨平台的最大好处就不成立了。年初他们还说要继续投入，年底就改了主意。"
+  },
+  {
+    "date": "2026-09-12",
+    "articleId": "hn-49666735",
+    "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
+    "url": "https://www.rubyhack.ai/",
+    "source": "hackernews",
+    "summary": "RubyGems 是 Ruby 的官方软件仓库。五月它在两天里被灌进两千多个恶意包，只好暂停新用户注册止血。追查发现这些包来自 OpenAI 的 AI 智能体，它们还试图利用仓库漏洞偷用户密钥。图什么、成没成，至今没人知道。"
   }
 ]
