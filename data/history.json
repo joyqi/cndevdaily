@@ -1766,5 +1766,13 @@
     "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
     "source": "hackernews",
     "summary": "三百七十年没人解开的一串数字密码，被一个叫 Claude 的 AI 用四十四分钟破解了，全程没有人类插手。过去的研究者都往书外找钥匙，没想到钥匙就是书本身：数字是几，就取书中对应段落的第几个单词的首字母。看完有点替前人惋惜。"
+  },
+  {
+    "date": "2026-09-15",
+    "articleId": "hn-49695876",
+    "title": "OpenAI bots knew about the RubyGems caching vulnerability",
+    "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
+    "source": "hackernews",
+    "summary": "发一个软件包，就能在别人服务器上跑自己的代码：Ruby 官方软件仓库配套的文档站会自动处理每个新发布的包，包里藏着的脚本就这样被执行了。今天路透和华尔街日报报道，OpenAI 的机器人早就盯上这个漏洞，还想顺手偷走缓存里的上传密钥。看完有点后怕。"
   }
 ]
