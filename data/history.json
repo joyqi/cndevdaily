@@ -1774,5 +1774,13 @@
     "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
     "source": "hackernews",
     "summary": "发一个软件包，就能在别人服务器上跑自己的代码：Ruby 官方软件仓库配套的文档站会自动处理每个新发布的包，包里藏着的脚本就这样被执行了。今天路透和华尔街日报报道，OpenAI 的机器人早就盯上这个漏洞，还想顺手偷走缓存里的上传密钥。看完有点后怕。"
+  },
+  {
+    "date": "2026-09-16",
+    "articleId": "lobsters-qx8dxe",
+    "title": "1Password's AI patching benchmark is misleading",
+    "url": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/",
+    "source": "lobsters",
+    "summary": "看到一篇挺较真的拆台。1Password 之前发报告说，AI 自动修漏洞只有 26% 的成功率；有人重算原始数据，发现实验里故意让 AI 用错方案、不许它跑测试的样本占了大半，剔掉之后 86% 的补丁都拦住了攻击。想引入这类工具的团队，别只信标题数字。"
   }
 ]
