@@ -1782,5 +1782,13 @@
     "url": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/",
     "source": "lobsters",
     "summary": "看到一篇挺较真的拆台。1Password 之前发报告说，AI 自动修漏洞只有 26% 的成功率；有人重算原始数据，发现实验里故意让 AI 用错方案、不许它跑测试的样本占了大半，剔掉之后 86% 的补丁都拦住了攻击。想引入这类工具的团队，别只信标题数字。"
+  },
+  {
+    "date": "2026-09-17",
+    "articleId": "hn-49724881",
+    "title": "Nvidia announces native GPU programming in Rust",
+    "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+    "source": "hackernews",
+    "summary": "能直接写显卡计算程序的语言，最近多了一个 Rust。英伟达官方宣布支持：以前 Rust 只能在外层发号施令，真正跑在显卡上的核心代码得换成 C++ 或 Python 写，现在 Rust 可以直接编译成显卡指令，还承诺长期投入。主力是 Rust 的 AI 团队，少了一次语言切换。"
   }
 ]
