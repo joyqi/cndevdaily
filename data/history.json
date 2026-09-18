@@ -1790,5 +1790,13 @@
     "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
     "source": "hackernews",
     "summary": "能直接写显卡计算程序的语言，最近多了一个 Rust。英伟达官方宣布支持：以前 Rust 只能在外层发号施令，真正跑在显卡上的核心代码得换成 C++ 或 Python 写，现在 Rust 可以直接编译成显卡指令，还承诺长期投入。主力是 Rust 的 AI 团队，少了一次语言切换。"
+  },
+  {
+    "date": "2026-09-18",
+    "articleId": "hn-49746618",
+    "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+    "url": "https://prismml.com/news/bonsai-2-27b",
+    "source": "hackernews",
+    "summary": "大模型一定要堆显存吗？有人把270亿参数的模型压到5.9GB：权重只留-1、0、1三种取值，跑分还剩原来的98%，一张游戏显卡就能跑，耗电比80亿参数、没压缩过的模型还低四成。想在本地用编程助手、又不想把代码传上云的，看完会有点心动。"
   }
 ]
