@@ -1798,5 +1798,13 @@
     "url": "https://prismml.com/news/bonsai-2-27b",
     "source": "hackernews",
     "summary": "大模型一定要堆显存吗？有人把270亿参数的模型压到5.9GB：权重只留-1、0、1三种取值，跑分还剩原来的98%，一张游戏显卡就能跑，耗电比80亿参数、没压缩过的模型还低四成。想在本地用编程助手、又不想把代码传上云的，看完会有点心动。"
+  },
+  {
+    "date": "2026-09-19",
+    "articleId": "hn-49758615",
+    "title": "Cache-to-Cache: Direct Semantic Communication Between LLMs (2025)",
+    "url": "https://arxiv.org/abs/2510.03215",
+    "source": "hackernews",
+    "summary": "几个大模型接力干活时，通行的做法是一个把想法写成文字、下一个再读，既慢又丢信息。有篇新论文让它们跳过文字，把生成时的内部记忆直接交给对方：准确率比传文字还高了几个点，速度快了约两倍半。思路挺巧，做多模型系统的可以留意。"
   }
 ]
