@@ -1806,5 +1806,13 @@
     "url": "https://arxiv.org/abs/2510.03215",
     "source": "hackernews",
     "summary": "几个大模型接力干活时，通行的做法是一个把想法写成文字、下一个再读，既慢又丢信息。有篇新论文让它们跳过文字，把生成时的内部记忆直接交给对方：准确率比传文字还高了几个点，速度快了约两倍半。思路挺巧，做多模型系统的可以留意。"
+  },
+  {
+    "date": "2026-09-20",
+    "articleId": "hn-49765348",
+    "title": "I built non-autoregressive decision models with RL a year ago",
+    "url": "https://laya.convaiinnovations.com/",
+    "source": "hackernews",
+    "summary": "一位独立开发者最近挺憋屈。有种新模型很火：不生成文字，直接给判断题打分，比如判断销售线索会不会成交。可他一年前就做过一模一样的，还全部开源，如今被明星实验室做成闭源收费产品。他索性重做一版，单张显卡33毫秒，比那家快6到8倍，照样全开源。"
   }
 ]
