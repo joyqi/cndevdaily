@@ -1814,5 +1814,13 @@
     "url": "https://laya.convaiinnovations.com/",
     "source": "hackernews",
     "summary": "一位独立开发者最近挺憋屈。有种新模型很火：不生成文字，直接给判断题打分，比如判断销售线索会不会成交。可他一年前就做过一模一样的，还全部开源，如今被明星实验室做成闭源收费产品。他索性重做一版，单张显卡33毫秒，比那家快6到8倍，照样全开源。"
+  },
+  {
+    "date": "2026-09-21",
+    "articleId": "hn-49776729",
+    "title": "ChatGPT now knows what you do on other websites via ad collector",
+    "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+    "source": "hackernews",
+    "summary": "你在别的网站上搜什么、看什么，ChatGPT 可能都知道。有人在自己手机上复现了整条追踪链路：登录 ChatGPT 时会留下一个有效期一年的记号，装了它广告代码的网站会把这个记号发回去，和你的账号对上。他核对了一千多个网站上的九百多个追踪点。看完有点后怕。"
   }
 ]
