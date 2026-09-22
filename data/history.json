@@ -1822,5 +1822,13 @@
     "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
     "source": "hackernews",
     "summary": "你在别的网站上搜什么、看什么，ChatGPT 可能都知道。有人在自己手机上复现了整条追踪链路：登录 ChatGPT 时会留下一个有效期一年的记号，装了它广告代码的网站会把这个记号发回去，和你的账号对上。他核对了一千多个网站上的九百多个追踪点。看完有点后怕。"
+  },
+  {
+    "date": "2026-09-22",
+    "articleId": "lobsters-0d6gcs",
+    "title": "stack unwinding can lead to leakless code execution",
+    "url": "https://pepsipu.com/blog/2026-09-dwarf/",
+    "source": "lobsters",
+    "summary": "强制结束一个线程，听起来再普通不过。有人顺着这个操作往下挖，发现系统回溯清理现场时会跑一套自带的解释器，而它能被劫持来执行任意代码。最妙的是全程不用泄露内存地址，把地址随机打乱这道防线直接绕开了。看完有点后怕。"
   }
 ]
