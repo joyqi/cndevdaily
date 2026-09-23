@@ -1830,5 +1830,13 @@
     "url": "https://pepsipu.com/blog/2026-09-dwarf/",
     "source": "lobsters",
     "summary": "强制结束一个线程，听起来再普通不过。有人顺着这个操作往下挖，发现系统回溯清理现场时会跑一套自带的解释器，而它能被劫持来执行任意代码。最妙的是全程不用泄露内存地址，把地址随机打乱这道防线直接绕开了。看完有点后怕。"
+  },
+  {
+    "date": "2026-09-23",
+    "articleId": "lobsters-oqipmz",
+    "title": "How to talk about \"AI\" without adding to the anthropomorphization",
+    "url": "https://buttondown.com/maiht3k/archive/how-to-talk-about-ai-without-adding-to-the/",
+    "source": "lobsters",
+    "summary": "聊 AI 时我们常说它\"会思考\"\"产生幻觉\"，这些话都在不知不觉中把软件说成了人。有人整理了一份替代说法清单：幻觉改叫\"不期望的输出\"，人工智能改叫\"概率自动化\"，把思考和责任还给使用它的人。看着有点较真，细想挺有道理。"
   }
 ]
