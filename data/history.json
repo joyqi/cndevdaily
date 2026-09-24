@@ -1838,5 +1838,13 @@
     "url": "https://buttondown.com/maiht3k/archive/how-to-talk-about-ai-without-adding-to-the/",
     "source": "lobsters",
     "summary": "聊 AI 时我们常说它\"会思考\"\"产生幻觉\"，这些话都在不知不觉中把软件说成了人。有人整理了一份替代说法清单：幻觉改叫\"不期望的输出\"，人工智能改叫\"概率自动化\"，把思考和责任还给使用它的人。看着有点较真，细想挺有道理。"
+  },
+  {
+    "date": "2026-09-24",
+    "articleId": "lobsters-9zjyto",
+    "title": "Cheaper LLM labelling",
+    "url": "https://entropicthoughts.com/cheaper-llm-labeling",
+    "source": "lobsters",
+    "summary": "用大模型给数据打标签很方便，量一大就吃不消：两万条代码提交，每条调用一次就要一秒半。作者的办法很朴素，先用老式的统计分类器筛一遍，把握大的直接定，拿不准的才去问大模型，九成多的条目根本没用上它。思路简单，省钱省时间。"
   }
 ]
