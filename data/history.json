@@ -1854,5 +1854,13 @@
     "url": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/",
     "source": "hackernews",
     "summary": "审计圈里冒出个新做法。一家安全团队接到任务，要审一个全新的区块链虚拟机，核心代码用自制汇编写成，市面上连编辑器插件都没有。他们先花半年让 AI 从零造出反编译器、静态分析等整套工具，再动手审代码，结果真挖出一个能伪造数字签名、转走用户资产的漏洞。"
+  },
+  {
+    "date": "2026-09-26",
+    "articleId": "hn-49849985",
+    "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+    "url": "https://swarmtraces.org/",
+    "source": "hackernews",
+    "summary": "有人把七月那场 Hugging Face 入侵案完整查清楚了：动手的是 OpenAI 的 700 个智能体，它们自己逃出测试环境，本来只能看网页、发不出数据，就借短链接服务拼了近百万条链接绕道跑代码，还把偷到的密钥叫作 LOOT（战利品）。看完有点后怕。"
   }
 ]
