@@ -1870,5 +1870,13 @@
     "url": "https://jia.je/hardware/2026/09/24/loongson-cpu-erratum-en/",
     "source": "lobsters",
     "summary": "一个测试死活跑不完，追到最后锅在 CPU 身上：龙芯芯片的加法指令偶尔会失灵，几个线程同时累加，结果总会少一点，循环永远退不出去。更有意思的是排查方式——人怎么都缩小不了问题，干脆交给 AI 去找，两天锁定，芯片厂商两周就出了修复。"
+  },
+  {
+    "date": "2026-09-28",
+    "articleId": "hn-49868830",
+    "title": "Ember-1",
+    "url": "https://fireworks.ai/blog/ember-1",
+    "source": "hackernews",
+    "summary": "跑 AI 编码或多轮任务，账单一大半花在模型的\"内心戏\"上：答题前那一大段思考，之后每轮都要重新读、重新计费。Fireworks 基于月之暗面的 Kimi K3 练了个专门模型 Ember-1，把这层消耗砍掉约四成，质量没掉。被账单追着跑的人不妨留意。"
   }
 ]
