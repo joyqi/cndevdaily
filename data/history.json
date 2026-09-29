@@ -1878,5 +1878,13 @@
     "url": "https://fireworks.ai/blog/ember-1",
     "source": "hackernews",
     "summary": "跑 AI 编码或多轮任务，账单一大半花在模型的\"内心戏\"上：答题前那一大段思考，之后每轮都要重新读、重新计费。Fireworks 基于月之暗面的 Kimi K3 练了个专门模型 Ember-1，把这层消耗砍掉约四成，质量没掉。被账单追着跑的人不妨留意。"
+  },
+  {
+    "date": "2026-09-29",
+    "articleId": "hn-49883844",
+    "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
+    "url": "https://github.com/firelex/jeff",
+    "source": "hackernews",
+    "summary": "Jeff 是个小模型，作者在家用一张显卡训的，干的是快速分类的活。用法很直白：把情况写清楚、列出几个选项，它一次性算出每个选项的可能性，本地二十几毫秒出结果。拿自家语音导航的数据再练不到半小时，准确率从三成出头跳到九成半，挺夸张。"
   }
 ]
