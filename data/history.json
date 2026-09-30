@@ -1886,5 +1886,13 @@
     "url": "https://github.com/firelex/jeff",
     "source": "hackernews",
     "summary": "Jeff 是个小模型，作者在家用一张显卡训的，干的是快速分类的活。用法很直白：把情况写清楚、列出几个选项，它一次性算出每个选项的可能性，本地二十几毫秒出结果。拿自家语音导航的数据再练不到半小时，准确率从三成出头跳到九成半，挺夸张。"
+  },
+  {
+    "date": "2026-09-30",
+    "articleId": "hn-49901736",
+    "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
+    "url": "https://github.com/ninjahawk/livenerf",
+    "source": "hackernews",
+    "summary": "大模型上线一阵子后会偷偷变笨吗？一直没实锤。有人赶在 Claude Opus 5.5 发布当天开始每天固定测一次，题库和打分方式全部锁定。目前有个挺有意思的发现：九成七的题要么永远答对要么永远答错，真正能看出变化的只剩 78 道时好时坏的题。"
   }
 ]
