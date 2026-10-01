@@ -1894,5 +1894,13 @@
     "url": "https://github.com/ninjahawk/livenerf",
     "source": "hackernews",
     "summary": "大模型上线一阵子后会偷偷变笨吗？一直没实锤。有人赶在 Claude Opus 5.5 发布当天开始每天固定测一次，题库和打分方式全部锁定。目前有个挺有意思的发现：九成七的题要么永远答对要么永远答错，真正能看出变化的只剩 78 道时好时坏的题。"
+  },
+  {
+    "date": "2026-10-01",
+    "articleId": "lobsters-y3ppje",
+    "title": "Branch Target Reuse: Spectre-v2 Attacks in JIT Engines",
+    "url": "https://www.vusec.net/projects/btr/",
+    "source": "lobsters",
+    "summary": "2018 年那波幽灵 CPU 漏洞又出了续集。CPU 记得旧代码的跳转位置，代码删掉重写后还照着旧位置提前跑，绕开防护偷看内存。研究者在 Linux 内核做成完整攻击，root 密码哈希每秒被偷走 8 字节，做浏览器和内核开发的看完怕是要自查一遍。"
   }
 ]
