@@ -1902,5 +1902,13 @@
     "url": "https://www.vusec.net/projects/btr/",
     "source": "lobsters",
     "summary": "2018 年那波幽灵 CPU 漏洞又出了续集。CPU 记得旧代码的跳转位置，代码删掉重写后还照着旧位置提前跑，绕开防护偷看内存。研究者在 Linux 内核做成完整攻击，root 密码哈希每秒被偷走 8 字节，做浏览器和内核开发的看完怕是要自查一遍。"
+  },
+  {
+    "date": "2026-10-02",
+    "articleId": "hn-49923466",
+    "title": "RIP, vector database",
+    "url": "https://turbopuffer.com/blog/rip-vector-database",
+    "source": "hackernews",
+    "summary": "做向量数据库的 turbopuffer 写了篇架构复盘：最初他们把向量索引当作整个系统的主索引，所有查询都围着它转，代价是分组、汇总这类普通 SQL 查询一直跑不顺。现在团队决定换掉主索引，让向量索引降为普通二级索引之一。为什么这么转，文章讲得很坦白。"
   }
 ]
