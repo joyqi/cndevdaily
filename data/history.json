@@ -1910,5 +1910,13 @@
     "url": "https://turbopuffer.com/blog/rip-vector-database",
     "source": "hackernews",
     "summary": "做向量数据库的 turbopuffer 写了篇架构复盘：最初他们把向量索引当作整个系统的主索引，所有查询都围着它转，代价是分组、汇总这类普通 SQL 查询一直跑不顺。现在团队决定换掉主索引，让向量索引降为普通二级索引之一。为什么这么转，文章讲得很坦白。"
+  },
+  {
+    "date": "2026-10-03",
+    "articleId": "hn-49925974",
+    "title": "FLUX 3 Image",
+    "url": "https://bfl.ai/models/flux-3-image",
+    "source": "hackernews",
+    "summary": "用 AI 画图最烦的是没法指挥：人站哪、东西多大全凭运气，不满意只能重来。新出的画图模型 FLUX 3 Image 换了个玩法，你先摆几个方框标好位置和大小，它就照着把整张图搭出来。这个思路挺实在。"
   }
 ]
