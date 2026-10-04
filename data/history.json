@@ -1918,5 +1918,13 @@
     "url": "https://bfl.ai/models/flux-3-image",
     "source": "hackernews",
     "summary": "用 AI 画图最烦的是没法指挥：人站哪、东西多大全凭运气，不满意只能重来。新出的画图模型 FLUX 3 Image 换了个玩法，你先摆几个方框标好位置和大小，它就照着把整张图搭出来。这个思路挺实在。"
+  },
+  {
+    "date": "2026-10-04",
+    "articleId": "lobsters-49glor",
+    "title": "Two-Stack Sliding-Window Aggregation",
+    "url": "https://orlp.net/blog/two-stack-sliding-window-aggregation/",
+    "source": "lobsters",
+    "summary": "监控里常要算过去三十秒最大值这类滑动统计。看似进一个数加上、出一个数减掉就行，可遇到没法往回减的统计就失灵，连求和都躲不过——混进一个无效值，结果永远是坏数。有人用两个栈把它解决了，平均每次操作还是常数时间，解法简单到看完有点不服气。"
   }
 ]
