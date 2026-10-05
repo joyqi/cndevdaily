@@ -1926,5 +1926,13 @@
     "url": "https://orlp.net/blog/two-stack-sliding-window-aggregation/",
     "source": "lobsters",
     "summary": "监控里常要算过去三十秒最大值这类滑动统计。看似进一个数加上、出一个数减掉就行，可遇到没法往回减的统计就失灵，连求和都躲不过——混进一个无效值，结果永远是坏数。有人用两个栈把它解决了，平均每次操作还是常数时间，解法简单到看完有点不服气。"
+  },
+  {
+    "date": "2026-10-05",
+    "articleId": "hn-49953495",
+    "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+    "url": "https://github.com/Niko1221/Strata",
+    "source": "hackernews",
+    "summary": "以前得租服务器才能跑的大模型，现在一张普通游戏显卡在家就能带得动，回复比人阅读还快，数据不离开自己电脑。作者顺手做成了免费开源的工具 Strata，附上好几张显卡的实测速度，想自己折腾本地部署的可以参考。"
   }
 ]
