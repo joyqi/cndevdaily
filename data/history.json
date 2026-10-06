@@ -1934,5 +1934,13 @@
     "url": "https://github.com/Niko1221/Strata",
     "source": "hackernews",
     "summary": "以前得租服务器才能跑的大模型，现在一张普通游戏显卡在家就能带得动，回复比人阅读还快，数据不离开自己电脑。作者顺手做成了免费开源的工具 Strata，附上好几张显卡的实测速度，想自己折腾本地部署的可以参考。"
+  },
+  {
+    "date": "2026-10-06",
+    "articleId": "hn-49969183",
+    "title": "Beam: Reflection's 501B open-weight model",
+    "url": "https://reflection.ai/blog/introducing-beam",
+    "source": "hackernews",
+    "summary": "Reflection 公布了第一个开源模型 Beam：总参数 5010 亿，但每次真正参与计算的只有 230 亿，所以用起来便宜不少，跑分却能咬住比它大好几倍的模型。权重本月内公开。少花钱办大事，这个方向我挺喜欢。"
   }
 ]
