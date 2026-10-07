@@ -1942,5 +1942,13 @@
     "url": "https://reflection.ai/blog/introducing-beam",
     "source": "hackernews",
     "summary": "Reflection 公布了第一个开源模型 Beam：总参数 5010 亿，但每次真正参与计算的只有 230 亿，所以用起来便宜不少，跑分却能咬住比它大好几倍的模型。权重本月内公开。少花钱办大事，这个方向我挺喜欢。"
+  },
+  {
+    "date": "2026-10-07",
+    "articleId": "hn-49980715",
+    "title": "OpenTPU – An open-source AI accelerator, developed by AI",
+    "url": "https://github.com/FeSens/openTPU",
+    "source": "hackernews",
+    "summary": "让 AI 自己设计跑 AI 的芯片，这事真有人做成了，还全部开源。设计烧进一块可编程芯片后，实机跑通了十个主流模型，和软件模拟的结果分毫不差。从一行矩阵乘法到电路的每个环节都在同一个仓库里，想搞懂 AI 加速器原理的人，可以顺着一路读完。"
   }
 ]
