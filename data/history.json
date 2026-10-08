@@ -1950,5 +1950,13 @@
     "url": "https://github.com/FeSens/openTPU",
     "source": "hackernews",
     "summary": "让 AI 自己设计跑 AI 的芯片，这事真有人做成了，还全部开源。设计烧进一块可编程芯片后，实机跑通了十个主流模型，和软件模拟的结果分毫不差。从一行矩阵乘法到电路的每个环节都在同一个仓库里，想搞懂 AI 加速器原理的人，可以顺着一路读完。"
+  },
+  {
+    "date": "2026-10-08",
+    "articleId": "lobsters-4hxxad",
+    "title": "Zeroization, part 1: Wiping can make things worse",
+    "url": "https://00f.net/2026/10/06/zeroization-1/",
+    "source": "lobsters",
+    "summary": "现在 AI 很热衷给开源项目提用完就把敏感数据清零的补丁，看着像在加固安全。有人把补丁前后的代码编译成机器码逐行对比，发现有的清零被编译器直接删掉了，有的把零写进一堆从没存过密码的内存，秘密却一直待在 CPU 里。看完有点后怕。"
   }
 ]
