@@ -1958,5 +1958,13 @@
     "url": "https://00f.net/2026/10/06/zeroization-1/",
     "source": "lobsters",
     "summary": "现在 AI 很热衷给开源项目提用完就把敏感数据清零的补丁，看着像在加固安全。有人把补丁前后的代码编译成机器码逐行对比，发现有的清零被编译器直接删掉了，有的把零写进一堆从没存过密码的内存，秘密却一直待在 CPU 里。看完有点后怕。"
+  },
+  {
+    "date": "2026-10-09",
+    "articleId": "hn-50000488",
+    "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+    "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+    "source": "hackernews",
+    "summary": "有人把国产模型 DeepSeek 4.1 Flash 当主力用了一个月：写代码、查资料、跑杂活，不看名字常分不清它和贵很多的旗舰差别。关键是它记长对话很省内存，比第一代小了四百多倍，跑一整天常常不到一块钱。我看完的第一反应是：以后先算账单，再谈模型。"
   }
 ]
