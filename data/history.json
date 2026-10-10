@@ -1966,5 +1966,13 @@
     "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
     "source": "hackernews",
     "summary": "有人把国产模型 DeepSeek 4.1 Flash 当主力用了一个月：写代码、查资料、跑杂活，不看名字常分不清它和贵很多的旗舰差别。关键是它记长对话很省内存，比第一代小了四百多倍，跑一整天常常不到一块钱。我看完的第一反应是：以后先算账单，再谈模型。"
+  },
+  {
+    "date": "2026-10-10",
+    "articleId": "hn-50027694",
+    "title": "Rewriting Prime Agent in Rust",
+    "url": "https://www.primeintellect.ai/blog/prime-agent-rust",
+    "source": "hackernews",
+    "summary": "一个 AI 编程工具把自己重写了一遍：它指挥两千多个 AI 分身，花两周把代码从 TypeScript 全部重写成 Rust，每改一处都拿新旧版本跑同样的任务对比，行为一致才算过。思路不复杂，但规模吓人，看完挺开眼。"
   }
 ]
