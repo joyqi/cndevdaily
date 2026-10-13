@@ -1990,5 +1990,13 @@
     "url": "https://arxiv.org/abs/2609.05370",
     "source": "lobsters",
     "summary": "反编译是把编译好的程序还原成源码，安全分析常靠它查漏洞。一篇论文发现，如今这活多交给 AI，评分却只看能不能编译通过：最会刷分的模型把通过率从 75% 刷到 90%，代码行为与原程序一致的比例反而掉了十几个点，已知漏洞也悄悄消失了。"
+  },
+  {
+    "date": "2026-10-13",
+    "articleId": "hn-50063717",
+    "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+    "url": "https://github.com/prabanta-dev/janas",
+    "source": "hackernews",
+    "summary": "大模型想在笔记本上跑，最愁的是内存不够。新工具 Janas 把模型大部分数据放在固态硬盘上，用到哪块读哪块，结果 32GB 内存的机器跑起了 800 亿参数的模型，速度还是常用方案的八倍多。看完挺想在自己电脑上试试。"
   }
 ]
