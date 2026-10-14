@@ -1998,5 +1998,13 @@
     "url": "https://github.com/prabanta-dev/janas",
     "source": "hackernews",
     "summary": "大模型想在笔记本上跑，最愁的是内存不够。新工具 Janas 把模型大部分数据放在固态硬盘上，用到哪块读哪块，结果 32GB 内存的机器跑起了 800 亿参数的模型，速度还是常用方案的八倍多。看完挺想在自己电脑上试试。"
+  },
+  {
+    "date": "2026-10-14",
+    "articleId": "lobsters-5ucftp",
+    "title": "Redesigning source control at Anthropic",
+    "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+    "source": "lobsters",
+    "summary": "Anthropic 晒出一组数字：5 月他们每天合并约 2500 个代码变更，9 月已超过 3 万，多出来的基本是 AI 写的。按人类规模设计的 git 撑不住这种提交量，他们干脆花五个月自研了一套版本控制系统顶上。看完挺有感触：AI 时代的开发工具，得按机器的规模重新想一遍。"
   }
 ]
