@@ -2006,5 +2006,13 @@
     "url": "https://www.anthropic.com/engineering/redesigning-source-control",
     "source": "lobsters",
     "summary": "Anthropic 晒出一组数字：5 月他们每天合并约 2500 个代码变更，9 月已超过 3 万，多出来的基本是 AI 写的。按人类规模设计的 git 撑不住这种提交量，他们干脆花五个月自研了一套版本控制系统顶上。看完挺有感触：AI 时代的开发工具，得按机器的规模重新想一遍。"
+  },
+  {
+    "date": "2026-10-15",
+    "articleId": "hn-50097369",
+    "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+    "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+    "source": "hackernews",
+    "summary": "Liquid AI 新发布了一款专门跑在自己设备上的模型，思路挺讨巧：总参数 240 亿，每次生成只动用其中 20 亿，苹果 M5 Max 芯片上每秒能吐出 184 个词，自动办事的能力还不输比它大一半的模型。免费开放下载，做本地 AI 应用的朋友可以上手。"
   }
 ]
