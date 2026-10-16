@@ -2014,5 +2014,13 @@
     "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
     "source": "hackernews",
     "summary": "Liquid AI 新发布了一款专门跑在自己设备上的模型，思路挺讨巧：总参数 240 亿，每次生成只动用其中 20 亿，苹果 M5 Max 芯片上每秒能吐出 184 个词，自动办事的能力还不输比它大一半的模型。免费开放下载，做本地 AI 应用的朋友可以上手。"
+  },
+  {
+    "date": "2026-10-16",
+    "articleId": "hn-50107379",
+    "title": "Muse Spark Open",
+    "url": "https://research.meta.ai/blog/muse-spark-open",
+    "source": "hackernews",
+    "summary": "机房级别的模型搬进家里跑，这回看着是真的。Muse Spark Open 今天免费开放下载，8160 亿参数，两台顶配 Mac Studio 就能带动。演示里它自己操作剪辑软件，逐帧看完素材，把最精彩的片段裁成竖屏短片。查了下价格，冷静了。"
   }
 ]
