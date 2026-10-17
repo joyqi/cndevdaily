@@ -2022,5 +2022,13 @@
     "url": "https://research.meta.ai/blog/muse-spark-open",
     "source": "hackernews",
     "summary": "机房级别的模型搬进家里跑，这回看着是真的。Muse Spark Open 今天免费开放下载，8160 亿参数，两台顶配 Mac Studio 就能带动。演示里它自己操作剪辑软件，逐帧看完素材，把最精彩的片段裁成竖屏短片。查了下价格，冷静了。"
+  },
+  {
+    "date": "2026-10-17",
+    "articleId": "lobsters-uejdwj",
+    "title": "JPEG XL vs AVIF for web use-cases",
+    "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
+    "source": "lobsters",
+    "summary": "网站图片格式多了两个新选择：AVIF 和 JPEG XL，浏览器都已支持，到底用哪个？有人拿照片、截图、带透明背景的图逐项实测：绝大多数情况 AVIF 文件更小，压缩和打开也更快。一个容易踩的坑：JPEG XL 有款压缩工具遇到透明背景一律无损保存，文件能大出两三倍。"
   }
 ]
