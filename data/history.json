@@ -2030,5 +2030,13 @@
     "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
     "source": "lobsters",
     "summary": "网站图片格式多了两个新选择：AVIF 和 JPEG XL，浏览器都已支持，到底用哪个？有人拿照片、截图、带透明背景的图逐项实测：绝大多数情况 AVIF 文件更小，压缩和打开也更快。一个容易踩的坑：JPEG XL 有款压缩工具遇到透明背景一律无损保存，文件能大出两三倍。"
+  },
+  {
+    "date": "2026-10-18",
+    "articleId": "hn-50122878",
+    "title": "You could have invented transformers from memory",
+    "url": "https://alexwang.ai/posts/associative-memory/",
+    "source": "hackernews",
+    "summary": "模型为什么能记住那么多冷知识？有人写了篇长文回答：把神经网络的构件看成记忆仓库，存得越多回忆时干扰越厉害，同样规模下，最基础的结构只能存几十条，注意力机制却能存上百万条，这正是大模型最核心的部件。一路推下来，Transformer 像是你自己也能想出来的。"
   }
 ]
