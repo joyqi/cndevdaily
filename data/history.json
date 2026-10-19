@@ -2038,5 +2038,13 @@
     "url": "https://alexwang.ai/posts/associative-memory/",
     "source": "hackernews",
     "summary": "模型为什么能记住那么多冷知识？有人写了篇长文回答：把神经网络的构件看成记忆仓库，存得越多回忆时干扰越厉害，同样规模下，最基础的结构只能存几十条，注意力机制却能存上百万条，这正是大模型最核心的部件。一路推下来，Transformer 像是你自己也能想出来的。"
+  },
+  {
+    "date": "2026-10-19",
+    "articleId": "hn-50145337",
+    "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+    "url": "https://arxiv.org/abs/2610.18861",
+    "source": "hackernews",
+    "summary": "AI 代理干活，一大半成本烧在它写给自己看的推理文字上。有篇新论文换了个做法：思考时不落文字，让模型在\"脑子里\"默默想，只在调用工具、对外行动时才开口。结果 11 个基准上性能反涨一成，成本降到原来的三分之一，思路挺巧。"
   }
 ]
