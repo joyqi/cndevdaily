@@ -2046,5 +2046,13 @@
     "url": "https://arxiv.org/abs/2610.18861",
     "source": "hackernews",
     "summary": "AI 代理干活，一大半成本烧在它写给自己看的推理文字上。有篇新论文换了个做法：思考时不落文字，让模型在\"脑子里\"默默想，只在调用工具、对外行动时才开口。结果 11 个基准上性能反涨一成，成本降到原来的三分之一，思路挺巧。"
+  },
+  {
+    "date": "2026-10-26",
+    "articleId": "hn-50236102",
+    "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+    "url": "https://minimaxir.com/2026/10/cheap-llms/",
+    "source": "hackernews",
+    "summary": "有人拿几家的价目表算了笔账：用 AI 写代码时，模型每一轮都得把之前的对话重新读一遍，这笔重读费用能占总开销九成以上。所以有厂商把重读的单价砍掉七成五，整张账单也就跟着降了七成。"
   }
 ]
