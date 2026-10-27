@@ -2054,5 +2054,13 @@
     "url": "https://minimaxir.com/2026/10/cheap-llms/",
     "source": "hackernews",
     "summary": "有人拿几家的价目表算了笔账：用 AI 写代码时，模型每一轮都得把之前的对话重新读一遍，这笔重读费用能占总开销九成以上。所以有厂商把重读的单价砍掉七成五，整张账单也就跟着降了七成。"
+  },
+  {
+    "date": "2026-10-27",
+    "articleId": "hn-50252159",
+    "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+    "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+    "source": "hackernews",
+    "summary": "Cloudflare 把自家一次线上事故写成了公开报告：不同客户本该互不可见，结果有 155 次回答混进了别人提问的内容，触发条件都是超长输入。旧缓存没清干净，加上报错处理有漏洞，两处凑到一起才出事。用托管模型服务的人可以对照看看。"
   }
 ]
