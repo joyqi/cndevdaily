@@ -2062,5 +2062,13 @@
     "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
     "source": "hackernews",
     "summary": "Cloudflare 把自家一次线上事故写成了公开报告：不同客户本该互不可见，结果有 155 次回答混进了别人提问的内容，触发条件都是超长输入。旧缓存没清干净，加上报错处理有漏洞，两处凑到一起才出事。用托管模型服务的人可以对照看看。"
+  },
+  {
+    "date": "2026-10-28",
+    "articleId": "lobsters-rswyzt",
+    "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
+    "url": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
+    "source": "lobsters",
+    "summary": "谷歌负责 Chrome 安全的团队拿半年真实数据比了两种找漏洞的办法：让大模型读代码，和让程序自动乱造代码去跑。大模型报出 45 个，另一套 37 个，重合的只有四分之一。结论挺实在，两套一起用才划算。"
   }
 ]
