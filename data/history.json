@@ -2070,5 +2070,13 @@
     "url": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
     "source": "lobsters",
     "summary": "谷歌负责 Chrome 安全的团队拿半年真实数据比了两种找漏洞的办法：让大模型读代码，和让程序自动乱造代码去跑。大模型报出 45 个，另一套 37 个，重合的只有四分之一。结论挺实在，两套一起用才划算。"
+  },
+  {
+    "date": "2026-10-29",
+    "articleId": "hn-50271640",
+    "title": "Apple's git still trusts the compromised eMudhra certificates",
+    "url": "https://emudhra.we-have-a-problem.com/apple.html",
+    "source": "hackernews",
+    "summary": "Mac 自带的 git 至今还信任一家已经被攻破的证书机构，拉代码、推代码的连接都可能被人中途截走。作者留了个测试仓库，跑一条命令就知道自己有没有中招。用 Mac 写代码的不妨查一下。"
   }
 ]
