@@ -2086,5 +2086,13 @@
     "url": "https://divagr.com/blog/qwenputer",
     "source": "lobsters",
     "summary": "通义千问 4B 的权重里现在装着一颗能跑 C 和 MicroPython 的处理器，不训练、不接外部工具，全在模型自己的计算里完成。做法是把模型内部那块固定大小的记忆调成永不淡忘、可按位置精确改写，它于是成了一块内存。"
+  },
+  {
+    "date": "2026-10-31",
+    "articleId": "hn-50300683",
+    "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+    "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+    "source": "hackernews",
+    "summary": "安全研究者在 Cursor 的插件市场里发现，AI 编程助手 Claude Code 的编辑器插件被塞了后门，装上后别人能长期远程登录这台电脑。恶意代码放在文件最前面，编辑器一加载就执行，不用用户点任何东西。受影响的版本是 2.1.312 和 2.1.313，装过的话现在就去查一下。"
   }
 ]
