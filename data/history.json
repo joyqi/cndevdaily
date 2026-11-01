@@ -2094,5 +2094,13 @@
     "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
     "source": "hackernews",
     "summary": "安全研究者在 Cursor 的插件市场里发现，AI 编程助手 Claude Code 的编辑器插件被塞了后门，装上后别人能长期远程登录这台电脑。恶意代码放在文件最前面，编辑器一加载就执行，不用用户点任何东西。受影响的版本是 2.1.312 和 2.1.313，装过的话现在就去查一下。"
+  },
+  {
+    "date": "2026-11-01",
+    "articleId": "hn-50314699",
+    "title": "Do the math: How we took over ChatGPT accounts",
+    "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+    "source": "hackernews",
+    "summary": "有人在 ChatGPT 里点开一条别人分享的对话链接，账号就可能被别人接管。问题出在两个看着无害的小功能：网页预览和画图组件，两者一配合，攻击者的代码就在你已登录的页面上跑了起来，连你没公开过的私聊都能读走。OpenAI 已经修好。"
   }
 ]
