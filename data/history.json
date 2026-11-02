@@ -2102,5 +2102,13 @@
     "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
     "source": "hackernews",
     "summary": "有人在 ChatGPT 里点开一条别人分享的对话链接，账号就可能被别人接管。问题出在两个看着无害的小功能：网页预览和画图组件，两者一配合，攻击者的代码就在你已登录的页面上跑了起来，连你没公开过的私聊都能读走。OpenAI 已经修好。"
+  },
+  {
+    "date": "2026-11-02",
+    "articleId": "hn-50325454",
+    "title": "Proving and improving the Platonic Representation Hypothesis with JEPAs",
+    "url": "https://arxiv.org/abs/2610.39302",
+    "source": "hackernews",
+    "summary": "不同模态训练的模型会不会形成同一套世界表示，一直只是猜想。有篇论文把它证成了定理，条件是训练数据得是同一场景的两个观测。照这个思路做的小文本模型，跟图像模型的对齐程度超过参数量大几百倍的语言模型。"
   }
 ]
