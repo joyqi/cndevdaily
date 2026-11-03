@@ -2110,5 +2110,13 @@
     "url": "https://arxiv.org/abs/2610.39302",
     "source": "hackernews",
     "summary": "不同模态训练的模型会不会形成同一套世界表示，一直只是猜想。有篇论文把它证成了定理，条件是训练数据得是同一场景的两个观测。照这个思路做的小文本模型，跟图像模型的对齐程度超过参数量大几百倍的语言模型。"
+  },
+  {
+    "date": "2026-11-03",
+    "articleId": "lobsters-0yxkvs",
+    "title": "Postgres 19 is late, and it's AI's fault",
+    "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+    "source": "lobsters",
+    "summary": "Postgres 19 推迟到十一月了，比往年晚大约一个月。作者数了提交记录，原因是大模型把堆了多年的老 bug 一一翻出来，修完还得搬回旧版本，这类提交一年多了七成，人手被占住。AI 帮忙找 bug，也顺手给维护者加了活。"
   }
 ]
