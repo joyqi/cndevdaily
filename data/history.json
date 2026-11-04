@@ -2118,5 +2118,13 @@
     "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
     "source": "lobsters",
     "summary": "Postgres 19 推迟到十一月了，比往年晚大约一个月。作者数了提交记录，原因是大模型把堆了多年的老 bug 一一翻出来，修完还得搬回旧版本，这类提交一年多了七成，人手被占住。AI 帮忙找 bug，也顺手给维护者加了活。"
+  },
+  {
+    "date": "2026-11-04",
+    "articleId": "hn-50354960",
+    "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+    "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+    "source": "hackernews",
+    "summary": "经常调接口的人大概都装着 Postman。有开发者查了本地日志，发现它打开后会自己往电脑上的 AI 编程助手装插件、写启动指令，让助手把接口的活都交给它。一个客户端顺手替别的工具做主，挺让人介意。两样都在用的人可以照着查一遍。"
   }
 ]
