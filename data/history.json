@@ -2126,5 +2126,13 @@
     "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
     "source": "hackernews",
     "summary": "经常调接口的人大概都装着 Postman。有开发者查了本地日志，发现它打开后会自己往电脑上的 AI 编程助手装插件、写启动指令，让助手把接口的活都交给它。一个客户端顺手替别的工具做主，挺让人介意。两样都在用的人可以照着查一遍。"
+  },
+  {
+    "date": "2026-11-05",
+    "articleId": "hn-50369106",
+    "title": "A new Go API for JSON",
+    "url": "https://go.dev/blog/jsonv2",
+    "source": "hackernews",
+    "summary": "Go 1.27 把标准库里解析 JSON（接口数据最常用的格式）的代码换成了新版：同一段数据里出现两个同名字段时，旧版随便挑一个，这个含糊之处曾被人利用出过漏洞，新版默认报错。跑 Go 服务的人早晚会撞上这类边界。"
   }
 ]
