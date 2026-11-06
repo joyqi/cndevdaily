@@ -2134,5 +2134,13 @@
     "url": "https://go.dev/blog/jsonv2",
     "source": "hackernews",
     "summary": "Go 1.27 把标准库里解析 JSON（接口数据最常用的格式）的代码换成了新版：同一段数据里出现两个同名字段时，旧版随便挑一个，这个含糊之处曾被人利用出过漏洞，新版默认报错。跑 Go 服务的人早晚会撞上这类边界。"
+  },
+  {
+    "date": "2026-11-06",
+    "articleId": "hn-50378228",
+    "title": "sshole",
+    "url": "https://sshhole.com",
+    "source": "hackernews",
+    "summary": "有人翻出 OpenSSH 一个藏了九年的问题：在 Alpine 这类精简 Linux 上，本该只认密钥、不收密码的账户，连 root 也算在内，输一段超过 256 字符的任意密码就能登进去。根源是底层密码函数算不出结果时返回一个星号，而星号在密码文件里恰好表示禁止密码登录。"
   }
 ]
