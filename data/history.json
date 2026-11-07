@@ -2142,5 +2142,13 @@
     "url": "https://sshhole.com",
     "source": "hackernews",
     "summary": "有人翻出 OpenSSH 一个藏了九年的问题：在 Alpine 这类精简 Linux 上，本该只认密钥、不收密码的账户，连 root 也算在内，输一段超过 256 字符的任意密码就能登进去。根源是底层密码函数算不出结果时返回一个星号，而星号在密码文件里恰好表示禁止密码登录。"
+  },
+  {
+    "date": "2026-11-07",
+    "articleId": "hn-50397099",
+    "title": "GitHub's new Git storage architecture",
+    "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+    "source": "hackernews",
+    "summary": "GitHub 把自家底层存代码的系统重做了一遍。内部测试里，5000 个 AI 代理同时往一个仓库推代码，每秒 7200 次，读取也照常。关键在于代码内容本身不可变，可以同时写，真正要排先后顺序的只剩分支位置那一小块。做大规模系统的可以想想这个思路。"
   }
 ]
