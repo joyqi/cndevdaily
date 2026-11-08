@@ -2150,5 +2150,13 @@
     "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
     "source": "hackernews",
     "summary": "GitHub 把自家底层存代码的系统重做了一遍。内部测试里，5000 个 AI 代理同时往一个仓库推代码，每秒 7200 次，读取也照常。关键在于代码内容本身不可变，可以同时写，真正要排先后顺序的只剩分支位置那一小块。做大规模系统的可以想想这个思路。"
+  },
+  {
+    "date": "2026-11-08",
+    "articleId": "hn-50403097",
+    "title": "Every Mac comes with an (undocumented) family member classifier",
+    "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+    "source": "hackernews",
+    "summary": "有人把自己 Mac 里的系统文件翻了一遍，发现苹果从 2022 年起就在后台悄悄给你和身边人建关系图，连谁是你亲戚都能推出来，数据还是明文的。他顺手写了个工具，谁都能在自己机器上看到这张图。"
   }
 ]
