@@ -2158,5 +2158,13 @@
     "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
     "source": "hackernews",
     "summary": "有人把自己 Mac 里的系统文件翻了一遍，发现苹果从 2022 年起就在后台悄悄给你和身边人建关系图，连谁是你亲戚都能推出来，数据还是明文的。他顺手写了个工具，谁都能在自己机器上看到这张图。"
+  },
+  {
+    "date": "2026-11-09",
+    "articleId": "hn-50411961",
+    "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+    "url": "https://github.com/synchopate/llama-modchip",
+    "source": "hackernews",
+    "summary": "一台没有显卡、64GB 内存的机器，跑起了两千多亿参数的大模型，这事以前基本不用想。作者先把模型压到 56GB，又重写了计算内核，聊很长的上下文，内存也不会往硬盘上倒。拿不到显卡的团队，这条路现在真走得通了。"
   }
 ]
