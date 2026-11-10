@@ -2166,5 +2166,13 @@
     "url": "https://github.com/synchopate/llama-modchip",
     "source": "hackernews",
     "summary": "一台没有显卡、64GB 内存的机器，跑起了两千多亿参数的大模型，这事以前基本不用想。作者先把模型压到 56GB，又重写了计算内核，聊很长的上下文，内存也不会往硬盘上倒。拿不到显卡的团队，这条路现在真走得通了。"
+  },
+  {
+    "date": "2026-11-10",
+    "articleId": "hn-50429426",
+    "title": "Google Gemini routes personal Drive files and emails to human annotators",
+    "url": "https://github.com/thisisme6598/gemini_files/",
+    "source": "hackernews",
+    "summary": "谷歌的 Gemini 会自己翻你的 Gmail 和云盘，随口聊到行程或账单，它就在后台去查。作者让它把查到的原文打出来，整封邮件连姓名和扣款金额一起显示。谷歌后来改了帮助文档，说这些内容会送人工审阅。"
   }
 ]
