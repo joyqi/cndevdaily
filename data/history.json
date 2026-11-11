@@ -2174,5 +2174,13 @@
     "url": "https://github.com/thisisme6598/gemini_files/",
     "source": "hackernews",
     "summary": "谷歌的 Gemini 会自己翻你的 Gmail 和云盘，随口聊到行程或账单，它就在后台去查。作者让它把查到的原文打出来，整封邮件连姓名和扣款金额一起显示。谷歌后来改了帮助文档，说这些内容会送人工审阅。"
+  },
+  {
+    "date": "2026-11-11",
+    "articleId": "hn-50448340",
+    "title": "LLMs Play Zachtronics' TIS-100",
+    "url": "https://tis-100.wincon.dev/",
+    "source": "hackernews",
+    "summary": "16 个语言模型被拉去玩一款叫 TIS-100 的老编程游戏，玩法是在十几个小处理器之间传值算数，程序越短越快得分越高。它们一共刷出一百多处新的优化点，人类玩家几天内又把其中大部分程序改得更好了。"
   }
 ]
