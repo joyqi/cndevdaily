@@ -2182,5 +2182,13 @@
     "url": "https://tis-100.wincon.dev/",
     "source": "hackernews",
     "summary": "16 个语言模型被拉去玩一款叫 TIS-100 的老编程游戏，玩法是在十几个小处理器之间传值算数，程序越短越快得分越高。它们一共刷出一百多处新的优化点，人类玩家几天内又把其中大部分程序改得更好了。"
+  },
+  {
+    "date": "2026-11-12",
+    "articleId": "lobsters-nuoce5",
+    "title": "Next-Level Benchmarking Overfitting",
+    "url": "http://databasearchitects.blogspot.com/2026/11/next-level-benchmarking-overfitting.html",
+    "source": "lobsters",
+    "summary": "有人让 AI 去刷数据库的性能考卷，报出几十倍的提速。作者把实现翻出来看，发现 AI 只是提前把要查的数据算好，相当于背答案，这份考卷也就失灵了。"
   }
 ]
