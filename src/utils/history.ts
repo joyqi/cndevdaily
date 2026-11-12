@@ -38,6 +38,12 @@ export async function filterNewArticles(articles: Article[]): Promise<Article[]>
   return articles.filter((article) => !publishedUrls.has(article.url));
 }
 
+/** history 里是否已有 now 当天（UTC）的发布记录 */
+export function shouldSkipToday(history: HistoryRecord[], now: Date): boolean {
+  const today = now.toISOString().split('T')[0];
+  return history.some((r) => r.date === today);
+}
+
 export function isArticlePublished(history: HistoryRecord[], article: Article): boolean {
   return history.some((r) => r.url === article.url);
 }

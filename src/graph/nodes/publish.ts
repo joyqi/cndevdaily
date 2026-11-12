@@ -1,7 +1,6 @@
 import { publishToMastodon } from '../../services/mastodon.js';
 import { publishToX } from '../../services/typefully.js';
 import { addToHistory } from '../../utils/history.js';
-import { waitUntilPublish } from '../../utils/schedule.js';
 import { fitXText } from '../../utils/xlength.js';
 import type { GraphStateType } from '../state.js';
 
@@ -69,8 +68,6 @@ export async function publishNode(
     console.log('   ⏭️ 未成功发布，不写入历史记录');
     return { publishedUrl: '', publishedXUrl: '' };
   }
-
-  await waitUntilPublish();
 
   // 两个平台互不阻塞
   const [publishedUrl, publishedXUrl] = await Promise.all([

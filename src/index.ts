@@ -1,6 +1,5 @@
 import { createWorkflow } from './graph/workflow.js';
-import { loadHistory } from './utils/history.js';
-import { shouldSkipToday } from './utils/schedule.js';
+import { loadHistory, shouldSkipToday } from './utils/history.js';
 
 async function main() {
   console.log('🚀 DevNews Bot 启动\n');

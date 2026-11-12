@@ -46,7 +46,6 @@ cp .env.example .env
 - `MASTODON_ACCESS_TOKEN` - Mastodon 访问令牌
 - `TYPEFULLY_API_KEY` - Typefully API 密钥（发布到 X，可选）
 - `TYPEFULLY_SOCIAL_SET_ID` - Typefully 中 X 账号所在的 social set ID（可选）
-- `PUBLISH_AT_UTC` - 发布时刻（UTC，`HH:MM`，可选；不配置则跑完立即发布）
 
 ### 本地运行
 
@@ -86,11 +85,11 @@ pnpm test
 
 ## 发布时间
 
-每天固定在 **UTC 05:00（北京时间 13:00）** 发布，任何一天只发一条。GitHub 的 `schedule` cron 在整点高峰会被延迟 4~7 小时，不能用来准点触发，所以分三层：
+每天在 **UTC 05:00（北京时间 13:00）** 发布，任何一天只发一条。
 
-1. **外部定时器准点触发**：用 cron-job.org 之类的服务在 UTC 05:00 调用 GitHub API 触发 `workflow_dispatch`。workflow 里的 `cron: '0 0 * * *'` 只作兜底。
-2. **应用内发布闸门**：workflow 设置了 `PUBLISH_AT_UTC: '05:00'`。程序跑完选文和写作后，如果还没到 05:00 就等到 05:00 再发；已过 05:00 则直接发。所以兜底 cron 即使提前启动也不会早发。
-3. **每日去重**：启动时如果 `data/history.json` 里已有当天（UTC 日期）的记录，打印"今天已发布，跳过"并正常退出。外部触发和兜底 cron 谁先发谁算，另一个自动跳过；workflow 的 `concurrency` 保证两者不会同时跑。`DRY_RUN` 时不做这个判断，本地可以重复跑。
+- **唯一触发源**：外部定时器（cron-job.org）在 UTC 05:00 调用 GitHub API 触发 `workflow_dispatch`。workflow 没有 `schedule` cron——GitHub 的 cron 在整点高峰会被延迟数小时，不能用来准点发布。
+- **每日去重**：启动时如果 `data/history.json` 里已有当天（UTC 日期）的记录，打印"今天已发布，跳过"并正常退出。`DRY_RUN` 时不做这个判断，本地可以重复跑。
+- **串行执行**：workflow 的 `concurrency` 保证同一时刻只有一个 run，排队的 run 会看到前一个 run 提交的 history，从而被去重跳过。
 
 ### 配置外部定时器（以 cron-job.org 为例）
 
@@ -107,7 +106,9 @@ pnpm test
    - 打开失败通知（成功时 GitHub 返回 `204 No Content`）
 3. 可以先在 cron-job.org 点 "Test run"，然后去 Actions 页面确认出现一次 `workflow_dispatch` 运行；当天已发过的话它会直接跳过。
 
-token 过期后外部触发会失败（cron-job.org 会通知），此时兜底 cron 仍会在当天晚些时候发布。
+### 外部定时器失败时
+
+没有任何兜底触发：如果外部定时器失败（token 过期、cron-job.org 故障等），当天就不会发布。cron-job.org 的失败通知是唯一信号，收到后去仓库 Actions 页面选择 Daily DevNews，手动点 **Run workflow** 补发。
 
 ## 目录结构
 

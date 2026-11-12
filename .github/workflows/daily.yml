@@ -1,9 +1,7 @@
 name: Daily DevNews
 
 on:
-  schedule:
-    # GitHub cron 只作兜底，准点发布靠外部定时器触发 workflow_dispatch（见 README「发布时间」）
-    - cron: '0 0 * * *'
+  # 唯一触发源：外部定时器在 UTC 05:00 调用 workflow_dispatch（见 README「发布时间」）
   workflow_dispatch:
 
 concurrency:
@@ -52,7 +50,6 @@ jobs:
           MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
           TYPEFULLY_API_KEY: ${{ secrets.TYPEFULLY_API_KEY }}
           TYPEFULLY_SOCIAL_SET_ID: ${{ secrets.TYPEFULLY_SOCIAL_SET_ID }}
-          PUBLISH_AT_UTC: '05:00'
         run: pnpm start
 
       - name: Commit history and discussions
