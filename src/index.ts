@@ -1,8 +1,15 @@
 import { createWorkflow } from './graph/workflow.js';
+import { loadHistory } from './utils/history.js';
+import { shouldSkipToday } from './utils/schedule.js';
 
 async function main() {
   console.log('🚀 DevNews Bot 启动\n');
   console.log(`📅 ${new Date().toISOString().split('T')[0]}\n`);
+
+  if (process.env.DRY_RUN !== 'true' && shouldSkipToday(await loadHistory(), new Date())) {
+    console.log('✅ 今天已发布，跳过');
+    return;
+  }
 
   const workflow = createWorkflow();
 

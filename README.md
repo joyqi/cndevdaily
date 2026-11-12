@@ -46,6 +46,7 @@ cp .env.example .env
 - `MASTODON_ACCESS_TOKEN` - Mastodon 访问令牌
 - `TYPEFULLY_API_KEY` - Typefully API 密钥（发布到 X，可选）
 - `TYPEFULLY_SOCIAL_SET_ID` - Typefully 中 X 账号所在的 social set ID（可选）
+- `PUBLISH_AT_UTC` - 发布时刻（UTC，`HH:MM`，可选；不配置则跑完立即发布）
 
 ### 本地运行
 
@@ -81,7 +82,32 @@ pnpm test
 - `TYPEFULLY_API_KEY`（可选）
 - `TYPEFULLY_SOCIAL_SET_ID`（可选）
 
-每天 UTC 00:00（北京时间 08:00）自动运行。
+发布时刻见下一节。
+
+## 发布时间
+
+每天固定在 **UTC 05:00（北京时间 13:00）** 发布，任何一天只发一条。GitHub 的 `schedule` cron 在整点高峰会被延迟 4~7 小时，不能用来准点触发，所以分三层：
+
+1. **外部定时器准点触发**：用 cron-job.org 之类的服务在 UTC 05:00 调用 GitHub API 触发 `workflow_dispatch`。workflow 里的 `cron: '0 0 * * *'` 只作兜底。
+2. **应用内发布闸门**：workflow 设置了 `PUBLISH_AT_UTC: '05:00'`。程序跑完选文和写作后，如果还没到 05:00 就等到 05:00 再发；已过 05:00 则直接发。所以兜底 cron 即使提前启动也不会早发。
+3. **每日去重**：启动时如果 `data/history.json` 里已有当天（UTC 日期）的记录，打印"今天已发布，跳过"并正常退出。外部触发和兜底 cron 谁先发谁算，另一个自动跳过；workflow 的 `concurrency` 保证两者不会同时跑。`DRY_RUN` 时不做这个判断，本地可以重复跑。
+
+### 配置外部定时器（以 cron-job.org 为例）
+
+1. 在 GitHub 创建 fine-grained personal access token：Repository access 只选 `joyqi/cndevdaily`，Permissions 只给 **Actions: Read and write**。
+2. 在 cron-job.org 新建任务：
+   - URL：`https://api.github.com/repos/joyqi/cndevdaily/actions/workflows/daily.yml/dispatches`
+   - 方法：`POST`
+   - 请求头：
+     - `Authorization: Bearer <上一步的 token>`
+     - `Accept: application/vnd.github+json`
+     - `Content-Type: application/json`
+   - 请求体：`{"ref":"main"}`
+   - 时间：每天 05:00，时区选 **UTC**
+   - 打开失败通知（成功时 GitHub 返回 `204 No Content`）
+3. 可以先在 cron-job.org 点 "Test run"，然后去 Actions 页面确认出现一次 `workflow_dispatch` 运行；当天已发过的话它会直接跳过。
+
+token 过期后外部触发会失败（cron-job.org 会通知），此时兜底 cron 仍会在当天晚些时候发布。
 
 ## 目录结构
 

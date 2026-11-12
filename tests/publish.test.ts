@@ -1,4 +1,4 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest';
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import { publishToMastodon } from '../src/services/mastodon.js';
 import { publishToX } from '../src/services/typefully.js';
 import { addToHistory } from '../src/utils/history.js';
@@ -23,6 +23,11 @@ describe('publishNode', () => {
     vi.stubEnv('MASTODON_ACCESS_TOKEN', 'tok');
     vi.stubEnv('TYPEFULLY_API_KEY', 'key');
     vi.stubEnv('TYPEFULLY_SOCIAL_SET_ID', 'set1');
+    vi.stubEnv('PUBLISH_AT_UTC', '');
+  });
+
+  afterEach(() => {
+    vi.useRealTimers();
   });
 
   it('两个平台都发布并写入历史', async () => {
@@ -74,5 +79,18 @@ describe('publishNode', () => {
     expect(publishToMastodon).not.toHaveBeenCalled();
     expect(publishToX).not.toHaveBeenCalled();
     expect(addToHistory).not.toHaveBeenCalled();
+  });
+
+  it('配置了 PUBLISH_AT_UTC 但已过点时立即发布', async () => {
+    vi.useFakeTimers({ toFake: ['Date'] });
+    vi.setSystemTime(new Date('2026-11-12T06:50:00Z'));
+    vi.stubEnv('PUBLISH_AT_UTC', '05:00');
+    vi.mocked(publishToMastodon).mockResolvedValue({ id: '1', url: 'https://m/1', content: '' });
+    vi.mocked(publishToX).mockResolvedValue('https://x.com/1');
+
+    const result = await publishNode(state);
+
+    expect(result).toEqual({ publishedUrl: 'https://m/1', publishedXUrl: 'https://x.com/1' });
+    expect(addToHistory).toHaveBeenCalledWith(expect.objectContaining({ date: '2026-11-12' }));
   });
 });
