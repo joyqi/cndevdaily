@@ -50,7 +50,9 @@ export function fitXText(summary: string, url: string): string {
 
   const sentences = summary.match(SENTENCE_PATTERN) ?? [];
   for (let count = sentences.length - 1; count > 0; count--) {
-    const text = compose(sentences.slice(0, count).join('').trimEnd());
+    // 「；」和「。」权重相同，替换不影响长度；以「；」收尾读起来像没说完
+    const body = sentences.slice(0, count).join('').trimEnd().replace(/；$/, '。');
+    const text = compose(body);
     if (xWeight(text) <= X_MAX_WEIGHT) return text;
   }
 

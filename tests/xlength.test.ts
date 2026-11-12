@@ -39,6 +39,13 @@ describe('fitXText', () => {
     expect(xWeight(text)).toBeLessThanOrEqual(X_MAX_WEIGHT);
   });
 
+  it('裁剪后以「；」收尾时换成「。」，未裁剪路径不受影响', () => {
+    const s1 = '甲'.repeat(59) + '；'; // 120
+    const s2 = '乙'.repeat(99) + '。'; // 200
+    expect(fitXText(s1 + s2, URL)).toBe(`${'甲'.repeat(59)}。\n\n${URL}`);
+    expect(fitXText(s1, URL)).toBe(`${s1}\n\n${URL}`);
+  });
+
   it('句末标点后的引号随句子保留', () => {
     const s1 = '他说「' + '甲'.repeat(50) + '。」';
     const s2 = '乙'.repeat(100) + '。';
