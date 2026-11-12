@@ -43,6 +43,8 @@ jobs:
           OPENAI_API_MODEL_JUDGE: ${{ secrets.OPENAI_API_MODEL_JUDGE }}
           MASTODON_INSTANCE: ${{ secrets.MASTODON_INSTANCE }}
           MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+          TYPEFULLY_API_KEY: ${{ secrets.TYPEFULLY_API_KEY }}
+          TYPEFULLY_SOCIAL_SET_ID: ${{ secrets.TYPEFULLY_SOCIAL_SET_ID }}
         run: pnpm start
 
       - name: Commit history and discussions

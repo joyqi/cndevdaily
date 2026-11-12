@@ -20,6 +20,10 @@ async function main() {
     if (result.publishedUrl) {
       console.log(`\n🦣 Mastodon：${result.publishedUrl}`);
     }
+
+    if (result.publishedXUrl) {
+      console.log(`\n𝕏 X：${result.publishedXUrl}`);
+    }
   } catch (error) {
     console.error('❌ 运行出错：', error);
     process.exit(1);

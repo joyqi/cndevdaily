@@ -15,7 +15,7 @@
 3. **内容评估** - 抓取全部候选正文，逐篇基于**真实内容**打分（新颖度 / 实用性 / 深度 / 相关性 / AI 相关度），并行执行。AI 相关度会适度加权，让 AI 方向的内容更容易被选上
 4. **主编终选** - 从内容打分 Top 3 中选出一篇今日推荐，并给出选中理由（价值相当时偏向 AI 方向）
 5. **撰写推荐语** - 以主编 **Joyqi** 的声音写 120 字以内的推荐语，由独立的 AI 评审扮演目标读者把关文风（套话、AI 句式、论文腔、黑话、长度等），不合格自动重写
-6. **发布** - 发布到 Mastodon
+6. **发布** - 同一份推荐语同时发布到 Mastodon 与 X（经 Typefully，超出 X 的 280 权重时按句裁剪），两个平台互不阻塞，任一成功即写入历史
 
 > 相比"多角色讨论"，这套流程去掉了高成本低收益的 AI 角色辩论，把预算花在刀刃上：
 > 用社区热度做粗筛（免费），用真实正文做精评（可靠），用"遗珠机制"弥补热度的盲区，把最好的 prompt 留给最终推荐语（决定观感）。
@@ -44,12 +44,14 @@ cp .env.example .env
 - `OPENAI_API_MODEL_JUDGE` - 评审专用模型（文风把关，可选）
 - `MASTODON_INSTANCE` - Mastodon 实例地址
 - `MASTODON_ACCESS_TOKEN` - Mastodon 访问令牌
+- `TYPEFULLY_API_KEY` - Typefully API 密钥（发布到 X，可选）
+- `TYPEFULLY_SOCIAL_SET_ID` - Typefully 中 X 账号所在的 social set ID（可选）
 
 ### 本地运行
 
 ```bash
 pnpm install
-pnpm dev  # DRY_RUN 模式，不发布到 Mastodon
+pnpm dev  # DRY_RUN 模式，不发布到 Mastodon 和 X
 ```
 
 ### 构建
@@ -76,6 +78,8 @@ pnpm test
 - `OPENAI_API_MODEL_JUDGE`（可选）
 - `MASTODON_INSTANCE`
 - `MASTODON_ACCESS_TOKEN`
+- `TYPEFULLY_API_KEY`（可选）
+- `TYPEFULLY_SOCIAL_SET_ID`（可选）
 
 每天 UTC 00:00（北京时间 08:00）自动运行。
 
@@ -87,9 +91,9 @@ cndevdaily/
 │   ├── agents/             # AI 主编：editor（打分/终选/遗珠）、writer（推荐语写作+评审）、personas（主编人设）
 │   ├── graph/              # LangGraph 工作流
 │   │   └── nodes/          # fetch → selectCandidates → evaluate → write → publish
-│   ├── services/           # 外部服务（HN / Lobsters / 抓取 / Mastodon）
+│   ├── services/           # 外部服务（HN / Lobsters / 抓取 / Mastodon / Typefully）
 │   ├── types/              # 类型定义
-│   └── utils/              # 工具函数（历史、LLM、排序、重试、运行记录）
+│   └── utils/              # 工具函数（历史、LLM、排序、重试、运行记录、X 长度）
 ├── scripts/                # 写作模型对比工具
 ├── tests/                  # 单元测试（vitest）
 ├── data/                   # 历史记录

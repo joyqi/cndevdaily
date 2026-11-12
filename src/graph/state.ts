@@ -27,7 +27,13 @@ export const GraphState = Annotation.Root({
     reducer: (_, b) => b,
     default: () => '',
   }),
+  // Mastodon 发布链接
   publishedUrl: Annotation<string>({
+    reducer: (_, b) => b,
+    default: () => '',
+  }),
+  // X 发布链接（经 Typefully）
+  publishedXUrl: Annotation<string>({
     reducer: (_, b) => b,
     default: () => '',
   }),
