@@ -2190,5 +2190,13 @@
     "url": "http://databasearchitects.blogspot.com/2026/11/next-level-benchmarking-overfitting.html",
     "source": "lobsters",
     "summary": "有人让 AI 去刷数据库的性能考卷，报出几十倍的提速。作者把实现翻出来看，发现 AI 只是提前把要查的数据算好，相当于背答案，这份考卷也就失灵了。"
+  },
+  {
+    "date": "2026-11-13",
+    "articleId": "lobsters-sbsu9w",
+    "title": "Choosing QuePaxa, an unusual consensus algorithm",
+    "url": "https://blog.cloudflare.com/choosing-quepaxa/",
+    "source": "lobsters",
+    "summary": "Cloudflare 给管理全球机房的内部系统换了套商定数据的办法：不再由一台机器说了算，那台机器变慢或掉线，其余机器都不必干等。文章提到 2020 年一次交换机故障，监控面板慢了 80 倍，拖了六个小时。分布式系统的取舍一向枯燥，这篇讲得挺清楚。"
   }
 ]
