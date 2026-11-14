@@ -2214,5 +2214,13 @@
     "url": "https://haddyalchaer.com/jepa",
     "source": "hackernews",
     "summary": "有人拿一个机器人推积木的模拟任务做了六百次实验，发现让 AI 提前预演动作时，卡住成功率的是怎么给目标打分，预演准不准反倒次要。光改这一处，任务成功率就从两成多升到八成半，比换一套完美的物理模拟还管用。"
+  },
+  {
+    "date": "2026-11-14",
+    "articleId": "lobsters-xca2qj",
+    "title": "Probabilistic data structures in Go",
+    "url": "https://antonz.org/probabilistic-data-structures/",
+    "source": "lobsters",
+    "summary": "有人算过一笔账：一百万个短字符串，用普通集合存要 64 MB，换成一个会偶尔答错的过滤器只要 1.24 MB。文章把这类拿准确率换空间的技巧讲了一遍，也给了 Go 里现成能用的实现。"
   }
 ]
