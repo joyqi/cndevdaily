@@ -2206,5 +2206,13 @@
     "url": "https://github.com/KoljaB/RealtimeVAD",
     "source": "hackernews",
     "summary": "语音助手要等你停嘴才开始处理，而判断人是否说完本身就得花几百毫秒。一个叫 RealtimeVAD 的库在常用检测模型上加了一层：每10毫秒比一次音量和环境噪声，一安静就立刻发出结束信号。三千多轮真实对话里平均早约100毫秒，代价是词间的小停顿也会被当成说完，这类误判比常用方案多约十倍。"
+  },
+  {
+    "date": "2026-11-14",
+    "articleId": "hn-50487185",
+    "title": "After 600 experiments, here's what I discovered about JEPA world models",
+    "url": "https://haddyalchaer.com/jepa",
+    "source": "hackernews",
+    "summary": "有人拿一个机器人推积木的模拟任务做了六百次实验，发现让 AI 提前预演动作时，卡住成功率的是怎么给目标打分，预演准不准反倒次要。光改这一处，任务成功率就从两成多升到八成半，比换一套完美的物理模拟还管用。"
   }
 ]
