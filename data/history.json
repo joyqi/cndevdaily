@@ -2230,5 +2230,13 @@
     "url": "https://www.crissyfield.de/research/lovable-en/",
     "source": "hackernews",
     "summary": "有个瑞典的建站平台，宣传说不用懂编程也能做出带数据库的应用。有人扫了它上面十六万个站点，发现两万多个一打开网页就能读到后台数据，七千多个还能看到用户的邮箱地址。安全责任写在用户条款里，平台不管。"
+  },
+  {
+    "date": "2026-11-15",
+    "articleId": "lobsters-0aungk",
+    "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+    "url": "https://arxiv.org/abs/2605.29713",
+    "source": "lobsters",
+    "summary": "生成式 AI 的书大多一个模型一章。有本小册子换了个讲法：用一条推导线，从给数据压缩降维，到加噪声再还原，再到两套网络互相对抗，把这些做法连起来，说明它们的推导是相通的。想补数学底子的人可以翻翻。"
   }
 ]
