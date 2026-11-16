@@ -2238,5 +2238,13 @@
     "url": "https://arxiv.org/abs/2605.29713",
     "source": "lobsters",
     "summary": "生成式 AI 的书大多一个模型一章。有本小册子换了个讲法：用一条推导线，从给数据压缩降维，到加噪声再还原，再到两套网络互相对抗，把这些做法连起来，说明它们的推导是相通的。想补数学底子的人可以翻翻。"
+  },
+  {
+    "date": "2026-11-16",
+    "articleId": "hn-50506376",
+    "title": "Understanding Positional Embeddings in Modern LLMs",
+    "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+    "source": "hackernews",
+    "summary": "大模型读句子得先知道词与词的先后，这块平时少有人细讲。有人从头捋了一遍：早先给每个位置编号，现在改成让词的表示按位置转角度，配了一小段能跑的代码，末尾还列了今年几个开源模型各自的选择。"
   }
 ]
