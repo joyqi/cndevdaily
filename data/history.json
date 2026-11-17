@@ -2254,5 +2254,13 @@
     "url": "https://www.dfsantos.com/en/libro-ia-z80",
     "source": "hackernews",
     "summary": "四十年前的八位家用电脑，内存小得可怜，一本新书却在这上面教人用 BASIC 从零搭出一个能认数字的 AI 程序。书里每个算法都做成能改参数、能看结果的小程序，比调现成的库更容易看清里面到底在算什么。"
+  },
+  {
+    "date": "2026-11-17",
+    "articleId": "hn-50526152",
+    "title": "Running coding agents without handing them my credentials",
+    "url": "https://blog.antonio.cx/running-agents-with-lend",
+    "source": "hackernews",
+    "summary": "远程跑 AI 编码 Agent 的人大概都纠结过一件事：它要提交代码，就得把密钥放进那台用完就扔的机器。作者做了个小工具，挡在中间，Agent 想用凭据时，笔记本上按一下指纹确认，命令在本地执行，密钥压根不进那台机器。"
   }
 ]
