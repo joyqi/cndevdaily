@@ -2262,5 +2262,13 @@
     "url": "https://blog.antonio.cx/running-agents-with-lend",
     "source": "hackernews",
     "summary": "远程跑 AI 编码 Agent 的人大概都纠结过一件事：它要提交代码，就得把密钥放进那台用完就扔的机器。作者做了个小工具，挡在中间，Agent 想用凭据时，笔记本上按一下指纹确认，命令在本地执行，密钥压根不进那台机器。"
+  },
+  {
+    "date": "2026-11-18",
+    "articleId": "lobsters-qkalae",
+    "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+    "url": "https://arxiv.org/abs/2607.02512",
+    "source": "lobsters",
+    "summary": "日志里哪几行要紧、写坏的配置文件怎么补，这类没法定死规则的活儿，如今多半是每次去问大模型。有人反过来做：一次做成本地小模型，离线就能跑，效果追平一个比它大五十倍的模型，MacBook 上每秒还能出三十来个词，思路挺务实。"
   }
 ]
