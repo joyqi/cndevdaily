@@ -2270,5 +2270,13 @@
     "url": "https://arxiv.org/abs/2607.02512",
     "source": "lobsters",
     "summary": "日志里哪几行要紧、写坏的配置文件怎么补，这类没法定死规则的活儿，如今多半是每次去问大模型。有人反过来做：一次做成本地小模型，离线就能跑，效果追平一个比它大五十倍的模型，MacBook 上每秒还能出三十来个词，思路挺务实。"
+  },
+  {
+    "date": "2026-11-20",
+    "articleId": "lobsters-wj2svg",
+    "title": "nginx2root",
+    "url": "https://xint.io/blog/nginx2root-remote-code-execution",
+    "source": "lobsters",
+    "summary": "nginx 里被挖出五个漏洞，其中一个不用登录就能在服务器上执行命令，这个漏洞从二〇一五年一直留到现在，官方版本都中招。研究者把它和一个内核漏洞组合，从公网打进 Docker 容器拿到宿主机 root，nginx 修复版是 1.31.9。"
   }
 ]
