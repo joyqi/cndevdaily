@@ -2278,5 +2278,13 @@
     "url": "https://xint.io/blog/nginx2root-remote-code-execution",
     "source": "lobsters",
     "summary": "nginx 里被挖出五个漏洞，其中一个不用登录就能在服务器上执行命令，这个漏洞从二〇一五年一直留到现在，官方版本都中招。研究者把它和一个内核漏洞组合，从公网打进 Docker 容器拿到宿主机 root，nginx 修复版是 1.31.9。"
+  },
+  {
+    "date": "2026-11-21",
+    "articleId": "hn-50581260",
+    "title": "Inkling 2 Mini",
+    "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+    "source": "hackernews",
+    "summary": "有人在飞机上断网，用笔记本跑一个二十来 G 的小模型，几分钟就搭出能玩的飞行模拟器。它的特别之处是让模型内部几层反复算三遍，想得更充分，写出来的思考过程反而更短。"
   }
 ]
