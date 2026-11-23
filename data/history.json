@@ -2294,5 +2294,13 @@
     "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
     "source": "hackernews",
     "summary": "有人把量化大模型的全套工序写了下来：哪一层的数值该留几位精度，按它对结果的伤害来定，最后让几十 GB 的模型缩到几分之一，压缩后在几百道题上的成绩跟原版一样。整套流程租显卡花约 34 美元，代码也公开了。"
+  },
+  {
+    "date": "2026-11-23",
+    "articleId": "lobsters-32rhzb",
+    "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced",
+    "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+    "source": "lobsters",
+    "summary": "安全研究者往两百万条发给 AI 的请求里各埋一个假凭证，凭证只连到他自己的服务器，一旦被访问就知道这条请求流到了哪。结果下游真有人访问，一家代开发者转发请求的中转服务随后撤掉了某模型不留存数据的标记。"
   }
 ]
