@@ -2302,5 +2302,13 @@
     "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
     "source": "lobsters",
     "summary": "安全研究者往两百万条发给 AI 的请求里各埋一个假凭证，凭证只连到他自己的服务器，一旦被访问就知道这条请求流到了哪。结果下游真有人访问，一家代开发者转发请求的中转服务随后撤掉了某模型不留存数据的标记。"
+  },
+  {
+    "date": "2026-11-24",
+    "articleId": "hn-50620328",
+    "title": "Latent Introspection: LLMs Can Detect Prior Concept Injections",
+    "url": "https://arxiv.org/abs/2602.20031",
+    "source": "hackernews",
+    "summary": "往大模型的前文里悄悄塞一个概念，再问它察觉没有，它嘴上说没有。可翻它内部的数据，它其实记下了。把自我察觉这件事在提示里讲明白，察觉率就从 0.3% 涨到 39.9%。能不能察觉，跟怎么问关系不小。"
   }
 ]
