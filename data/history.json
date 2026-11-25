@@ -2310,5 +2310,13 @@
     "url": "https://arxiv.org/abs/2602.20031",
     "source": "hackernews",
     "summary": "往大模型的前文里悄悄塞一个概念，再问它察觉没有，它嘴上说没有。可翻它内部的数据，它其实记下了。把自我察觉这件事在提示里讲明白，察觉率就从 0.3% 涨到 39.9%。能不能察觉，跟怎么问关系不小。"
+  },
+  {
+    "date": "2026-11-25",
+    "articleId": "lobsters-yyktrz",
+    "title": "I checked Clojure's core with Lean and found 17 unreported bugs",
+    "url": "https://s.conao3.com/blog/2026/e4f733",
+    "source": "lobsters",
+    "summary": "Clojure 用了十几年的集合代码被重新查了一遍，这次用的是能自动找反例的证明工具，挖出 17 个官方问题库里没记录的 bug。有个挺吓人的边界：某种向量元素超过六万五千个后，遍历就再也不返回了。基础库的稳定性不是靠年头熬出来的。"
   }
 ]
