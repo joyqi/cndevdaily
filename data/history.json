@@ -2326,5 +2326,13 @@
     "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
     "source": "hackernews",
     "summary": "有人拿汇编语言写了个不到 24 KB 的小系统，开机不用 Linux，几十毫秒就能跑起一个小模型跟人对话。构建和启动步骤都写清楚了，有台能开虚拟机的电脑就能自己试，挺佩服这种把事做到底的劲。"
+  },
+  {
+    "date": "2026-11-27",
+    "articleId": "hn-50657265",
+    "title": "AMD-specific fork of llama.cpp",
+    "url": "https://devnull.land/amd-specific-llama-cpp",
+    "source": "hackernews",
+    "summary": "AMD 显卡在本地跑大模型上一直有点吃亏。一套专门为它写的小补丁，把常用引擎 llama.cpp 的出字速度从每秒 35 个词提到 55 个，处理输入提示那一步快了一倍；同一篇里还提醒，另一些提速办法是改掉模型在内部挑模块的方式，快是快了，答案会变差。"
   }
 ]
