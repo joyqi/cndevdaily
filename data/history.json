@@ -2334,5 +2334,13 @@
     "url": "https://devnull.land/amd-specific-llama-cpp",
     "source": "hackernews",
     "summary": "AMD 显卡在本地跑大模型上一直有点吃亏。一套专门为它写的小补丁，把常用引擎 llama.cpp 的出字速度从每秒 35 个词提到 55 个，处理输入提示那一步快了一倍；同一篇里还提醒，另一些提速办法是改掉模型在内部挑模块的方式，快是快了，答案会变差。"
+  },
+  {
+    "date": "2026-11-28",
+    "articleId": "hn-50668145",
+    "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+    "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+    "source": "hackernews",
+    "summary": "黑五前一周，五家购物网站的支付页面被人塞了偷卡号的脚本，顾客刚输完卡号就被转走，订单最后成不成功都不影响。麻烦的是它最后一步借浏览器打视频电话的通道往外发数据，网站常规的安全检查拦不住。做电商前端的可以看看。"
   }
 ]
